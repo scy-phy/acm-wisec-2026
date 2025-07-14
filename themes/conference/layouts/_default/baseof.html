@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{ partial "analytics.html" . }}
+{{- with .GitInfo -}}
+    {{ printf "<!-- Built on %s from version %s@%s -->" (now.UTC.Format "2006-01-02T15:04:05Z07:00") .AbbreviatedHash (.AuthorDate.UTC.Format "2006-01-02T15:04:05Z07:00") | safeHTML }}
+{{- else -}}
+    {{ printf "<!-- Built on %s -->" (now.UTC.Format "2006-01-02T15:04:05Z07:00") | safeHTML }}
+{{- end -}}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    
+    {{ partial "favicon.html" . }}
+    
+    <link rel="stylesheet" type="text/css" media="all" href="{{ "libs/bootstrap-4.0.0/css/bootstrap.min.css?ver=4.0.0" | relURL }}">
+    <link rel="stylesheet" type="text/css" media="all" href="{{ "libs/fontawesome-free-5.11.2/css/fontawesome.min.css?ver=5.11.2" | relURL }}">
+    <link rel="stylesheet" type="text/css" media="all" href="{{ "libs/fontawesome-free-5.11.2/css/all.min.css?ver=5.11.2" | relURL }}">
+    <link rel="stylesheet" type="text/css" media="all" href="{{ "css/theme.css?ver=1.0.0" | relURL }}">
+    <link rel="stylesheet" type="text/css" media="all" href="{{ "css/site.css" | relURL }}">
+    
+    <script type='text/javascript' src="{{ "libs/jquery-3.4.1/js/jquery-3.4.1.min.js?ver=3.4.1" | relURL }}"></script>
+    <script type='text/javascript' src="{{ "js/theme.js?ver=1.0.0" | relURL }}"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body role="document">
+{{ block "header" . }}
+{{ end }}
+
+{{ block "main" . }}
+{{ end }}
+
+{{ block "footer" . }}
+{{ end }}
+<script type='text/javascript' src="{{ "libs/bootstrap-4.0.0/js/bootstrap.min.js?ver=4.0.0" | relURL }}"></script>
+</body>
+</html>

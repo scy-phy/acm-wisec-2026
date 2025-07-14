@@ -1,0 +1,21 @@
+{{- if .IsNamedParams -}}
+<a {{ with .Get "target" }}{{ if eq . "_download" }}download {{ else }}target="{{ . }}" {{ end }}{{ end }}href="{{ .Get "href" | relURL }}"{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>
+    {{- with .Inner -}}
+        {{- . -}}
+    {{- else -}}
+        {{- with .Get "title" -}}{{ . | safeHTML }}{{- end -}}
+    {{- end -}}
+</a>
+{{- else -}}
+<a href="{{ .Get 0 | relURL }}"{{ if .Inner }}{{ with .Get 1 }}{{ if eq . "_download" }} download{{ else }} target="{{ . }}"{{ end }}{{ end }}{{ else }}{{ with .Get 2 }}{{ if eq . "_download" }} download{{ else }} target="{{ . }}"{{ end }}{{ end }}{{ end }}>
+    {{- with .Inner -}}
+        {{- . -}}
+    {{- else -}}
+        {{- with .Get 1 -}}
+            {{- . | safeHTML -}}
+        {{- else -}}
+            {{- .Get 0 | absURL -}}
+        {{- end -}}
+    {{- end -}}
+</a>
+{{- end -}}

@@ -1,0 +1,50 @@
+{{- if $.Page.Scratch.Get "speaker_index" -}}
+    {{- $.Page.Scratch.Set "speaker_index" (add 1 ($.Page.Scratch.Get "speaker_index")) -}}
+{{- else -}}
+    {{- $.Page.Scratch.Set "speaker_index" 1 -}}
+{{- end -}}
+{{- $speaker_index := $.Page.Scratch.Get "speaker_index" -}}
+<div id="speaker-collapse-{{ $speaker_index }}-parent" class="media col-12 p-3">
+    <img src="{{ .Get "img" | relURL }}" class="mr-3 rounded-circle bg-light d-none d-sm-block" alt=" " title="" width="180" height="180" style="min-width: 180px; min-height: 180px;">
+    <div class="media-body">
+        <div class="media col-12 p-0">
+            <img src="{{ .Get "img" | relURL }}" class="mr-3 rounded-circle bg-light d-block d-sm-none" alt=" " title="" width="90" height="90" style="min-width: 90px; min-height: 90px;">
+            <div class="media-body m-0 pb-2">
+                <h5 class="mt-0 mb-1 font-weight-normal speaker-name">{{ .Get "name" | safeHTML }}</h5>
+                <div class="font-weight-light">
+                    {{- with .Get "affiliation" }}<span class="speaker-affiliation">{{ . | safeHTML }}</span>{{ end -}}
+                    {{- if .Get "location" }}{{ with .Get "affiliation" }}, {{ end }}<span class="font-italic text-secondary speaker-location">{{ .Get "location" | safeHTML }}</span>{{ end -}}
+                </div>
+                {{- with .Get "links" }}<div class="font-weight-normal speaker-links pt-1">{{ . | safeHTML }}</div>{{ end -}}
+            </div>
+        </div>
+        <div class="font-weight-normal text-justify speaker-bio" style="font-size: 0.9em;">
+        {{- $.Scratch.Set "preview_pars" 2 -}}
+        {{- with .Get "preview" -}}
+            {{- $.Scratch.Set "preview_pars" . -}}
+        {{- end -}}
+        {{- $preview_pars := add 1 ($.Scratch.Get "preview_pars") -}}
+        {{- with .Inner -}}
+            {{- $content_pars := split . "<p>" -}}
+            {{- range first $preview_pars $content_pars -}}
+                {{- with . -}}
+                <p>{{ . | safeHTML }}
+                {{- end -}}
+            {{- end -}}
+            {{- if gt (len $content_pars) $preview_pars -}}
+                <p id="speaker-collapse-{{ $speaker_index }}-preview" class="font-italic text-left collapse show" data-parent="#speaker-collapse-{{ $speaker_index }}-parent" style="font-size: 0.9em;">
+                    <a data-toggle="collapse" href="#speaker-collapse-{{ $speaker_index }}-full" role="button" aria-expanded="false" aria-controls="speaker-collapse-{{ $speaker_index }}-full"><i class="fas fa-plus-circle"></i>&nbsp;Read more ...</a>
+                </p>
+            <div id="speaker-collapse-{{ $speaker_index }}-full" class="collapse" data-parent="#speaker-collapse-{{ $speaker_index }}-parent">
+                {{- range after $preview_pars $content_pars -}}
+                <p>{{ . | safeHTML }}
+                {{- end -}}
+                <p class="font-italic text-left" style="font-size: 0.9em;">
+                    <a data-toggle="collapse" href="#speaker-collapse-{{ $speaker_index }}-preview" role="button" aria-expanded="true" aria-controls="speaker-collapse-{{ $speaker_index }}-preview"><i class="fas fa-chevron-circle-up"></i>&nbsp;Show less</a>
+                </p>
+            </div>
+            {{- end -}}
+        {{- end -}}
+        </div>
+    </div>
+</div>

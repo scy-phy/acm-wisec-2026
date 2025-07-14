@@ -1,0 +1,5 @@
+{{- if .IsNamedParams -}}
+<i class="fab fa-{{ with .Get "icon" }}{{ . }}{{ end }}"></i>
+{{- else -}}
+<i class="fab fa-{{ with .Get 0      }}{{ . }}{{ end }}"></i>
+{{- end -}}

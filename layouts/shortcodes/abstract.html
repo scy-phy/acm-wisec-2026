@@ -1,0 +1,11 @@
+{{- $id := printf "abstract-%d" .Ordinal -}}
+<div class="abstract {{ .Get " class" }}" {{ with .Get "style" }}style="{{ . | safeCSS }}" {{ end }}>
+    <div class="card">
+        <div class="card-body">
+            <span style="font-weight: bold;font-size:120%;">
+                [Abstract]
+            </span>
+            <br/>
+            {{ .Inner | markdownify | emojify }}
+        </div>
+    </div>

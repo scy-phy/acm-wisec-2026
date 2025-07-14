@@ -1,0 +1,55 @@
+<div class="col-lg-6 mb-3">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">{{ .Get "name" | safeHTML }}</h3>
+            <div class="card-text" style="overflow: hidden;">
+            {{- with .Get "address" -}}
+                <div style="position: relative; margin-right: 32px;">
+                    <div style="position: absolute; left: 0; top: 0; display: inline-block; width: 25px; height: 25px; margin-right: 7px; text-align: center;"><i class="fas fa-map-marker-alt"></i></div>
+                    <div style="position: relative; left: 32px; top: 0; display: inline-block;">{{ . | safeHTML }}</div>
+                </div>
+            {{- end -}}
+            {{- with .Get "coordinates" -}}
+                <div style="position: relative; margin-right: 32px;">
+                    <div style="position: absolute; left: 0; top: 0; display: inline-block; width: 25px; height: 25px; margin-right: 7px; text-align: center;"><i class="fas fa-location-arrow"></i></div>
+                    <div style="position: relative; left: 32px; top: 0; display: inline-block;">{{ . | safeHTML }}</div>
+                </div>
+            {{- end -}}
+            {{- with .Get "distance" -}}
+                <div style="position: relative; margin-right: 32px;">
+                    <div style="position: absolute; left: 0; top: 0; display: inline-block; width: 25px; height: 25px; margin-right: 7px; text-align: center;"><i class="fas fa-ruler-combined"></i></div>
+                    <div style="position: relative; left: 32px; top: 0; display: inline-block;">{{ . | safeHTML }}</div>
+                </div>
+            {{- end -}}
+            </div>
+            {{- with .Get "price" -}}
+            <div class="card-text" style="overflow: hidden;">
+                <div style="position: relative; margin-right: 32px;">
+                    <div style="position: absolute; left: 0; top: 0; display: inline-block; width: 25px; margin-right: 7px; text-align: center;"><i class="fas fa-euro-sign"></i></div>
+                    <div style="position: relative; left: 32px; top: 0; display: inline-block;">{{ . | safeHTML }}</div>
+                </div>
+            </div>
+            {{- end -}}
+            <div class="card-text" style="overflow: hidden;">
+            {{- with .Get "url" -}}
+                <div style="position: relative; margin-right: 32px;">
+                    <div style="position: absolute; left: 0; top: 0; display: inline-block; width: 25px; margin-right: 7px; text-align: center;"><i class="fas fa-link"></i></div>
+                    <div style="position: relative; left: 32px; top: 0; display: inline-block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;"><a href="{{ . | relURL }}" target="_blank">{{ . }}</a></div>
+                </div>
+            {{- end -}}
+            {{- with .Get "mail" -}}
+                <div style="position: relative; margin-right: 32px;">
+                    <div style="position: absolute; left: 0; top: 0; display: inline-block; width: 25px; margin-right: 7px; text-align: center;"><i class="fas fa-envelope"></i></div>
+                    <div style="position: relative; left: 32px; top: 0; display: inline-block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;"><a href="mailto:{{ . }}" class="mailto">{{ . }}</a></div>
+                </div>
+            {{- end -}}
+            {{- with .Get "phone" -}}
+                <div style="position: relative; margin-right: 32px;">
+                    <div style="position: absolute; left: 0; top: 0; display: inline-block; width: 25px; margin-right: 7px; text-align: center;"><i class="fas fa-phone-alt"></i></div>
+                    <div style="position: relative; left: 32px; top: 0; display: inline-block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;"><a href="tel:{{ replace . " " "" }}" class="phoneto">{{ . }}</a></div>
+                </div>
+            {{- end -}}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<a href="tel:{{ replace (.Get 0) " " "" }}" class="phoneto">
+{{- with .Inner -}}
+    {{- . -}}
+{{- else -}}
+    {{- with .Get 1 -}}
+        {{- . | safeHTML -}}
+    {{- else -}}
+        {{- .Get 0 -}}
+    {{- end -}}
+{{- end -}}
+</a>

@@ -1,0 +1,122 @@
+paper,title,first,last,email,affiliation,country
+3,"VoIPLoc: Passive VoIP call provenance via acoustic side-channels",Shishir,Nagaraja,shishir.nagaraja@strath.ac.uk,University of Strathclyde,
+3,"VoIPLoc: Passive VoIP call provenance via acoustic side-channels",Ryan,Shah,ryan.shah@strath.ac.uk,University of Strathclyde,
+13,"Spearphone: A Lightweight Speech Privacy Exploit via Accelerometer-Sensed Reverberations from Smartphone Loudspeakers",S Abhishek,Anand,sanand53@bloomberg.net,The University of Alabama at Birmingham,United States of America
+13,"Spearphone: A Lightweight Speech Privacy Exploit via Accelerometer-Sensed Reverberations from Smartphone Loudspeakers",Chen,Wang,chenwang1@lsu.edu,Louisiana State University,United States of America
+13,"Spearphone: A Lightweight Speech Privacy Exploit via Accelerometer-Sensed Reverberations from Smartphone Loudspeakers",Jian,Liu,jliu@utk.edu,"University of Tennessee, Knoxville",United States of America
+13,"Spearphone: A Lightweight Speech Privacy Exploit via Accelerometer-Sensed Reverberations from Smartphone Loudspeakers",Nitesh,Saxena,saxena@uab.edu,The University of Alabama at Birmingham,United States of America
+13,"Spearphone: A Lightweight Speech Privacy Exploit via Accelerometer-Sensed Reverberations from Smartphone Loudspeakers",Yingying,Chen,yingche@scarletmail.rutgers.edu,Rutgers University,United States of America
+21,"Remotely Controlling TrustZone Applications? A Study on Securely and Resiliently Receiving Remote Commands",Shengye,Wan,swan@email.wm.edu,College of William and Mary,United States of America
+21,"Remotely Controlling TrustZone Applications? A Study on Securely and Resiliently Receiving Remote Commands",Kun,Sun,ksun3@gmu.edu,George Mason University,United States of America
+21,"Remotely Controlling TrustZone Applications? A Study on Securely and Resiliently Receiving Remote Commands",Ning,Zhang,zhang.ning@wustl.edu,Washington University in St. Louis,United States of America
+21,"Remotely Controlling TrustZone Applications? A Study on Securely and Resiliently Receiving Remote Commands",Yue,Li,yli20@email.wm.edu,the college of William and Mary,
+23,"Z-Fuzzer: Device-agnostic Fuzzing of Zigbee Protocol Implementation",Mengfei,Ren,mengfei.ren@mavs.uta.edu,The University of Texas at Arlington,United States of America
+23,"Z-Fuzzer: Device-agnostic Fuzzing of Zigbee Protocol Implementation",Xiaolei,Ren,xiaolei.ren@mavs.uta.edu,The University of Texas at Arlington,
+23,"Z-Fuzzer: Device-agnostic Fuzzing of Zigbee Protocol Implementation",Huadong,Feng,huadong.feng@mavs.uta.edu,The University of Texas at Arlington,
+23,"Z-Fuzzer: Device-agnostic Fuzzing of Zigbee Protocol Implementation",Jiang,Ming,jiang.ming@uta.edu,The University of Texas at Arlington,United States of America
+23,"Z-Fuzzer: Device-agnostic Fuzzing of Zigbee Protocol Implementation",Yu,Lei,ylei@cse.uta.edu,The University of Texas at Arlington,
+28,"SigUnder: a Stealthy 5G Low Power Attack and Defenses",Norbert,Ludant,ludant.n@northeastern.edu,Northeastern University
+28,"SigUnder: a Stealthy 5G Low Power Attack and Defenses",Guevara,Noubir,g.noubir@northeastern.edu,Northeastern University,United States of America
+34,"FADIA: FAirness-Driven collaboratIve remote Attestation",Mohamad,Mansouri,mohamad.mansouri@thalesgroup.com,Thales SIX GTS
+34,"FADIA: FAirness-Driven collaboratIve remote Attestation",Wafa Ben,Jaballah,wafa.benjaballah@thalesgroup.com,Thales SIX GTS,
+34,"FADIA: FAirness-Driven collaboratIve remote Attestation",Melek,"Önen",melek.onen@eurecom.fr,EURECOM,France
+34,"FADIA: FAirness-Driven collaboratIve remote Attestation",Md Masoom,Rabbani,mdmasoom.rabbani@esat.kuleuven.be,KU Leuven,
+34,"FADIA: FAirness-Driven collaboratIve remote Attestation",Mauro,Conti,conti@math.unipd.it,University of Padua,Italy
+45,"Delegated Attestation: Scalable Remote Attestation of Commodity CPS by Blending Proofs of Execution with Software Attestation",Mahmoud,Ammar,mahmoud.ammar@huawei.com,Huawei Technologies,
+45,"Delegated Attestation: Scalable Remote Attestation of Commodity CPS by Blending Proofs of Execution with Software Attestation",Bruno,Crispo,bruno.crispo@unitn.it,"KU Leuven & University of Trento",Italy
+45,"Delegated Attestation: Scalable Remote Attestation of Commodity CPS by Blending Proofs of Execution with Software Attestation",Ivan De Oliveira,Nunes,ivanoliv@uci.edu,UC Irvine,United States of America
+45,"Delegated Attestation: Scalable Remote Attestation of Commodity CPS by Blending Proofs of Execution with Software Attestation",Gene,Tsudik,gene.tsudik@uci.edu,UC Irvine,United States of America
+49,Anonymous Device Authorization for Cellular Networks,Abida,Haque,ahaque3@ncsu.edu,North Carolina State University,
+49,Anonymous Device Authorization for Cellular Networks,Varun,Madathil,vrmadath@ncsu.edu,North Carolina State University,United States of America
+49,Anonymous Device Authorization for Cellular Networks,Bradley,Reaves,BGReaves@ncsu.edu,North Carolina State University,United States of America
+49,Anonymous Device Authorization for Cellular Networks,Alessandra,Scafuro,ascafur@ncsu.edu,North Carolina State University,United States of America
+58,Spectrum-Flexible Secure Broadcast Ranging,Tien Dang,Vo-Huu,tienvh@ccs.neu.edu,Northeastern University,
+58,Spectrum-Flexible Secure Broadcast Ranging,Triet Dang,Vo-Huu,vohuudtr@ccs.neu.edu,Northeastern University,United States of America
+58,Spectrum-Flexible Secure Broadcast Ranging,Guevara,Noubir,g.noubir@northeastern.edu,Northeastern University,United States of America
+61,Amazon Echo Dot or the Reverberating Secrets of IoT Devices,Dennis,Giese,dgiese@ccs.neu.edu,Northeastern University,
+61,Amazon Echo Dot or the Reverberating Secrets of IoT Devices,Guevara,Noubir,noubir@ccs.neu.edu,Northeastern University,
+63,"Selest: Secure Elevation Estimation of Drones Using MPC",Marinos,Vomvas,vomvas.m@northeastern.edu,Northeastern University,
+63,"Selest: Secure Elevation Estimation of Drones Using MPC",Erik-Oliver,Blass,erik-oliver.blass@airbus.com,Airbus,Germany
+63,"Selest: Secure Elevation Estimation of Drones Using MPC",Guevara,Noubir,g.noubir@northeastern.edu,Northeastern University,United States of America
+64,Toward a Secure Crowdsourced Location Tracking System,Chinmay,Garg,chinmay@ucsb.edu,"University of California, Santa Barbara",
+64,Toward a Secure Crowdsourced Location Tracking System,Aravind,Machiry,amachiry@purdue.edu,Purdue University,United States of America
+64,Toward a Secure Crowdsourced Location Tracking System,Andrea,Continella,acontinella@iseclab.org,University of Twente,Netherlands
+64,Toward a Secure Crowdsourced Location Tracking System,Christopher,Kruegel,chris@cs.ucsb.edu,"University of California, Santa Barbara",United States of America
+64,Toward a Secure Crowdsourced Location Tracking System,Giovanni,Vigna,vigna@cs.ucsb.edu,"University of California, Santa Barbara",United States of America
+73,"Let Numbers Tell the Tale: Measuring Security Trends in Wi-Fi Networks and Best Practices",Domien,Schepers,schepers.d@northeastern.edu,Northeastern University,United States of America
+73,"Let Numbers Tell the Tale: Measuring Security Trends in Wi-Fi Networks and Best Practices",Aanjhan,Ranganathan,aanjhan@northeastern.edu,Northeastern University,United States of America
+73,"Let Numbers Tell the Tale: Measuring Security Trends in Wi-Fi Networks and Best Practices",Mathy,Vanhoef,mathy.vanhoef@nyu.edu,New York University Abu Dhabi,United Arab Emirates
+80,Recurring Verification of Interaction Authenticity Within Bluetooth Networks,Travis,Peters,travis.peters1@montana.edu,Montana State University,
+80,Recurring Verification of Interaction Authenticity Within Bluetooth Networks,Timothy J.,Pierson,timothy.j.pierson@dartmouth.edu,Dartmouth College,United States of America
+80,Recurring Verification of Interaction Authenticity Within Bluetooth Networks,Sougata,Sen,sougatas@goa.bits-pilani.ac.in,"BITS Pilani, KK Birla Goa Campus, India",
+80,Recurring Verification of Interaction Authenticity Within Bluetooth Networks,"José",Camacho,josecamacho@go.ugr.es,"University of Granada, Spain",
+80,Recurring Verification of Interaction Authenticity Within Bluetooth Networks,David,Kotz,david.f.kotz@dartmouth.edu,Dartmouth College,United States of America
+88,"RIP StrandHogg: A Practical StrandHogg Attack Detection Method on Android",Jasper,Stang,jasper.stang@stud-mail.uni-wuerzburg.de,University of Wuerzburg,Germany
+88,"RIP StrandHogg: A Practical StrandHogg Attack Detection Method on Android",Alexandra,Dmitrienko,alexandra.dmitrienko@uni-wuerzburg.de,University of Wuerzburg,Germany
+88,"RIP StrandHogg: A Practical StrandHogg Attack Detection Method on Android",Sascha,Roth,sascha.roth@kobil.com,KOBIL Systems GmbH
+100,Happy MitM - Fun and Toys in Every Bluetooth Device,Jiska,Classen,jclassen@seemoo.de,"TU Darmstadt, Germany",Germany
+100,Happy MitM - Fun and Toys in Every Bluetooth Device,Matthias,Hollick,mhollick@seemoo.tu-darmstadt.de,"TU Darmstadt, Germany",Germany
+111,Misactivation Detection and User Identification in Smart Home Speakers using Traffic Flow Features,Batyr,Charyyev,bcharyye@stevens.edu,Stevens Institute of Technology,United States of America
+111,Misactivation Detection and User Identification in Smart Home Speakers using Traffic Flow Features,Mehmet Hadi,Gunes,mgunes@stevens.edu,Stevens Institute of Technology,United States of America
+112,"Julia: Fast and Secure Key Agreement for IoT Devices",Frans,Lundberg,frans.lundberg@assaabloy.com,ASSA ABLOY AB,
+112,"Julia: Fast and Secure Key Agreement for IoT Devices",Juraj,Feljan,juraj.feljan@assaabloy.com,ASSA ABLOY AB,Sweden
+134,A Comprehensive Formal Analysis of 5G Handover,Aleksi,Peltonen,aleksi.peltonen@aalto.fi,Aalto University,
+134,A Comprehensive Formal Analysis of 5G Handover,Ralf,Sasse,ralf.sasse@inf.ethz.ch,ETH Zurich,Switzerland
+134,A Comprehensive Formal Analysis of 5G Handover,David,Basin,basin@inf.ethz.ch,ETH Zurich,
+173,"No need to ask the Android: Bluetooth-Low-Energy scanning without the location permission",Vincent,Toubiana,vtoubiana@cnil.fr,CNIL,
+173,"No need to ask the Android: Bluetooth-Low-Energy scanning without the location permission",Mathieu,Cunche,mathieu.cunche@insa-lyon.fr,"INSA-Lyon, Inria, CITI Lab",France
+184,"SoK: Assessing the Threat Potential of Vibration-based Attacks against Live Speech using Mobile Sensors",Payton,Walker,prw0007@uab.edu,The University of Alabama at Birmingham,United States of America
+184,"SoK: Assessing the Threat Potential of Vibration-based Attacks against Live Speech using Mobile Sensors",Nitesh,Saxena,saxena@uab.edu,The University of Alabama at Birmingham,United States of America
+189,"5G SUCI-Catchers: Still catching them all?",Merlin,Chlosta,merlin.chlosta@rub.de,Ruhr University Bochum,Germany
+189,"5G SUCI-Catchers: Still catching them all?",David,Rupprecht,david.rupprecht@rub.de,Ruhr University Bochum,Germany
+189,"5G SUCI-Catchers: Still catching them all?",Christina,"Pöpper",christina.poepper@nyu.edu,New York University Abu Dhabi,United Arab Emirates
+189,"5G SUCI-Catchers: Still catching them all?",Thorsten,Holz,thorsten.holz@rub.de,Ruhr University Bochum,Germany
+199,Orbit-based Authentication Using TDOA Signatures in Satellite Networks,Eric,Jedermann,jedermann@cs.uni-kl.de,TU Kaiserslautern,Germany
+199,Orbit-based Authentication Using TDOA Signatures in Satellite Networks,Martin,Strohmeier,Martin.Strohmeier@armasuisse.ch,Armasuisse,Switzerland
+199,Orbit-based Authentication Using TDOA Signatures in Satellite Networks,Matthias,"Schäfer",schaefer@cs.uni-kl.de,University of Kaiserslautern,Germany
+199,Orbit-based Authentication Using TDOA Signatures in Satellite Networks,Jens,Schmitt,jschmitt@cs.uni-kl.de,University of Kaiserslautern,Germany
+199,Orbit-based Authentication Using TDOA Signatures in Satellite Networks,Vincent,Lenders,vincent.lenders@armasuisse.ch,Armasuisse,
+201,On the Challenges of Automata Reconstruction in LTE Networks,Merlin,Chlosta,merlin.chlosta@rub.de,Ruhr University Bochum,Germany
+201,On the Challenges of Automata Reconstruction in LTE Networks,David,Rupprecht,david.rupprecht@rub.de,Ruhr University Bochum,Germany
+201,On the Challenges of Automata Reconstruction in LTE Networks,Thorsten,Holz,thorsten.holz@rub.de,Ruhr University Bochum,Germany
+206,Non-IID Data Re-balancing at IoT Edge with Peer-to-peer Federated Learning for Anomaly Detection,Han,Wang,han.wang@ri.se,RISE Research Institutes of Sweden,Sweden
+206,Non-IID Data Re-balancing at IoT Edge with Peer-to-peer Federated Learning for Anomaly Detection,Luis,"Muñoz-González",l.munoz@imperial.ac.uk,Imperial College London,United Kingdom
+206,Non-IID Data Re-balancing at IoT Edge with Peer-to-peer Federated Learning for Anomaly Detection,David,Eklund,david.eklund@ri.se,RISE Research Institutes of Sweden,
+206,Non-IID Data Re-balancing at IoT Edge with Peer-to-peer Federated Learning for Anomaly Detection,Shahid,Raza,shahid.raza@ri.se,RISE Research Institutes of Sweden,Sweden
+217,"Here, There, and Everywhere: Security Analysis of Wi-Fi Fine Timing Measurement",Domien,Schepers,schepers.d@northeastern.edu,Northeastern University,United States of America
+217,"Here, There, and Everywhere: Security Analysis of Wi-Fi Fine Timing Measurement",Mridula,Singh,mrsingh@inf.ethz.ch,ETH Zurich,Switzerland
+217,"Here, There, and Everywhere: Security Analysis of Wi-Fi Fine Timing Measurement",Aanjhan,Ranganathan,aanjhan@northeastern.edu,Northeastern University,United States of America
+221,"SNOW-Vi: An Extreme Performance Variant of SNOW-V for Lower Grade CPUs",Patrik,Ekdahl,patrik.ekdahl@ericsson.com,Ericsson Research,
+221,"SNOW-Vi: An Extreme Performance Variant of SNOW-V for Lower Grade CPUs",Thomas,Johansson,thomas.johansson@eit.lth.se,Lund University,
+221,"SNOW-Vi: An Extreme Performance Variant of SNOW-V for Lower Grade CPUs",Alexander,Maximov,alexander.maximov@ericsson.com,Ericsson Research,
+221,"SNOW-Vi: An Extreme Performance Variant of SNOW-V for Lower Grade CPUs",Jing,Yang,jing.yang@eit.lth.se,Lund University,Sweden
+261,"LightningStrike: (In)secure Practices of E-IoT Systems in the Wild",Luis C. Puche,Rondon,lpuch002@fiu.edu,Florida International University,United States of America
+261,"LightningStrike: (In)secure Practices of E-IoT Systems in the Wild",Leonardo,Babun,lbabu002@fiu.edu,Florida International University,United States of America
+261,"LightningStrike: (In)secure Practices of E-IoT Systems in the Wild",Ahmet,Aris,aaris@fiu.edu,Florida International University,
+261,"LightningStrike: (In)secure Practices of E-IoT Systems in the Wild",Kemal,Akkaya,kakkaya@fiu.edu,Florida International University,United States of America
+261,"LightningStrike: (In)secure Practices of E-IoT Systems in the Wild",Selcuk,Uluagac,suluagac@fiu.edu,Florida International University,United States of America
+288,"Write to Know: On the Feasibility of Wrist Motion based User-Authentication from Handwriting",Raveen,Wijewickrama,raveen.wijewickrama@utsa.edu,University of Texas at San Antonio,
+288,"Write to Know: On the Feasibility of Wrist Motion based User-Authentication from Handwriting",Anindya,Maiti,am@ou.edu,University of Oklahoma,United States of America
+288,"Write to Know: On the Feasibility of Wrist Motion based User-Authentication from Handwriting",Murtuza,Jadliwala,murtuza.jadliwala@utsa.edu,University of Texas at San Antonio,
+292,"Security Analysis of IEEE 802.15.4z/HRP UWB Time-of-Flight Distance Measurement",Mridula,Singh,mridula.singh@inf.ethz.ch,"ETH Zurich, Switzerland",
+292,"Security Analysis of IEEE 802.15.4z/HRP UWB Time-of-Flight Distance Measurement",Marc,"Röschlin",marc.roeschlin@inf.ethz.ch,"ETH Zurich, Switzerland",
+292,"Security Analysis of IEEE 802.15.4z/HRP UWB Time-of-Flight Distance Measurement",Ezzat,Zalzala,ezzat.zalzala@inf.ethz.ch,"ETH Zurich, Switzerland",Switzerland
+292,"Security Analysis of IEEE 802.15.4z/HRP UWB Time-of-Flight Distance Measurement",Patrick,Leu,patrick.leu@inf.ethz.ch,"ETH Zurich, Switzerland",Switzerland
+292,"Security Analysis of IEEE 802.15.4z/HRP UWB Time-of-Flight Distance Measurement",Srdjan,Capkun,srdjan.capkun@inf.ethz.ch,"ETH Zurich, Switzerland",Switzerland
+302,"Direct Anonymous Attestation on the Road: Efficient and Privacy-Preserving Revocation in C-ITS",Benjamin,Larsen,benlar@dtu.dk,"Technical University of Denmark (DTU)",Denmark
+302,"Direct Anonymous Attestation on the Road: Efficient and Privacy-Preserving Revocation in C-ITS",Thanassis,Giannetsos,agiannetsos@ubitech.eu,UBITECH,
+302,"Direct Anonymous Attestation on the Road: Efficient and Privacy-Preserving Revocation in C-ITS",Ioannis,Krontiris,ioannis.krontiris@huawei.com,Huawei Technologies,
+302,"Direct Anonymous Attestation on the Road: Efficient and Privacy-Preserving Revocation in C-ITS",Kenneth,Goldman,kgoldman@us.ibm.com,IBM
+313,"OutletSpy: Cross-outlet Application Inference via Power Factor Correction Signal",Juchuan,Zhang,zhangjuchuan@zju.edu.cn,Zhejiang University,China
+313,"OutletSpy: Cross-outlet Application Inference via Power Factor Correction Signal",Xiaoyu,Ji,xji@zju.edu.cn,Zhejiang University,China
+313,"OutletSpy: Cross-outlet Application Inference via Power Factor Correction Signal",Yuehan,Chi,21910095@zju.edu.cn,Zhejiang University,
+313,"OutletSpy: Cross-outlet Application Inference via Power Factor Correction Signal",Yichao,Chen,yichao@sjtu.edu.cn,Shanghai Jiao Tong University,
+313,"OutletSpy: Cross-outlet Application Inference via Power Factor Correction Signal",Bin,Wang,wbin2006@gmail.com,Zhejiang University,
+313,"OutletSpy: Cross-outlet Application Inference via Power Factor Correction Signal",Wenyuan,Xu,wyxu@zju.edu.cn,Zhejiang University,China
+318,"LNGate: Powering IoT with Next Generation Lightning Micro-payments using Threshold Cryptography",Ahmet,Kurt,akurt005@fiu.edu,Florida International University,United States of America
+318,"LNGate: Powering IoT with Next Generation Lightning Micro-payments using Threshold Cryptography",Suat,Mercan,smercan@fiu.edu,Florida International University,
+318,"LNGate: Powering IoT with Next Generation Lightning Micro-payments using Threshold Cryptography",Omer,Shlomovits,omer@zengo.com,ZenGo X,
+318,"LNGate: Powering IoT with Next Generation Lightning Micro-payments using Threshold Cryptography",Enes,Erdin,eerdin@uca.edu,University of Central Arkansas,United States of America
+318,"LNGate: Powering IoT with Next Generation Lightning Micro-payments using Threshold Cryptography",Kemal,Akkaya,kakkaya@fiu.edu,Florida International University,United States of America
+343,Message Sieving to Mitigate Smart Gridlock Attacks in V2V,Siddharth,Dongre,sd4767@g.rit.edu,Rochester Institute of Technology,United States of America
+343,Message Sieving to Mitigate Smart Gridlock Attacks in V2V,Hanif,Rahbari,rahbari@mail.rit.edu,Rochester Institute of Technology,

@@ -1,0 +1,204 @@
+<nav id="main-navigation" class="navbar navbar-dark navbar-expand-lg fixed-top-lg bg-dark" role="navigation">
+    <div class="container container-fluid-lg">
+        <div class="navbar-brand">
+            {{ if .Site.Params.icon }}<a class="navbar-brand-icon" href="{{ .Site.Home.RelPermalink }}"><img src="{{ .Site.Params.icon | relURL }}" height="39" alt=" " title=""></a>{{ end }}
+            <a class="navbar-brand-text" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+        </div>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false" aria-controls="main-navbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="main-navbar" class="collapse navbar-collapse" data-parent="#main-navigation">
+            <ul class="navbar-nav mr-auto">
+            {{- range $.Site.Menus.main -}}
+                {{- $menuHidden := false -}}
+                {{- $menuCurrent := $.Page.IsMenuCurrent .Menu . -}}
+                {{- $menuCurrentParent := $.Page.HasMenuCurrent .Menu . -}}
+                {{- $hasVisibleChildren := false -}}
+                {{- with .Page -}}
+                    {{- $menuHidden = or .Params.hidden .Params.menu_hidden -}}
+                {{- end -}}
+                {{- if not $menuHidden -}}
+                    {{- range .Children -}}
+                        {{- with .Page -}}
+                            {{- if not (or .Params.hidden .Params.menu_hidden) -}}
+                                {{- $hasVisibleChildren = true -}}
+                            {{- end -}}
+                        {{- end -}}
+                    {{- end }}
+                <li class="nav-item{{ if $hasVisibleChildren }} dropdown{{ end }}{{ if $menuCurrent }} active{{ end }}{{ if $menuCurrentParent }} child-active{{ end }}"{{ if $menuCurrent }} aria-current="page"{{ end }}>
+                    {{- $url := .URL -}}
+                    {{- if .Page -}}
+                        {{- with .Page.Params.target -}}
+                            {{- $url = . -}}
+                        {{- end -}}
+                    {{- end -}}
+                    {{- $externalURL := true -}}
+                    {{- if ne ($url | relLangURL) ($url | absLangURL) -}}
+                        {{- $externalURL = false -}}
+                    {{- end }}
+                    <a class="nav-link{{ if $hasVisibleChildren }} dropdown-toggle{{ end }}"{{ if $externalURL }} rel="noopener"{{ end }} href="{{ $url | absLangURL }}">
+                        {{- with .Title }}{{ . }}{{ else }}{{ .Name }}{{ end -}}
+                    </a>
+                    {{- if $hasVisibleChildren }}
+                    <div class="dropdown-menu">
+                        {{- range .Children -}}
+                            {{- $menuHidden := false -}}
+                            {{- $menuCurrent := $.Page.IsMenuCurrent .Menu . -}}
+                            {{- $menuCurrentParent := $.Page.HasMenuCurrent .Menu . -}}
+                            {{- $hasVisibleChildren := false -}}
+                            {{- with .Page -}}
+                                {{- $menuHidden = or .Params.hidden .Params.menu_hidden -}}
+                            {{- end -}}
+                            {{- if not $menuHidden -}}
+                                {{- range .Children -}}
+                                    {{- with .Page -}}
+                                        {{- if not (or .Params.hidden .Params.menu_hidden) -}}
+                                            {{- $hasVisibleChildren = true -}}
+                                        {{- end -}}
+                                    {{- end -}}
+                                {{- end }}
+                                {{- $url := .URL -}}
+                                {{- if .Page -}}
+                                    {{- with .Page.Params.target -}}
+                                        {{- $url = . -}}
+                                    {{- end -}}
+                                {{- end -}}
+                                {{- $externalURL := true -}}
+                                {{- if ne ($url | relLangURL) ($url | absLangURL) -}}
+                                    {{- $externalURL = false -}}
+                                {{- end }}
+                        <div class="dropright">
+                            <a class="dropdown-item{{ if $menuCurrent }} active{{ end }}{{ if $menuCurrentParent }} child-active{{ end }}"{{ if $externalURL }} rel="noopener"{{ end }} href="{{ $url | absLangURL }}" title="{{ .Title }}"{{ if $menuCurrent }} aria-current="page"{{ end }}>
+                                {{- with .Title }}{{ . }}{{ else }}{{ .Name }}{{ end -}}
+                                {{- if $hasVisibleChildren }}<span class="caret"></span>{{ end -}}
+                            </a>
+                                {{- if $hasVisibleChildren }}
+                            <div class="dropdown-menu">
+                                    {{- range .Children -}}
+                                        {{- $menuHidden := false -}}
+                                        {{- $menuCurrent := $.Page.IsMenuCurrent .Menu . -}}
+                                        {{- $menuCurrentParent := $.Page.HasMenuCurrent .Menu . -}}
+                                        {{- $hasVisibleChildren := false -}}
+                                        {{- with .Page -}}
+                                            {{- $menuHidden = or .Params.hidden .Params.menu_hidden -}}
+                                        {{- end -}}
+                                        {{- if not $menuHidden -}}
+                                            {{- range .Children -}}
+                                                {{- with .Page -}}
+                                                    {{- if not (or .Params.hidden .Params.menu_hidden) -}}
+                                                        {{- $hasVisibleChildren = true -}}
+                                                    {{- end -}}
+                                                {{- end -}}
+                                            {{- end }}
+                                            {{- $url := .URL -}}
+                                            {{- if .Page -}}
+                                                {{- with .Page.Params.target -}}
+                                                    {{- $url = . -}}
+                                                {{- end -}}
+                                            {{- end -}}
+                                            {{- $externalURL := true -}}
+                                            {{- if ne ($url | relLangURL) ($url | absLangURL) -}}
+                                                {{- $externalURL = false -}}
+                                            {{- end }}
+                                <a class="dropdown-item{{ if $menuCurrent }} active{{ end }}{{ if $menuCurrentParent }} child-active{{ end }}"{{ if $externalURL }} rel="noopener"{{ end }} href="{{ $url | absLangURL }}" title="{{ .Title }}"{{ if $menuCurrent }} aria-current="page"{{ end }}>
+                                            {{- with .Title }}{{ . }}{{ else }}{{ .Name }}{{ end -}}
+                                            {{- if $hasVisibleChildren }}<span class="caret"></span>{{ end -}}
+                                </a>
+                                        {{- end -}}
+                                    {{- end }}
+                            </div>
+                                {{- end }}
+                        </div>
+                            {{- end -}}
+                        {{- end }}
+                    </div>
+                    {{- end }}
+                </li>
+                {{- end -}}
+            {{- end }}
+            </ul>
+        </div><!--/#main-navbar -->
+    </div>
+</nav><!--/#main-navigation -->
+
+<header id="header" class="container-fluid" role="banner">
+    <div class="row justify-content-center">
+    {{- $banner_slides := $.Param "banner_images" -}}
+    {{- $banner_title := $.Param "banner_title" -}}
+    {{- $banner_subtitle := $.Param "banner_subtitle" -}}
+    {{- $banner_sronly := $.Param "banner_sronly" -}}
+    {{- $banner_logo := $.Param "banner_logo" -}}
+    {{- $banner_width := $.Param "banner_width" -}}
+    {{- if $banner_slides -}}
+        <div id="header-carousel" class="col carousel slide px-0" data-ride="carousel">
+        {{- if gt (len $banner_slides) 1 -}}
+            <ol class="carousel-indicators">
+            {{- range $slide_index, $slide_url := $banner_slides -}}
+                <li data-target="#header-carousel" data-slide-to="{{ $slide_index }}"{{ if eq $slide_index 0 }} class="active"{{ end }}></li>
+            {{- end -}}
+            </ol>
+        {{- end -}}
+            <div class="carousel-inner">
+        {{- range $slide_index, $slide_url := $banner_slides -}}
+                <div class="carousel-item{{ if eq $slide_index 0 }} active{{ end }}">
+                    <div class="mx-auto" style="position: relative; max-width: {{ $banner_width }};">
+                        <img class="d-block mx-auto img-fluid" src="{{ $slide_url | relURL }}" alt="" title="">
+            {{- if $banner_logo -}}
+                        <div class="banner-logo">
+                            <img src="{{ $banner_logo | relURL }}" alt=" " title="" class="d-none d-lg-block img-fluid">
+                        </div>
+            {{- end -}}
+                    </div>
+                </div>
+        {{- end -}}
+            </div>
+            <div class="carousel-caption blurry-background{{ if $banner_sronly }} sr-only{{ end }}">
+                <div class="container-fluid"{{ if $banner_width }} style="max-width: {{ $banner_width }};"{{ end }}>
+                    <div class="row align-items-bottom">
+        {{- if $banner_title -}}
+                        <div class="col-12{{ if $banner_subtitle }} text-md-left{{ end }} d-none d-lg-block"><h1 class="font-weight-light">{{ $banner_title | safeHTML }}</h1></div>
+                        <div class="col-12{{ if $banner_subtitle }} text-md-left{{ end }} d-none d-md-block d-lg-none"><h1 class="h2 font-weight-light">{{ $banner_title | safeHTML }}</h1></div>
+                        <div class="col-12{{ if $banner_subtitle }} text-md-left{{ end }} d-none d-sm-block d-md-none"><h1 class="h4 font-weight-light">{{ $banner_title | safeHTML }}</h1></div>
+            {{- if $banner_subtitle -}}
+                        <div class="col-12 text-md-right d-none d-lg-block"><h2 class="font-weight-light">{{ $banner_subtitle | safeHTML  }}</h2></div>
+                        <div class="col-12 text-md-right d-none d-md-block d-lg-none"><h2 class="h3 font-weight-light">{{ $banner_subtitle | replaceRE "<br\\s*\\/?>" " &bullet; " | safeHTML }}</h2></div>
+                        <div class="col-12 text-md-right d-none d-sm-block d-md-none"><h2 class="h5 font-weight-light">{{ $banner_subtitle | replaceRE "<br\\s*\\/?>" " &bullet; " | safeHTML }}</h2></div>
+            {{- end -}}
+        {{- end -}}
+                    </div>
+                </div>
+            </div>
+        </div><!--/#header-carousel -->
+    </div>
+    <div class="row justify-content-center d-block d-sm-none bg-dark py-3{{ if $banner_sronly }} sr-only{{ end }}">
+        <div class="col-12 text-center"><h1 class="h4 font-weight-light text-light">{{ $banner_title | safeHTML }}</h1></div>
+        <div class="col-12 text-center"><h2 class="h5 font-weight-light text-light">{{ $banner_subtitle | replaceRE "<br\\s*\\/?>" " &bullet; " | safeHTML }}</h2></div>
+    {{- else -}}
+        <div id="header-jumbotron" class="col jumbotron py-3 my-0 px-3"{{ if $banner_width }} style="max-width: {{ $banner_width }};"{{ end }}>
+            <div class="row align-items-top">
+        {{- if $banner_logo -}}
+                <div class="col-12 text-center{{ if $banner_title }} col-md-3 col-lg-2 text-md-left{{ end }} py-3 px-0">
+                    <img src="{{ $banner_logo | relURL }}" alt=" " title="" class="banner-logo img-fluid">
+                </div>
+        {{- end -}}
+        {{- if $banner_title -}}
+                <div class="col-12 px-3{{ if $banner_logo }} col-md-9 col-lg-10 pl-md-3 pr-md-4{{ end }}">
+                    <div class="row align-items-center">
+                        <div class="col-12 text-{{ if $banner_logo }}left{{ else }}center{{ end }} d-none d-lg-block {{ if $banner_logo }}pt-5{{ else }}pt-3{{ end }} mt-1"><h1 class="{{ if $banner_subtitle }} mb-0{{ end }} font-weight-light text-light">{{ $banner_title | safeHTML }}</h1></div>
+                        <div class="col-12 text-{{ if $banner_logo }}left{{ else }}center{{ end }} d-none d-md-block d-lg-none {{ if $banner_logo }}pt-5{{ else }}pt-3{{ end }} mt-2"><h1 class="h2{{ if $banner_subtitle }} mb-0{{ end }} font-weight-light text-light">{{ $banner_title | safeHTML }}</h1></div>
+                        <div class="col-12 text-center px-0 d-none d-sm-block d-md-none"><h1 class="h3{{ if $banner_subtitle }} mb-0{{ end }} font-weight-light text-light">{{ $banner_title | safeHTML }}</h1></div>
+                        <div class="col-12 text-center px-0 d-block d-sm-none"><h1 class="h4{{ if $banner_subtitle }} mb-0{{ end }} font-weight-light text-light">{{ $banner_title | safeHTML }}</h1></div>
+            {{- if $banner_subtitle -}}
+                        <div class="col-12 text-{{ if $banner_logo }}left{{ else }}center{{ end }} d-none d-lg-block pt-1 mt-0"><h2 class="h3 font-weight-light text-light">{{ $banner_subtitle | replaceRE "<br\\s*\\/?>" " &bullet; " | safeHTML }}</h2></div>
+                        <div class="col-12 text-{{ if $banner_logo }}left{{ else }}center{{ end }} d-none d-md-block d-lg-none pt-1 mt-0"><h2 class="h4 font-weight-light text-light">{{ $banner_subtitle | replaceRE "<br\\s*\\/?>" " &bullet; " | safeHTML }}</h2></div>
+                        <div class="col-12 text-center px-0 d-none d-sm-block d-md-none"><h2 class="h5 font-weight-light text-light">{{ $banner_subtitle | replaceRE "<br\\s*\\/?>" " &bullet; " | safeHTML }}</h2></div>
+                        <div class="col-12 text-center px-0 d-block d-sm-none"><h2 class="h6 font-weight-light text-light">{{ $banner_subtitle | replaceRE "<br\\s*\\/?>" " &bullet; " | safeHTML }}</h2></div>
+            {{- end -}}
+                    </div>
+                </div>
+        {{- end -}}
+            </div>
+        </div><!--/#header-jumbotron -->
+    {{- end -}}
+    </div>
+</header>

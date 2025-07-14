@@ -1,0 +1,1299 @@
+<html xmlns:bkstg="http://www.atypon.com/backstage-ns" xmlns:urlutil="java:com.atypon.literatum.customization.UrlUtil" xmlns:pxje="java:com.atypon.frontend.services.impl.PassportXslJavaExtentions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <style type="text/css">
+            #DLtoc {
+            font: normal 12px/1.5em Arial, Helvetica, sans-serif;
+            }
+
+            #DLheader {
+            }
+            #DLheader h1 {
+            font-size:16px;
+            }
+
+            #DLcontent {
+            font-size:12px;
+            }
+            #DLcontent h2 {
+            font-size:14px;
+            margin-bottom:5px;
+            }
+            #DLcontent h3 {
+            font-size:12px;
+            padding-left:20px;
+            margin-bottom:0px;
+            }
+
+            #DLcontent ul{
+            margin-top:0px;
+            margin-bottom:0px;
+            }
+
+            .DLauthors li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLauthors li:after{
+            content:",";
+            }
+            .DLauthors li.nameList.Last:after{
+            content:"";
+            }
+
+            .DLabstract {
+            padding-left:40px;
+            padding-right:20px;
+            display:block;
+            }
+
+            .DLformats li{
+            display: inline;
+            list-style-type: none;
+            padding-right: 5px;
+            }
+
+            .DLformats li:after{
+            content:",";
+            }
+            .DLformats li.formatList.Last:after{
+            content:"";
+            }
+
+            .DLlogo {
+            vertical-align:middle;
+            padding-right:5px;
+            border:none;
+            }
+
+            .DLcitLink {
+            margin-left:20px;
+            }
+
+            .DLtitleLink {
+            margin-left:20px;
+            }
+
+            .DLotherLink {
+            margin-left:0px;
+            }
+
+        </style>
+      <title>WiSec 2025: 18th ACM Conference on Security and Privacy in Wireless and Mobile Networks</title>
+   </head>
+   <body>
+      <div id="DLtoc">
+         <div id="DLheader">
+            <h1>WiSec 2025: 18th ACM Conference on Security and Privacy in Wireless and Mobile Networks</h1><a class="DLcitLink" title="Go to the ACM Digital Library for additional information about this proceeding" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/proceedings/10.1145/3734477"><img class="DLlogo" alt="Digital Library logo" height="30" src="https://dl.acm.org/specs/products/acm/releasedAssets/images/footer-logo1.png">
+               Full Citation in the ACM Digital Library
+               </a></div>
+         <div id="DLcontent">
+            <h2>SESSION: Keynote Talks</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736179">Exploring Unanticipated Functionality in Cellular Devices and Networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Kevin R. B. Butler</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Telecommunication networks form the backbone of our connected society, enabling global
+                     voice and data communication. Yet, beneath their seamless operation lies a complex
+                     interplay of signaling protocols, legacy systems, and evolving technologies that have,
+                     over the decades, exposed both opportunities for innovation and significant security
+                     challenges. While these networks have changed over the past 50 years and complexity
+                     has migrated outwards to devices, one enduring challenge has been a lack of accessibility.
+                     In this talk, we will discuss some of our recent efforts to better understand functionality
+                     on mobile devices by examining command sets [3] and processors [2]. We also look at
+                     security assessment techniques and how they can expose vulnerabilities in core cellular
+                     infrastructure. A central focus of this talk is the application of fuzz testing-a
+                     powerful technique for discovering implementation flaws and specification ambiguities.
+                     Fuzzing involves generating random or mutated inputs and injecting them into target
+                     systems to observe unusual behaviors or crashes. In the context of telecom networks,
+                     a fuzzing campaign can target the message handling logic, permuting fields such as
+                     the Protocol Discriminator or Bearer Capabilities, causing ASN.1 decoders in some
+                     devices to fail, leading to denial-of-service or potentially more severe consequences
+                     [1]. Through case studies and demonstrations, the talk will reveal how seemingly innocuous
+                     fields in call setup messages can destabilize network components or user devices,
+                     while also examining how the analysis of messages rather than examining device behavior
+                     can lead to the detection of rogue elements [4] in a network.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736180">Rethinking Resilience in 6G Design: The Missing Link for Mission-Critical Applications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList Last">Venkatesh "Venki" Ramaswamy</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As the race to define 6G intensifies, the focus has overwhelmingly centered on maximizing
+                     efficiency-whether in cost, spectral utilization, or energy consumption. Yet, resilience
+                     and security, the cornerstone attributes for deploying 6G in mission-critical industries
+                     such as energy, defense, and healthcare, have been conspicuously absent from the design
+                     discourse. This oversight, rooted in legacy approaches to cellular communication,
+                     risks undermining 6G's ability to meet the uncompromising demands of applications
+                     where reliability and adaptability are non-negotiable. In this keynote, I will redefine
+                     resilience in the context of next-generation wireless networks, distinguishing it
+                     from related concepts such as robustness and reliability, while highlighting how security
+                     is inherently embedded within resilience. I will explore the tension between efficiency,
+                     complexity, and resilience, revealing how the relentless pursuit of superior performance
+                     has led to overly intricate designs that inadvertently compromise the ability to withstand
+                     disruptions. By identifying the structural and systemic traits that characterize truly
+                     resilient networks, I will offer a roadmap for how 6G design must evolve to integrate
+                     resilience as a foundational principle. Finally, I will introduce practical frameworks
+                     for quantifying resilience, equipping researchers and engineers with tools to embed
+                     this critical attribute into the DNA of 6G systems. This keynote is a call to action-a
+                     rallying cry to rethink the priorities driving 6G innovation. By striking a deliberate
+                     balance between efficiency, complexity, and resilience, we can ensure that 6G not
+                     only delivers on its promise of performance but also becomes a transformative technology
+                     capable of thriving in the most demanding, high-stakes environments.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Full Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734708">Wireless-Tap: Automatic Transcription of Phone Calls Using Millimeter-Wave Radar Sensing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Suryoday Basak</li>
+               <li class="nameList Last">Mahanth Gowda</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper presents <em>WirelessTap,</em> a system that demonstrates the potential for automated speech recognition (ASR) on
+                     phone call audio eavesdropped remotely using commercially available frequency modulated
+                     continuous wave millimeter-wave (mmWave) radars operating in the 77-81 GHz range.
+                     <em>WirelessTap</em> detects minute vibrations from smartphone earpieces, converts them into audio, and
+                     processes this audio for speech transcription. This work presents the first full-sentence
+                     ASR using mmWave radars on earpiece vibrations using a 10,000-word vocabulary, achieving
+                     a 300 cm attack range across multiple smartphone models. It surpasses prior radar-based
+                     eavesdropping studies limited to loudspeakers, small vocabularies, or constrained
+                     evaluations. To address challenges like the absence of large mmWave radar-based audio
+                     datasets, low signal-to-noise ratio, and limited voice frequency ranges extractable
+                     from radar data, <em>WirelessTap</em> incorporates synthetic data generation, domain adaptation, and inference using OpenAI's
+                     Whisper ASR model. Our experiments systematically show how word accuracy rate gradually
+                     decreases with distance, from as high as 59.25% at 50 cm to 2% at 300 cm; additionally,
+                     we deploy this attack to a real-world setting with a user study targeting a victim
+                     holding a smartphone to their ear. This paper highlights the evolving risks of artificial
+                     intelligence and sensor systems being misused as technology advances.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734710">Run-time Attestation and Auditing: The Verifier's Perspective</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Adam Ilyas Caulfield</li>
+               <li class="nameList">Norrathep Rattanavipanon</li>
+               <li class="nameList Last">Ivan De Oliveira Nunes</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In run-time attestation schemes, including Control Flow Attestation (<em>CFA</em>) and Data Flow Attestation (<em>DFA</em>), a remote Verifier (<em>V</em>rf) requests a potentially compromised Prover device (<em>P</em>rv) to generate evidence of its execution control flow path (<em>in CFA</em>) and optionally execution data inputs (<em>in DFA</em>). Recent advances in this space also guarantee that <em>V</em>rf eventually receives run-time evidence from <em>P</em>rv, even when <em>P</em>rv is fully compromised. Reliable delivery, in theory, enables run-time auditing in
+                     addition to attestation, allowing <em>V</em>rf to examine run-time compromise traces to pinpoint/remediate attack root causes.
+                     However, <em>V</em>rf's perspective in this security service remains unexplored, with most prior work
+                     focusing on the secure generation of authentic run-time evidence on <em>P</em>rv.</p> 
+                  <p>In this work, we argue that run-time attestation/auditing is only effective if <em>V</em>rf can analyze the received evidence. From this premise, we characterize different
+                     types of evidence produced by run-time attestation/auditing architectures based on
+                     <em>V</em>rf's ability to use them for vulnerability detection/remediation. As a case study,
+                     we propose SABRE: a Security Analysis and Binary Repair Engine that enables <em>V</em>rf to use run-time evidence to detect control flow attacks, to pinpoint specific instructions
+                     that corrupted control data, and to automatically generate binary patches to buffer
+                     overflow and use-after-free vulnerabilities without source code knowledge.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734706">Distributed Multi-Antenna GPS Spoofing Attack using Off-the-Shelf Devices</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Xiang Cheng</li>
+               <li class="nameList">Hanchao Yang</li>
+               <li class="nameList">Shinan Liu</li>
+               <li class="nameList Last">Yaling Yang</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Global Positioning System (GPS) signals, though critical to numerous civilian and
+                     industrial applications, remain susceptible to spoofing due to their unencrypted nature.
+                     While many existing defenses focus on single-antenna spoofing, multi-antenna spoofing
+                     has been theorized as a significantly more potent threat. However, practical realizations
+                     of multi-antenna spoofing have been limited by the stringent requirement of nanosecond-level
+                     synchronization.</p> 
+                  <p>In this paper, we present the first low-cost, end-to-end implementation of a distributed
+                     multi-antenna GPS spoofing attack using off-the-shelf devices. We systematically examine
+                     the technical prerequisites, establishing sub-50 ns alignment among spoofing signals
+                     as the requirement for successfully spoofing standard GPS receivers. Building on this
+                     analysis, we design a multi-antenna spoofing system that continuously monitors and
+                     adaptively adjusts relative signal timing, mitigating hardware imperfections and oscillator
+                     drift in real time. Our prototype, built using HackRFs and Raspberry Pis, demonstrates
+                     that it can successfully spoof devices such as Android phones and commercial GPS receivers.
+                     Through controlled experiments in an anechoic chamber, we show that our attack can
+                     steer these receivers to falsified locations with an average error of 30~m, while
+                     also evading detection by robust angle-of-arrival-based systems. Finally, we discuss
+                     practical considerations for wide-area deployments, along with countermeasures that
+                     may mitigate this emerging threat.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734712">On the Performance and Consistency Trade-off of the eSIM M2M Remote Provisioning Protocol</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Mitziu Echeverria</li>
+               <li class="nameList">Aliakbar Sadeghi</li>
+               <li class="nameList">G M Tasnim Alam</li>
+               <li class="nameList Last">Omar Chowdhury</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This paper analyzes the Embedded SIM card's Machine-to-Machine Remote Provisioning
+                     Protocol's (eSIM M2M RSP) design. The eSIM M2M RSP simplifies 5G connectivity for
+                     IoT devices by securely delivering connection bootstrapping information over the air
+                     without human intervention. As IoT adoption with 5G connectivity surges, the eSIM
+                     infrastructure must handle a growing number of concurrent remote SIM provisioning
+                     requests. The statefulness and shared states of the RSP make it challenging and error-prone
+                     to implement concurrency without data races. The GSMA eSIM standard does not explicitly
+                     define any atomicity assumptions required for concurrent execution. A formal analysis
+                     of the standard-prescribed M2M RSP design reveals that explicit atomicity assumptions
+                     are necessary; without them, 31 data races can violate key invariants. During the
+                     responsible disclosure process, discussions with the standards body revealed that
+                     the M2M RSP design relies on unstated and implicit atomicity assumptions. However,
+                     we find that the standard prescribed implicit assumptions are not strong enough to
+                     maintain all the invariants. The identified race conditions can be exploited by third-party
+                     eSIM management platforms to defraud network operators. To mitigate these risks, we
+                     developed a fine-grained synchronization mechanism that we formally verified for correctness
+                     and empirically evaluated for performance. Empirical evaluations show that our synchronization
+                     mechanism ensures correctness while outperforming a baseline with a 6× speed up.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734703">AI5GTest: AI-Driven Specification-Aware Automated Testing and Validation of 5G O-RAN
+                  Components</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Abiodun Ganiyu</li>
+               <li class="nameList">Pranshav Gajjar</li>
+               <li class="nameList Last">Vijay K Shah</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The advent of Open Radio Access Networks (O-RAN) has transformed the telecommunications
+                     industry by promoting interoperability, vendor diversity, and rapid innovation. However,
+                     its disaggregated architecture introduces complex testing challenges, particularly
+                     in validating multi-vendor components against O-RAN ALLIANCE and 3GPP specifications.
+                     Existing frameworks, such as those provided by Open Testing and Integration Centres
+                     (OTICs), rely heavily on manual processes, are fragmented and prone to human error,
+                     leading to inconsistency and scalability issues. To address these limitations, we
+                     present AI5GTest -- an AI-powered, specification-aware testing framework designed to automate the
+                     validation of O-RAN components. AI5GTest leverages a cooperative Large Language Models
+                     (LLM) framework consisting of <em>Gen-LLM,</em> <em>Val-LLM,</em> and <em>Debug-LLM.</em> Gen-LLM automatically generates expected procedural flows for test cases based on
+                     3GPP and O-RAN specifications, while Val-LLM cross-references signaling messages against
+                     these flows to validate compliance and detect deviations. If anomalies arise, Debug-LLM
+                     performs root cause analysis, providing insight to the failure cause. To enhance transparency
+                     and trustworthiness, AI5GTest incorporates a human-in-the-loop mechanism, where the
+                     Gen-LLM presents top-k relevant official specifications to the tester for approval
+                     before proceeding with validation. Evaluated using a range of test cases obtained
+                     from O-RAN TIFG and WG5-IOT test specifications, AI5GTest demonstrates a significant
+                     reduction in overall test execution time compared to traditional manual methods, while
+                     maintaining high validation accuracy.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734700">Unveiling Privacy Risks in WebGPU through Hardware-based Device Fingerprinting</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Konrad Hohentanner</li>
+               <li class="nameList">Nils Kemmerzell</li>
+               <li class="nameList Last">Steffen Florschütz</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Privacy is a fundamental right concerned with the protection and control of personal
+                     and sensitive information. A common threat to user privacy is the monitoring and tracking
+                     of individuals during web browsing without their consent. A common technique used
+                     for this purpose is browser fingerprinting, which exploits characteristics of a user's
+                     device to create a unique identifier. Traditionally, software-based fingerprints have
+                     been used for this purpose. Recently, hardware-based fingerprinting has gained attention
+                     due to its resilience to privacy-enhancing technologies. WebGPU is a modern JavaScript
+                     API that enables webpages to efficiently utilize a device's Graphics Processing Unit
+                     (GPU) for general-purpose computation. This paper focuses on the impact of WebGPU
+                     on hardware-based fingerprinting. We show that by using this web API, the execution
+                     behaviour of a device's GPU can be characterized to reidentify the device while evading
+                     privacy mechanisms. We introduce <em>AtomicIncrement,</em> a novel fingerprinting approach based on the scheduling behaviour of compute shaders
+                     which is usable within WebGPU with both high accuracy and low computational impact.
+                     In our evaluation, a classifier can reidentify a device with an accuracy of 70% from
+                     a pool of 500 devices using AtomicIncrement fingerprints, highlighting the privacy
+                     threat of WebGPU-based fingerprinting for modern web browsing. A robustness analysis
+                     with over 2 million fingerprints shows that the accuracy remains stable under various
+                     device conditions.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734713">Cloud Nine Connectivity: Security Analysis of In-Flight Wi-Fi Paywall Systems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Abdullah Al Ishtiaq</li>
+               <li class="nameList">Raja Hasnain Anwar</li>
+               <li class="nameList">Yasra Chandio</li>
+               <li class="nameList">Fatima Muhammad Anwar</li>
+               <li class="nameList">Syed Rafiul Hussain</li>
+               <li class="nameList Last">Muhammad Taqi Raza</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In-flight Wi-Fi provides high-speed Internet connectivity to travelers at 30,000 feet
+                     at premium fees. In this paper, we present the first systematic study of the <em>architecture and security policies</em> of in-flight Wi-Fi paywall systems using <em>network tomography</em> analysis. We discover that attackers can exploit the inherent architectural shortcomings
+                     of airborne networks to create covert channels and conceal data packets within certain
+                     ''always-allowed'' traffic for free Internet access. Moreover, broken device authentication
+                     policies in these systems allow unlimited complimentary Internet connectivity. Finally,
+                     insecure ARP policies allow attackers to steal paid users' bandwidth to access the
+                     free Internet even faster. We validate these issues in practice over two major in-flight
+                     Wi-Fi providers using common protocols, e.g., UDP, DNS, etc. We also find that the
+                     root causes of these issues stem from different design choices in the architectures
+                     of these systems and propose countermeasures to address these flaws and prevent similar
+                     attacks.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734707">Guardian Positioning System (GPS) for Location Based Services</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Wenjie Liu</li>
+               <li class="nameList Last">Panos Papadimitratos</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Location-based service (LBS) applications proliferate and support transportation,
+                     entertainment, and more. Modern mobile platforms, with smartphones being a prominent
+                     example, rely on terrestrial and satellite infrastructures (e.g., global navigation
+                     satellite system (GNSS) and crowdsourced Wi-Fi, Bluetooth, cellular, and IP databases)
+                     for correct positioning. However, they are vulnerable to attacks that manipulate positions
+                     to control and undermine LBS functionality-thus enabling the scamming of users or
+                     services. Our work reveals that GNSS spoofing attacks succeed even though smartphones
+                     have multiple sources of positioning information. Moreover, that Wi-Fi spoofing attacks
+                     with GNSS jamming are surprisingly effective. More concerning is the evidence that
+                     sophisticated, coordinated spoofing attacks are highly effective. Attacks can target
+                     GNSS in combination with other positioning methods, thus defenses that assume that
+                     only GNSS is under attack cannot be effective. More so, resilient GNSS receivers and
+                     special-purpose antennas are not feasible on smartphones. To address this gap, we
+                     propose an extended receiver autonomous integrity monitoring (RAIM) framework that
+                     leverages the readily available, redundant, often so-called opportunistic positioning
+                     information on off-the-shelf platforms. We jointly use onboard sensors, terrestrial
+                     infrastructures, and GNSS. We show that our extended RAIM framework improves resilience
+                     against location spoofing, e.g., achieving a detection accuracy improvement of up
+                     to 24-58% compared to the state-of-the-art algorithms and location providers; detecting
+                     attacks within 5 seconds, with a low false positive rate.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734704">ARMOUR US: Android Runtime Zero-permission Sensor Usage Monitoring from User Space</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yan Long</li>
+               <li class="nameList">Jiancong Cui</li>
+               <li class="nameList">Yuqing Yang</li>
+               <li class="nameList">Tobias Alam</li>
+               <li class="nameList">Zhiqiang Lin</li>
+               <li class="nameList Last">Kevin Fu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>This work investigates how to monitor access to Android zero-permission sensors which
+                     could cause privacy leakage to users. Moreover, monitoring such sensitive access allows
+                     security researchers to characterize potential sensor abuse patterns. Zero-permission
+                     sensors such as accelerometers have become an indispensable part of Android devices.
+                     The critical information they provide has attracted extensive research investigating
+                     how data collectors could capture more sensor data to enable both benign and exploitative
+                     applications. In contrast, little work has explored how to enable data providers,
+                     such as end users, to understand sensor usage. While existing methods such as static
+                     analysis and hooking-based dynamic analysis face challenges of requiring complicated
+                     development chains, rooting privilege, and app-specific reverse engineering analysis,
+                     our work aims to bridge this gap by developing ARMOUR for user-space runtime monitoring,
+                     leveraging the intrinsic sampling rate variation and convergence behaviors of Android.
+                     ARMOUR enables privacy-aware users to easily monitor how third-party apps use sensor
+                     data and support security researchers to perform rapid app-agnostic sensor access
+                     analysis. Our evaluation with 1,448 commercial applications shows the effectiveness
+                     of ARMOUR in detecting sensor usage in obfuscated code and other conditions, and observes
+                     salient sensor abuse patterns such as 50% of apps from seemingly sensor-independent
+                     categories accessing data of multiple zero-permission sensors. We analyze the impact
+                     of Android's recent policy changes on zero-permission sensors and remaining technical
+                     and regulatory problems.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734701">"Alexa, Is Dynamic Content Safe?" Understanding the Risks of Dynamic Content in the
+                  Alexa Skill Ecosystem</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Nathan McClaran</li>
+               <li class="nameList">Payton Walker</li>
+               <li class="nameList">Zihao Zheng</li>
+               <li class="nameList">Yangyong Zhang</li>
+               <li class="nameList">Nitesh Saxena</li>
+               <li class="nameList Last">Guofei Gu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Despite the increasing popularity of voice assistants such as Amazon Alexa, the security
+                     implications of dynamic skill content (content modifiable without resubmission) in
+                     voice assistant skills (voice-activated applications) remain largely unexplored. This
+                     paper presents the first large-scale analysis of Alexa's dynamic content ecosystem
+                     using D-Explorer, a ChatGPT powered chatbot. From a dataset of 10,407 skill interactions,
+                     we investigate: 1) the mechanisms of Alexa dynamic content, 2) the associated security
+                     risks, and 3) the prevalence of these risks in published skills. Our analysis reveals
+                     that 34% of skills contain dynamic content in interactions, 95% access external resources
+                     (increasing attack vectors), 7% of skill conversations exhibit problematic (potentially
+                     harmful or privacy-infringing) interactions related to dynamic content, and 90% of
+                     skills connect to a potentially vulnerable dynamic resource during interaction. These
+                     findings expose significant vulnerabilities, highlighting the critical need for stricter
+                     developer rules and security measures to prevent unpredictable, harmful, and privacy
+                     compromising interactions within the Alexa skill ecosystem.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734705">FlashCatch: Minimizing Disruption in IMSI Catcher Operations</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Andrea Paci</li>
+               <li class="nameList">Gabriele Bologna</li>
+               <li class="nameList">Ivan Palamà</li>
+               <li class="nameList Last">Giuseppe Bianchi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>IMSI catchers are surveillance tools that intercept cellular signals to capture user
+                     identifiers, such as the IMSI. By imitating a legitimate BS and compelling phones
+                     to connect via jamming or stronger signal, they cause temporary disconnection, risking
+                     service disruption and raising suspicion, which limits their covert effectiveness.
+                     This paper presents FlashCatch, an IMSI-catching approach that significantly accelerates
+                     the two primary factors leading to service disruption. First, by exploiting 3GPP standard
+                     vulnerabilities, FlashCatch reduces IMSI capture time by over 200 times. Second, it
+                     improves the detachment phase through intentional authentication failures, inducing
+                     a rapid switch back to a legitimate cell and barring the FBS cell from further reconnection,
+                     thus reducing overall noticeable service disruption by at least 50-fold. Laboratory
+                     experiments on 7 devices featuring basebands from three different manufacturers demonstrate
+                     sub-second IMSI retrieval with seamless service continuity, while dedicated VoLTE
+                     and VoIP experiments confirm that ongoing calls resume without termination after a
+                     transient small disruption. In-the-wild field tests with 50 volunteers further validate
+                     its stealth and operational effectiveness. Moreover, FlashCatch preserves the UE's
+                     security context, retaining temporary identifiers that enable linkability attacks
+                     for subsequent tracking.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734709">Practical Inner Product Encryption for Privacy-Preserved Internet-of-Things Applications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Tran Viet Xuan Phuong</li>
+               <li class="nameList">Dat H Tran</li>
+               <li class="nameList Last">Hongyi Wu</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In recent years, we have witnessed a remarkable proliferation of Internet of Things
+                     (IoT) devices, which are quickly penetrating into almost every industry and making
+                     tremendous impacts on the national economy and the entire society. However, security
+                     and privacy remain a fundamental hurdle in the collection, transmission, and processing
+                     of IoT data. This work focuses on privacy-preserved data access that is critical for
+                     implementing and exploiting the full potential of future IoT. This work represents
+                     the first endeavor to develop practical Compact Inner Product Encryption (C-IPE) aiming
+                     to achieve privacy-preserved data access in IoTs. We propose a practical scheme that
+                     provides <em>effective, fine-grained, and privacy-preserved access</em> to IoT data while at the same time, is <em>computationally efficient</em> for practical deployment on resource-constrained IoT devices to preserve the designers
+                     of energy-efficient embedded systems and applications a balance between performance,
+                     power, security, and cost-effectiveness. We also analyze the efficiency of C-IPE.
+                     Compared with the original IPE, the key size is reduced from <em>n</em> + 1 to a small constant; the ciphertext size is reduced by half, i.e., from 2<em>n</em> + 2 to <em>n</em> + 1; and the decryption effectively avoids the high cost of cryptographic pairing.
+                     These salient properties result in high efficiency in computation and storage, making
+                     C-IPE well-suited for IoT applications. To demonstrate the practicality of our scheme,
+                     we implement C-IPE in three representative privacy-preserving applications: privacy-preserved
+                     attribute matching, distance matching, and linear regression in IoT settings. We carry
+                     out extensive experiments on four platforms, i.e., Dell workstation, Raspberry Pi
+                     3 with an ARM Cortex processor, Samsung Galaxy 7, and ultra-low-power Arduino Nano
+                     33 micro-controller using 32-bit ARM Cortex-M0 CPU with 256KB Flash and 16KB RAM.
+                     The experimental results demonstrate significant improvements over existing IPE schemes,
+                     supported by detailed numerical evidence and comparative figures across practical
+                     application settings.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734699">Ripple: Software-Only Detection of Signal Injection Attacks in Drone Temperature Sensors</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Milad Rezaee</li>
+               <li class="nameList">Sebastian Köhler</li>
+               <li class="nameList Last">Kasper Rasmussen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Signal injection attacks pose a serious threat to systems that rely on sensor information
+                     to determine their behavior. Using such an attack, an attacker can remotely manipulate
+                     the values of a sensor by transmitting appropriately formed RF signals that induce
+                     a current in the sensor wires. For example, to manipulate the temperature sensor in
+                     a battery management system, to trigger thermal protection, and shut down the battery.
+                     While several defense mechanisms have been proposed, they all need additional hardware
+                     to work. In this paper, we present RIPPLE, a fully software-based detection mechanism
+                     that can reliably detect signal injection attacks against drone sensor systems. A
+                     software-only solution is a practical way to add protection to an existing fleet of
+                     drones, and it is a cost effective alternative to the existing proposals for new drones.
+                     Our detection mechanism exploits a physical layer property known as small-scale (fast)
+                     fading, which causes the wireless channel between the attacker and drone to change
+                     unpredictably. As a result, the power induced by the attacker's transmission will
+                     oscillate rapidly, whenever the drone is in motion. We show for the first time that
+                     this effect occurs even with extremely minimal motion, such as a drone hovering in
+                     place on a calm, windless day. This oscillation is used as the basis of our detection
+                     system. We conduct an in-depth evaluation of RIPPLE on drones in several different
+                     environments. Our results show that RIPPLE reliably detects signal injection attacks.
+                     Even for weak attacks, changing the temperature by as little as 2°C, and with a drone
+                     movement of only a few millimeters, we have a success rate of over 98%. The performance
+                     only improves with stronger attack signals or more movement.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734714">SpaceJam: Protocol-aware Jamming Attacks against Space Communications</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Edd Salkield</li>
+               <li class="nameList">Sebastian Köhler</li>
+               <li class="nameList">Simon Birnbach</li>
+               <li class="nameList">Martin Strohmeier</li>
+               <li class="nameList Last">Ivan Martinovic</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Motivated by the growing prevalence of increasingly advanced satellite jamming attacks,
+                     we introduce and systematically analyze protocol-aware jammers: the worst-case scenario
+                     that maximally exploits the protocol to deny service whilst remaining as difficult
+                     to detect as possible. This extends existing satellite jamming and anti-jamming literature,
+                     which to date considers only conventional jamming waveforms. We find that protocol-aware
+                     jammers are significantly more effective than conventional jammers against all major
+                     standardized satellite protocols, including when anti-jamming countermeasures in the
+                     form of interleaving and adaptive coding and modulation are employed. This performance
+                     is possible since current protocols have a cyclic and predictable nature. We assess
+                     the required capabilities in terms of synchronization, and show that many of these
+                     performance gains can be realized even by completely desynchronized jammers. We experimentally
+                     evaluate protocol-aware strategies against both a hardware and software receiver.
+                     The results show that over 15dB of performance gains over Gaussian jamming are possible
+                     against all tested satellite protocols. Furthermore, we find that the attack can be
+                     optimized in simulation and deployed against the hardware receiver without performance
+                     degradation. We conclude with a discussion of countermeasures, primarily at the protocol
+                     level, to improve the availability of these systems.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734711">RFinger: Environmental Fingerprint Embedding for Harmless mmWave Dataset Ownership
+                  Verification</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zixin Shang</li>
+               <li class="nameList">Zhi Wu</li>
+               <li class="nameList">Jiamu Li</li>
+               <li class="nameList">Yang Hu</li>
+               <li class="nameList Last">Yan Chen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The rapid evolution of millimeter-wave radar sensing technology has given rise to
+                     a proliferation of open-source radar datasets, creating an urgent need for innovative
+                     digital copyright protection techniques. However, conventional image and audio watermarking
+                     techniques are inadequate for radar copyright protection due to radar signals' sparsity,
+                     vulnerability and complexity. In this paper, we present RFinger, an ownership verification
+                     framework for static indoor millimeter-wave radar datasets. Our approach encodes environmental
+                     information extracted from radar signals into digital watermarks, strategically embedding
+                     these within carefully selected data frames to establish robust verification credentials.
+                     We develop statistical hypothesis testing metrics to detect unauthorized access to
+                     RFinger-protected data in black-box setting. Our strategic watermark design ensures
+                     that the unauthorized models exhibit distinctly anomalous performance on verification
+                     data compared to legitimate models. Through experiments on two large millimeter-wave
+                     radar datasets, we have validated that our designed strategy provides high watermark
+                     retrieval accuracy without compromising downstream tasks.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734702">Anti-Tamper Radio Meets Reconfigurable Intelligent Surface for System-Level Tamper
+                  Detection</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Maryam Shaygan Tabar</li>
+               <li class="nameList">Johannes Kortz</li>
+               <li class="nameList">Paul Staat</li>
+               <li class="nameList">Harald Elders-Boll</li>
+               <li class="nameList">Christof Paar</li>
+               <li class="nameList Last">Christian Zenger</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Many computing systems need to be protected against physical attacks using active
+                     tamper detection based on sensors. One technical solution is to employ an Anti-Tamper
+                     Radio (ATR) approach, analyzing the radio wave propagation effects within a protected
+                     device to detect unauthorized physical alterations. However, ATR systems face key
+                     challenges in terms of susceptibility to signal manipulation attacks, limited reliability
+                     due to environmental noise, and regulatory constraints from wide bandwidth usage.</p> 
+                  <p>In this work, we propose and experimentally evaluate an ATR system complemented by
+                     a Reconfigurable Intelligent Surface (RIS) to dynamically reconfigure the wireless
+                     propagation environment. We show that this approach can enhance resistance against
+                     signal manipulation attacks, reduce bandwidth requirements from several GHz down to
+                     as low as 20 MHz, and improve robustness to environmental disturbances such as internal
+                     fan movements.</p> 
+                  <p>Our work demonstrates that RIS integration can strengthen the ATR performance to enhance
+                     security, sensitivity, and robustness, recognizing the potential of smart radio environments
+                     for ATR-based tamper detection.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: SoK Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734716">SoK: Evaluating 5G-Advanced Protocols Against Legacy and Emerging Privacy and Security
+                  Attacks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Stavros Eleftherakis</li>
+               <li class="nameList">Domenico Giustiniano</li>
+               <li class="nameList Last">Nicolas Kourtellis</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Ensuring user privacy remains a critical concern within mobile cellular networks,
+                     particularly given the proliferation of interconnected devices and services. In fact,
+                     a lot of user privacy issues have been raised in 2G, 3G, and 4G networks. Acknowledging
+                     these concerns, 3GPP has prioritized addressing these issues in the development of
+                     5G, implementing numerous modifications to enhance user privacy since 5G Release 15.
+                     In this systematization of knowledge paper, we first provide a framework for studying
+                     privacy and security related attacks in cellular networks, setting as privacy objective
+                     the User Identity Confidentiality defined in 3GPP standards. Using this framework,
+                     we discuss existing privacy and security attacks in pre-5G networks, analyzing the
+                     weaknesses that lead to these attacks. Furthermore, we thoroughly study the security
+                     characteristics of 5G up to the latest 5G-Advanced Release 19, and examine mitigation
+                     mechanisms of 5G to the identified pre-5G attacks. Afterwards, we analyze how recent
+                     5G attacks try to overcome these mitigation mechanisms. Finally, we identify current
+                     limitations and open problems in security of 5G, and propose directions for future
+                     work.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734715">SoK: Security in the Inaudible World</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">David Inyangson</li>
+               <li class="nameList">Aditya Gaur</li>
+               <li class="nameList">Atheer Almogbil</li>
+               <li class="nameList">Tushar M. Jois</li>
+               <li class="nameList Last">Aviel D. Rubin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Ultrasound and near-ultrasound acoustic frequencies offer non-intrusive and low-overhead
+                     mediums for data transmission protocols. These protocols and the technologies built
+                     upon them are becoming more prevalent, yet their security remains largely unexplored.
+                     We present the first systematization of ultrasound and near-ultrasound enabled applications,
+                     developing a unified threat model to address their security. Our analysis reveals
+                     misguided assumptions, missing protections, and the need for standardization. Through
+                     our taxonomy, we highlight key insights, future research directions, and propose a
+                     framework for securing these protocols.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Short Papers</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734721">Improving Wireless Security Research: Cost-Effective Detection of Wireless Charging
+                  Vulnerabilities</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shannon Beck</li>
+               <li class="nameList">Steven Fulton</li>
+               <li class="nameList">Jordan Scott</li>
+               <li class="nameList Last">Manohar Raavi</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>We present a study that enhances wireless security research through a systematic comparison
+                     of high- and low-cost equipment for experiment reproduction. Our study evaluates wireless
+                     power transfer security by replicating experiments in both a controlled anechoic chamber
+                     and an uncontrolled Radio Frequency (RF) lab. </p> 
+                  <p>We examine the growing security and privacy concerns associated with the widely used
+                     Qi wireless charging protocol. Prior research has identified critical vulnerabilities,
+                     including device tracking and the detection of active applications during charging.
+                     Addressing these risks requires a comprehensive study of the Qi standard and other
+                     emerging wireless power protocols to identify and mitigate potential threats. </p> 
+                  <p>This study assesses the effectiveness of high-cost versus low-cost research setups,
+                     benchmarking their performance. Our findings suggest that in most cases, a low-cost
+                     approach is sufficient for wireless security research, offering a viable alternative
+                     without compromising experimental integrity.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734717">Fragile Frames: Wi-Fi's Fraught Fight Against FragAttacks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Siebe Devroe</li>
+               <li class="nameList">Höloïse Gollier</li>
+               <li class="nameList Last">Mathy Vanhoef</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In 2021, researchers disclosed vulnerabilities in the IEEE 802.11 standard related
+                     to frame fragmentation and aggregation, also known as the FragAttacks. In this paper,
+                     we design novel methods to measure whether real-world Wi-Fi networks are still affected
+                     by these vulnerabilities. Using our methods, we conducted surveys in three cities
+                     at two points in time (2023 and 2025) and found many networks still vulnerable. Concretely,
+                     we detected 52691 networks, found that in one city, 30% are still affected by one
+                     of the FragAttacks, and that for some ISPs, nearly all their routers are still affected.
+                     Motivated by this, we also present a design flaw in the 802.11 standard's defense
+                     against one of these vulnerabilities.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734718">Evaluating Time-Bounded Defense Against RRC Relay in 5G Broadcast Messages</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yilu Dong</li>
+               <li class="nameList">Tao Wan</li>
+               <li class="nameList">Tianwei Wu</li>
+               <li class="nameList Last">Syed Rafiul Hussain</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As 5G and future generations of mobile networks aim to provide faster and more secure
+                     wireless connections, 5G broadcast messages remain unprotected. Hence, a user device
+                     cannot verify the identity of a base station before establishing the connection and
+                     starting the registration procedure. This long-existing loophole enables various types
+                     of fake base station (FBS) attacks. To protect end-users from these attacks, a practical
+                     solution is to introduce a digital signature for these broadcast messages. However,
+                     an FBS may also have the ability to relay a digitally signed broadcast message from
+                     a benign base station to bypass the protection. Considering that a relayed message
+                     needs extra time to reach a user device, a time-bounded defense mechanism can be used
+                     on top of the digital signature to offer replay protection. Although previous work
+                     proposed such a solution, none have implemented it or evaluated it against relay attacks.
+                     Hence, to evaluate the performance of our proposed digital signature scheme and the
+                     time-bounded defense, we implemented the solution against relay attacks using an open-source
+                     5G system. Our results show that the overhead introduced is acceptable and that the
+                     time-bounded defense is effective against relay attacks.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734726">FirmState: Bringing Cellular Protocol States to Shannon Baseband Emulation</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Suhwan Jeong</li>
+               <li class="nameList">Beomseok Oh</li>
+               <li class="nameList">Kwangmin Kim</li>
+               <li class="nameList">Insu Yun</li>
+               <li class="nameList">Yongdae Kim</li>
+               <li class="nameList Last">CheolJun Park</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Cellular baseband processors represent critical security components in modern mobile
+                     devices, yet they remain challenging to analyze due to their complexity and restricted
+                     access. Recent advances in baseband research introduced FirmWire, the state-of-the-art
+                     emulator enabling full-system baseband emulation with extensive features debugging
+                     capabilities. However, it lacks protocol state awareness, significantly limiting its
+                     coverage and fidenlity. While implementing such support demands substantial engineering
+                     effort, accurately modeling protocol states remains essential for comprehensive baseband
+                     security analysis. In this paper, we present FirmState, a state-aware methodology that augments baseband emulation, specifically targeting
+                     Samsung Shannon baseband. FirmState semi-automatically recovers and applies state information extracted from physical
+                     devices during actual network communication, enabling more complete code coverage
+                     and authentic behavior reproduction without extensive reverse engineering. Our evaluation
+                     demonstrates a significant improvement in code coverage, achieving 7.5% for RRC--2.7×
+                     higher than previous work. Additionally, our system newly supports NAS over FirmWire,
+                     with code coverage ranging from 4.5% to 9.2%, depending on the protocol state. Using
+                     our approach, we discovered and analyzed two 1-day vulnerabilities in Samsung's baseband
+                     implementation, demonstrating FirmState's effectiveness for baseband security. We make FirmState open-source to support further research in baseband security.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734725">Low-Layer Attacks Against 4G/5G Networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Norbert Ludant</li>
+               <li class="nameList">Marinos Vomvas</li>
+               <li class="nameList">Stavros Dimou</li>
+               <li class="nameList Last">Guevara Noubir</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Prior security analyses of 3GPP systems primarily focus on upper layers of the stack.
+                     Unfortunately, the physical and MAC layers are not as thoroughly analyzed, even though
+                     they are neither encrypted nor integrity protected. Furthermore, the latest 5G releases
+                     significantly increase the number of low-layer control messages and procedures. We
+                     conduct a systematic vulnerability analysis of these low layers, and demonstrate that
+                     current cellular systems are susceptible to passive attacks, and active spoofing of
+                     PHY/MAC messages. For instance, we find that sniffing beamforming information enables
+                     fingerprinting-based localization and tracking of users. We also show that signal
+                     spoofing is possible in 5G NR, and more efficient compared to LTE networks. We also
+                     evaluate active attacks against COTS UEs, showing it is possible to disrupt user communications
+                     by tricking connected UEs into acting as jammers, or by stealthily disconnecting active
+                     users. In our experiments we achieve user localization within 20-meters 96% of the
+                     time, user path tracking within 15 meters for 81% of the paths, and throughput reduction
+                     by over 95% within 2 seconds (by spoofing a 39-bit DCI).</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734724">BlindSpot: Efficient Single-Node Selective Jamming for LoRaWAN</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Vincenz Mechler</li>
+               <li class="nameList">Frank Hessel</li>
+               <li class="nameList">Matthias Hollick</li>
+               <li class="nameList Last">Bastian Bloessl</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>LoRaWAN has become a widely adopted, cost-effective solution for Low-Power Wide-Area
+                     Networks (LPWANs), bridging the gap between short-range wireless protocols and high-power
+                     cellular networks. Its affordable hardware and robust physical layer make it a key
+                     enabler for Internet of Things (IoT) applications across sectors like agriculture,
+                     smart cities, and industrial automation-domains where security is of central importance.
+                     In this paper, we present BlindSpot, a novel jamming attack that enables efficient
+                     selective jamming of LoRaWAN gateways. Unlike traditional approaches that rely on
+                     creating high-power interference, BlindSpot exploits the limited number of demodulation
+                     paths in LoRaWAN gateways to continuously occupy the gateways with fabricated frames,
+                     blinding them for any other legitimate transmissions. Compared to existing approaches,
+                     this reduces the attacker's power requirements and allows them to decode the legitimate
+                     transmissions with a high probability. Selectively retransmitting these frames, the
+                     attacker has precise control over which transmissions can be decoded by the gateway.
+                     Using a Software-Defined Radio (SDR)-based LoRa transceiver, we demonstrate the effectiveness
+                     of the attack against commercial LoRaWAN gateways and propose detection and mitigation
+                     strategies to improve the security of LoRaWAN deployments.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734722">Assessing the Latency of Network Layer Security in 5G Networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sotiris Michaelides</li>
+               <li class="nameList">Jonathan Mucke</li>
+               <li class="nameList Last">Martin Henze</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>In contrast to its predecessors, 5G supports a wide range of commercial, industrial,
+                     and critical infrastructure scenarios. One key feature of 5G, ultra-reliable low latency
+                     communication, is particularly appealing to such scenarios for its real-time capabilities.
+                     However, 5G's enhanced security, mostly realized through <em>optional</em> security controls, imposes additional overhead on the network performance, potentially
+                     hindering its real-time capabilities. To better assess this impact and guide operators
+                     in choosing between different options, we measure the latency overhead of IPsec when
+                     applied over the N3 and the service based interfaces to protect user and control plane
+                     data, respectively. Furthermore, we evaluate whether WireGuard constitutes an alternative
+                     to reduce this overhead. Our findings show that IPsec, if configured correctly, has
+                     minimal latency impact and thus is a prime candidate to secure real-time critical
+                     scenarios.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734720">Universal Spoofing of Real-World Aircraft Multilateration</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Oliver Senn</li>
+               <li class="nameList">Giorgio Tresoldi</li>
+               <li class="nameList">Daniel Moser</li>
+               <li class="nameList">Vincent Lenders</li>
+               <li class="nameList Last">Martin Strohmeier</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>As spoofing attacks on GNSS-based aircraft navigation systems become more common in
+                     commercial aviation, independent local- ization methods such as ground-based distributed
+                     multilateration are increasingly being adopted for enhanced safety. While previous
+                     work has suggested these systems may be susceptible to multi- device spoofing, no
+                     successful real-world multilateration spoofing attacks have been documented so far.
+                     In this study, we examined the feasibility and potential impact of wireless spoofing
+                     on two deployed commercial multilateration systems. Our findings reveal that these
+                     systems share vulnerabilities with GNSS-based solutions such as ADS-B, although considerably
+                     greater effort is required for a successful attack. Using a testbed with a reception
+                     range ex- ceeding 300 km, we evaluated the requirements and constraints for executing
+                     such attacks and compared the efficacy of ghost injection, flooding, and trajectory
+                     manipulation tactics. These insights can help inform measures to secure existing multilateration
+                     systems.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734723">Augmenting BLE Fingerprinting Using Instantaneous Frequency</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">George-Alexandru Stoian</li>
+               <li class="nameList">Thiemo Voigt</li>
+               <li class="nameList Last">Christian Rohner</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Radiometric fingerprinting is a promising passive security measure for low-power IoT
+                     devices, that exploits the hardware imperfections of their radio signals. In this
+                     paper, we focus on extracting radiometric fingerprints from Bluetooth Low Energy (BLE)
+                     devices. We depart from previous work in that we facilitate fingerprinting in embedded
+                     network scenarios by extracting features from I/Q samples collected using a widely
+                     used BLE System-on-Chip. We introduce a novel approach that leverages instantaneous
+                     frequency analysis of signal dynamics to reveal hardware imperfections during symbol
+                     transitions in the packet payload. Our objective is to identify the most significant
+                     features contributing to device identification. Our experimental evaluation demonstrates
+                     that augmenting traditional aggregated FFT-based features with our proposed transition-based
+                     features increases identification accuracy from 56% to 74%.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3734719">Standing Firm in 5G: A Single-Round, Dropout-Resilient Secure Aggregation for Federated
+                  Learning</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Yiwei Zhang</li>
+               <li class="nameList">Rouzbeh Behnia</li>
+               <li class="nameList">Imtiaz Karim</li>
+               <li class="nameList">Attila A. Yavuz</li>
+               <li class="nameList Last">Elisa Bertino</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Federated learning (FL) is well-suited to 5G networks, where many mobile devices generate
+                     sensitive edge data. Secure aggregation protocols enhance privacy in FL by ensuring
+                     that individual user updates reveal no information about the underlying client data.
+                     However, the dynamic and large-scale nature of 5G-marked by high mobility and frequent
+                     dropouts-poses significant challenges to the effective adoption of these protocols.
+                     Existing protocols often require multi-round communication or rely on fixed infrastructure,
+                     limiting their practicality. We propose a lightweight, single-round secure aggregation
+                     protocol designed for 5G environments. By leveraging base stations for assisted computation
+                     and incorporating precomputation, key-homomorphic pseudorandom functions, and <em>t</em>-out-of-<em>k</em> secret sharing, our protocol ensures efficiency, robustness, and privacy. Experiments
+                     show strong security guarantees and significant gains in communication and computation
+                     efficiency, making the approach well-suited for real-world 5G FL deployments.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Posters</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736148">POSTER: TRIDENT -- A Three-Tier Privacy-Preserving Propaganda Detection Model in Mobile
+                  Networks using Transformers, Adversarial Learning, and Differential Privacy</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Al Nahian Bin Emran</li>
+               <li class="nameList">Dhiman Goswami</li>
+               <li class="nameList">Md Hasan Ullah Sadi</li>
+               <li class="nameList Last">Sanchari Das</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The proliferation of propaganda on mobile platforms raises critical concerns around
+                     detection accuracy and user privacy. To address this, we propose TRIDENT -a <em>three-tier propaganda detection model implementing transformers, adversarial learning,
+                        and differential privacy</em> which integrates syntactic obfuscation and label perturbation to mitigate privacy
+                     leakage while maintaining propaganda detection accuracy. TRIDENT leverages multilingual
+                     back-translation to introduce semantic variance, character-level noise, and entity
+                     obfuscation for differential privacy enforcement, and combines these techniques into
+                     a unified defense mechanism. Using a binary propaganda classification dataset, baseline
+                     transformer models (BERT, GPT-2) we achieved F1 scores of 0.89 and 0.90. Applying
+                     TRIDENT's third-tier defense yields a reduced but effective cumulative F1 of 0.83,
+                     demonstrating strong privacy protection across mobile ML deployments with minimal
+                     degradation.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736151">Poster: SIMulator: SIM Tracing on a (Pico-)Budget</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Gabriel K. Gegenhuber</li>
+               <li class="nameList">Philipp É. Frenzel</li>
+               <li class="nameList Last">Adrian Dabrowski</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>SIM tracing - the ability to inspect, modify, and relay communication between a SIM
+                     card and modem - has become a significant technique in cellular network research.
+                     It enables essential security- and development-related applications such as fuzzing
+                     communication interfaces, extracting session keys, monitoring hidden SIM activity
+                     (e.g., proactive SIM commands or over-the-air updates), and facilitating scalable,
+                     distributed measurement platforms through SIM reuse. Traditionally, achieving these
+                     capabilities has relied on specialized hardware, which can pose financial and logistical
+                     burdens for researchers, particularly those new to the field.</p> 
+                  <p>In this work, we show that full SIM tracing functionality can be achieved using only
+                     simple, widely available components, such as UART interfaces and GPIO ports. We port
+                     these capabilities to low-cost microcontrollers, exemplified by the Raspberry Pi Pico
+                     (4 USD). Unlike other approaches, it dramatically reduces hardware complexity by electrically
+                     decoupling the SIM and the modem and only transferring on APDU level.</p> 
+                  <p>By significantly reducing hardware requirements and associated costs, we aim to make
+                     SIM tracing techniques accessible to a broader community of researchers and hobbyists,
+                     fostering wider exploration and experimentation in cellular network research.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736146">POSTER: VeilPIR: A Lightweight Private Information Retrieval Protocol for Enhancing
+                  Data Privacy in IoT Ecosystems</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Saurav Ghosh</li>
+               <li class="nameList Last">Sanchari Das</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The rapid expansion of wireless IoT devices in domains such as smart homes, healthcare,
+                     and critical infrastructure has heightened concerns about data privacy, especially
+                     as many devices continue to access cloud services without encryption. Private Information
+                     Retrieval (PIR) protocols offer a way to protect query privacy by hiding the accessed
+                     record index, but most existing approaches rely on computationally intensive operations
+                     that exceed the capabilities of low-power IoT hardware. We present <em>VeilPIR</em>, a lightweight single-server PIR protocol designed specifically for resource-constrained
+                     devices connected over wireless links like BLE and Wi-Fi. VeilPIR shifts the heavy
+                     cryptographic workload to the server, allowing clients to send small encrypted queries
+                     and receive constant-size responses that preserve semantic privacy. We implemented
+                     VeilPIR in Python using Flask and deployed it to simulate realistic IoT conditions.
+                     Evaluation on a client and a cloud server shows 900 ms round-trip for 1,000 records
+                     and &lt;1 J energy per query, while still allowing live record insertions and deletions
+                     without full re-encryption.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736147">POSTER: A Multi-Signal Model for Detecting Evasive Smishing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Shaghayegh Hosseinpour</li>
+               <li class="nameList Last">Sanchari Das</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Smishing, or SMS-based phishing, poses an increasing threat to mobile users by mimicking
+                     legitimate communications through culturally adapted, concise, and deceptive messages,
+                     which can result in the loss of sensitive data or financial resources. In such, we
+                     present a multi-channel smishing detection model that combines country-specific semantic
+                     tagging, structural pattern tagging, character-level stylistic cues, and contextual
+                     phrase embeddings. We curated and relabeled over 84,000 messages across five datasets,
+                     including 24,086 smishing samples. Our unified architecture achieves 97.89% accuracy,
+                     an F1 score of 0.963, and an AUC of 99.73%, outperforming single-stream models by
+                     capturing diverse linguistic and structural cues. This work demonstrates the effectiveness
+                     of multi-signal learning in robust and region-aware phishing.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736149">Poster: BLE-Shield: A Hybrid Framework for Threat Identification in Bluetooth Low
+                  Energy (BLE) Networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Adalynn Martinez</li>
+               <li class="nameList">Usman Rauf</li>
+               <li class="nameList Last">Fadi Mohsen</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Bluetooth Low Energy (BLE) is increasingly prevalent in IoT networks, particularly
+                     in high-risk environments such as medical IoT. However, existing security research
+                     in BLE often focuses on isolated device types or controlled environments, overlooking
+                     the complexities of real-world BLE interactions, including environmental noise and
+                     the heterogeneous nature of devices. This paper proposes a multilayered framework
+                     for BLE data extraction designed to capture, process, and correlate data from diverse
+                     sources to construct comprehensive behavioral signatures. Our approach explores traffic
+                     analysis and introduces the potential of spectrum analysis to identify malicious activity
+                     beyond conventional packet-level monitoring. By identifying key behavioral markers
+                     and deviations from expected norms, this approach enhances BLE anomaly detection and
+                     strengthens the security of IoT networks.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736150">Poster: When Diameter Firewall Meets User Devices</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Maurice Zhang</li>
+               <li class="nameList">Stephen Dowhy</li>
+               <li class="nameList">John Doyle</li>
+               <li class="nameList">David Dunn</li>
+               <li class="nameList">Joel Cornett</li>
+               <li class="nameList Last">Sangwook Bae</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>A Diameter firewall is essential for mobile operators to protect their subscribers,
+                     as Diameter networks lack end-to-end authentication and heavily rely on trust among
+                     partner operators. Among the various attacks exploiting the Diameter protocol, one
+                     notable example involves falsely updating a subscriber's location and illegitimately
+                     requesting authentication data. Conventional methods, known as velocity checks, validate
+                     the originating network of messages by assessing the plausibility of subscriber movement
+                     based solely on network-provided information. However, attackers can still bypass
+                     these checks by simulating their presence in nearby or bordering countries. This poster
+                     introduces a user-interactive Diameter firewall, which incorporates user engagement
+                     by allowing subscribers to confirm suspicious requests.</p>
+                  	</div>
+            </div>
+            						
+            					
+            <h2>SESSION: Demonstrations</h2>
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736154">DEMO: AI5GTest: LLM based Automation for 5G O-RAN Testing</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Abiodun Ganiyu</li>
+               <li class="nameList">Pranshav Gajjar</li>
+               <li class="nameList Last">Vijay K Shah</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>The transition to Open Radio Access Networks (O-RAN) introduces testing challenges
+                     due to multi-vendor interoperability requirements, with existing manual frameworks
+                     being error-prone and unscalable. To address this, we propose AI5GTest, an AI-driven
+                     framework that automates O-RAN component testing using cooperative Large Language
+                     Models (LLMs). Gen-LLM generates test flows from O-RAN/3GPP specifications, Val-LLM
+                     validates signaling compliance, and Debug-LLM diagnoses failures. A human-in-the-loop
+                     mechanism ensures transparency by verifying specifications before validation. Evaluated
+                     on 24 test cases with the srsRAN 5G stack, AI5GTest reduces test execution time significantly
+                     compared to manual methods while maintaining high accuracy, demonstrating scalable,
+                     trustworthy automation for O-RAN ecosystems.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736153">DEMO: Illuminating the BlindSpot: Efficient Single-Node Selective Jamming for LoRaWAN</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Vincenz Mechler</li>
+               <li class="nameList">Frank Hessel</li>
+               <li class="nameList">Matthias Hollick</li>
+               <li class="nameList Last">Bastian Bloessl</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>LoRaWAN has become a widely adopted, cost-effective solution for Low-Power Wide-Area
+                     Networks (LPWANs), bridging the gap between short-range wireless protocols and high-power
+                     cellular networks. Its affordable hardware and robust physical layer make it a key
+                     enabler for Internet of Things (IoT) applications across sectors like agriculture,
+                     smart cities, and industrial automation-domains where security is of central importance.
+                     Investigating LoRaWAN's resilience against physical-layer attacks, we developed <em>BlindSpot,</em> a novel jamming attack targeting state-of-the-art LoRaWAN gateways. Unlike traditional
+                     jammers, BlindSpot does not rely on overpowering transmissions but prevents their
+                     reception by exhausting resources at the gateway. This is possible since commercial
+                     gateway processors have only a limited number of demodulators for parallel frame reception.
+                     In this demo, we show the effectiveness of the attack against a commercial LoRaWAN
+                     gateway, compare it to traditional jamming, and show how our Software-Defined Radio
+                     (SDR)-based receiver can overcome the attack.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736155">Demo: Fooling Eavesdroppers via On-Phone Metasurface and Spoofed Audio Information</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Zhambyl Shaikhanov</li>
+               <li class="nameList">Mahmoud Al-Madi</li>
+               <li class="nameList">Jy-Chin Liao</li>
+               <li class="nameList">Hou-Tong Chen</li>
+               <li class="nameList">Chun-Chieh Chang</li>
+               <li class="nameList">Sadhvikas Addamane</li>
+               <li class="nameList">Daniel M. Mittleman</li>
+               <li class="nameList Last">Edward Knightly</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>Wireless eavesdropping on phone conversations has become a major security concern
+                     as attackers repurpose advanced wireless capabilities in 5G and beyond featuring higher
+                     frequencies and higher sensing resolution. Recent studies have demonstrated that attackers
+                     can exploit off-the-shelf millimeter-wave radars to covertly detect even micron-scale
+                     vibrations of smartphones caused by the earpiece during the phone conversation, eavesdropping
+                     on audio information without the victim ever noticing. In our IEEE S&amp;P'25 paper, we
+                     present a new architecture that not only thwarts such attacks but also injects false
+                     signatures to fool eavesdroppers into believing they have succeeded. Here, we demonstrate
+                     the eavesdropping countermeasure technique that enables the user to hide his private
+                     acoustic signals and simultaneously inject an alternative signal via a low-profile,
+                     reconfigurable metasurface. We present a metasurface-based audio encoding method that
+                     generates artificial audio-vibration signatures to send deceptive audio information
+                     to eavesdroppers. We showcase experimental audio samples from both the attack and
+                     the proposed countermeasure, which transforms defensive strategies from merely reactive
+                     to proactively deceptive.</p>
+                  	</div>
+            </div>
+            						
+            					
+            						
+            <h3><a class="DLtitleLink" title="Full Citation in the ACM Digital Library" referrerpolicy="no-referrer-when-downgrade" href="https://dl.acm.org/doi/10.1145/3734477.3736152">DEMO: Radio Unit Activity Fingerprinting through Electromagnetic Side-Channel Analysis
+                  in O-RAN Networks</a></h3>
+            <ul class="DLauthors">
+               <li class="nameList">Sreenithya Somavarapu</li>
+               <li class="nameList">Harshita Chaudhari</li>
+               <li class="nameList">Nour El Houda Aidlaid</li>
+               <li class="nameList">Nongnapat Adchariyavivit</li>
+               <li class="nameList">Qais Dib</li>
+               <li class="nameList">Moinul Hossain</li>
+               <li class="nameList">Vijay K. Shah</li>
+               <li class="nameList Last">Md. Tanvir Arafin</li>
+            </ul>
+            <div class="DLabstract">
+               <div style="display:inline">
+                  		
+                  <p>While the disaggregated architecture of the industry-driven Open Radio Access Network
+                     (O-RAN) promises to foster vendor competition, accelerate innovation, and reduce cost
+                     for 5G/6G cellular network deployments, it also exposes the cellular network to various
+                     new cybersecurity and privacy vulnerabilities. This demo paper highlights one such
+                     new potential cybersecurity vulnerability in the Radio Unit (RU) of O-RAN networks,
+                     where an adversary can infer RU activity by analyzing electromagnetic side-channel
+                     emissions. We present a custom-built, open-source cellular O-RAN testbed equipped
+                     with EM measurement capabilities that enables direct observation of the FPGA-based
+                     RU during operation. By capturing EM emissions from the RU, we extract side-channel
+                     traces that reveal the underlying RU activity. These traces are then analyzed using
+                     a Random Forest-based machine learning classifier, which accurately distinguishes
+                     between different RU activity patterns. Our preliminary findings demonstrate the feasibility
+                     of inferring RU-level operations via passive EM observation, highlighting a previously
+                     unexplored security threat in O-RAN systems. All code and experimental artifacts are
+                     made publicly available at https://github.com/SPIRE-GMU/NextGRadio_Sidechanel.</p>
+                  	</div>
+            </div>
+            						
+            					</div>
+      </div>
+   </body>
+</html>

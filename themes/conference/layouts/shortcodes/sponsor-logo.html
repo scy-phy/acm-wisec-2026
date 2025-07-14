@@ -1,0 +1,3 @@
+<div class="sp-logo"{{ with .Get "width" }} style="max-width: {{ . }}px;"{{ end }}>
+<a target="_blank" href="{{ .Get "url" | relURL }}"><img src="{{ .Get "src" | relURL }}"{{ with .Get "width" }} style="max-width: {{ . }}px;" width="{{ . }}"{{ end }}{{ with .Get "height" }} height="{{ . }}"{{ end }}{{ with .Get "title" }}{{ printf " alt=%q title=%q" . . | safeHTMLAttr }}{{ end }}></a>
+</div>

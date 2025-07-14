@@ -1,0 +1,60 @@
+<footer id="footer" class="container-fluid py-3 bg-dark text-light" role="contentinfo">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 text-center text-md-left">
+                <nav id="footer-navigation">
+                    <ul id="footer-menu" class="footer-menu">
+                        <li class="menu-item"><a class="menu-link" href="#header" title="scroll to top">&uarr;</a></li>
+                    {{- range $.Site.Menus.footer -}}
+                        {{- $menuHidden := false -}}
+                        {{- with .Page -}}
+                            {{- $menuHidden = .Params.hidden -}}
+                        {{- end -}}
+                        {{- if not $menuHidden -}}
+                            {{- $url := .URL -}}
+                            {{- if .Page -}}
+                                {{- with .Page.Params.target -}}
+                                    {{- $url = . -}}
+                                {{- end -}}
+                            {{- end -}}
+                            {{- $externalURL := true -}}
+                            {{- if ne ($url | relLangURL) ($url | absLangURL) -}}
+                                {{- $externalURL = false -}}
+                            {{- end -}}
+                        <li class="menu-item"><a class="menu-link"{{ if $externalURL }} rel="noopener" target="_blank"{{ end }} href="{{ $url | absLangURL }}">
+                            {{- with .Title }}{{ . }}{{ else }}{{ .Name }}{{ end -}}
+                        </a></li>
+                        {{- end -}}
+                    {{- end }}
+                    </ul>
+                </nav>
+            </div>
+            <div id="footer-sociallinks" class="col-12 col-md-6 text-center text-md-right">
+                <ul id="sociallinks-menu" class="sociallinks-menu">
+                {{- range .Site.Menus.sociallinks -}}
+                    {{- $url := .URL -}}
+                    {{- if $url -}}
+                        {{- $externalURL := true -}}
+                        {{- if ne ($url | relLangURL) ($url | absLangURL) -}}
+                            {{- $externalURL = false -}}
+                        {{- end -}}
+                    <li class="menu-item"><a class="menu-link"{{ if $externalURL }} rel="noopener" target="_blank"{{ end }} href="{{ $url | absLangURL }}" title="{{ with .Title }}{{ . }}{{ else }}{{ .Name }}{{ end }}"><i class="{{ .Pre }}"></i></a></li>
+                    {{- end -}}
+                {{- end }}
+                </ul>
+            </div>
+            <div class="col-12 text-center text-light copyright-footer">
+            {{- if .Site.Copyright -}}
+                Copyright &copy; 2025 {{ .Site.Copyright | safeHTML }}
+            {{- end -}}
+            </div>
+<!--            <div class="col-12 text-center text-light copyright-footer">
+                {{- if .Site.Copyright -}}
+                    Copyright &copy; {{ now.Format "2006" }} {{ .Site.Copyright | safeHTML }}
+                {{- end -}}
+            </div>
+-->
+        </div>
+    </div>
+    <span id="scroll-top"><a class="scrollup"><i class="fas fa-chevron-up"></i></a></span>
+</footer>

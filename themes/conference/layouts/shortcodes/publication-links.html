@@ -1,0 +1,149 @@
+{{- $badge_image_url := "images/badges/replicability-badge.png"}}
+{{- $authors := slice "" -}}
+{{- $presenting_author := "" -}}
+{{- with .Get "presenting_author" -}}
+    {{- $presenting_author = . -}}
+{{- end -}}
+{{- with .Get "author1" -}}
+    {{- $cur := split ( . ) " #" -}}
+    {{- if eq $presenting_author (index $cur 0) "<sup>" (index $cur 1) "</sup>" -}}
+        {{- $authors = $authors | append "<span class=\"presenting-author\">" (index $cur 0) "</span>" -}}
+    {{- else -}}
+        {{- $authors = $authors | append (index $cur 0) "<sup> " (index $cur 1) "</sup>" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Get "author2" -}}
+    {{- if isset $.Params "author3" -}}{{- $authors = $authors | append ", " -}}{{- else -}}{{- $authors = $authors | append " and " -}}{{- end -}}
+    {{- $cur := split ( . ) " #" -}}
+    {{- if eq $presenting_author (index $cur 0) -}}
+        {{- $authors = $authors | append "<span class=\"presenting-author\">" (index $cur 0) "</span>" -}}
+    {{- else -}}
+        {{- $authors = $authors | append (index $cur 0) "<sup> " (index $cur 1) "</sup>" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Get "author3" -}}
+    {{- if isset $.Params "author4" -}}{{- $authors = $authors | append ", " -}}{{- else -}}{{- $authors = $authors | append ", and " -}}{{- end -}}
+    {{- $cur := split ( . ) " #" -}}
+    {{- if eq $presenting_author (index $cur 0) -}}
+        {{- $authors = $authors | append "<span class=\"presenting-author\">" (index $cur 0) "</span>" -}}
+    {{- else -}}
+        {{- $authors = $authors | append (index $cur 0) "<sup> " (index $cur 1) "</sup>" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Get "author4" -}}
+    {{- if isset $.Params "author5" -}}{{- $authors = $authors | append ", " -}}{{- else -}}{{- $authors = $authors | append ", and " -}}{{- end -}}
+    {{- $cur := split ( . ) " #" -}}
+    {{- if eq $presenting_author (index $cur 0) -}}
+        {{- $authors = $authors | append "<span class=\"presenting-author\">" (index $cur 0) "</span>" -}}
+    {{- else -}}
+        {{- $authors = $authors | append (index $cur 0) "<sup> " (index $cur 1) "</sup>" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Get "author5" -}}
+    {{- if isset $.Params "author6" -}}{{- $authors = $authors | append ", " -}}{{- else -}}{{- $authors = $authors | append ", and " -}}{{- end -}}
+    {{- $cur := split ( . ) " #" -}}
+    {{- if eq $presenting_author (index $cur 0) -}}
+        {{- $authors = $authors | append "<span class=\"presenting-author\">" (index $cur 0) "</span>" -}}
+    {{- else -}}
+        {{- $authors = $authors | append (index $cur 0) "<sup> " (index $cur 1) "</sup>" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Get "author6" -}}
+    {{- if isset $.Params "author7" -}}{{- $authors = $authors | append ", " -}}{{- else -}}{{- $authors = $authors | append ", and " -}}{{- end -}}
+    {{- $cur := split ( . ) " #" -}}
+    {{- if eq $presenting_author (index $cur 0) -}}
+        {{- $authors = $authors | append "<span class=\"presenting-author\">" (index $cur 0) "</span>" -}}
+    {{- else -}}
+        {{- $authors = $authors | append (index $cur 0) "<sup> " (index $cur 1) "</sup>" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Get "author7" -}}
+    {{- if isset $.Params "author8" -}}{{- $authors = $authors | append ", " -}}{{- else -}}{{- $authors = $authors | append ", and " -}}{{- end -}}
+    {{- $cur := split ( . ) " #" -}}
+    {{- if eq $presenting_author (index $cur 0) -}}
+        {{- $authors = $authors | append "<span class=\"presenting-author\">" (index $cur 0) "</span>" -}}
+    {{- else -}}
+        {{- $authors = $authors | append (index $cur 0) "<sup> " (index $cur 1) "</sup>" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Get "author8" -}}
+    {{- if isset $.Params "author9" -}}{{- $authors = $authors | append ", " -}}{{- else -}}{{- $authors = $authors | append ", and " -}}{{- end -}}
+    {{- $cur := split ( . ) " #" -}}
+    {{- if eq $presenting_author (index $cur 0) -}}
+        {{- $authors = $authors | append "<span class=\"presenting-author\">" (index $cur 0) "</span>" -}}
+    {{- else -}}
+        {{- $authors = $authors | append (index $cur 0) "<sup> " (index $cur 1) "</sup>" -}}
+    {{- end -}}
+{{- end -}}
+{{- with .Get "author9" -}}
+    {{- $authors = $authors | append ", and " -}}
+    {{- $cur := split ( . ) " #" -}}
+    {{- if eq $presenting_author (index $cur 0) -}}
+        {{- $authors = $authors | append "<span class=\"presenting-author\">" (index $cur 0) "</span>" -}}
+    {{- else -}}
+        {{- $authors = $authors | append (index $cur 0) "<sup> " (index $cur 1) "</sup>" -}}
+    {{- end -}}
+{{- end -}}
+{{- $link :=  replaceRE "[^a-zA-Z0-9_]" "_" (.Get "title") -}}
+{{- with .Get "crossref" }}
+<a href="{{- . | relURL -}}#{{- $link -}}">
+{{- end -}}
+<span class="title">{{ .Get "title" | safeHTML }}</span>
+{{- with .Get "crossref" -}}
+</a>
+{{- end -}}
+{{- with .Get "suffix" }}
+<span class="titlesuffix">{{- . | safeHTML -}}</span>
+{{- end -}}
+{{- if or (isset .Params "preprint") (isset .Params "interview") (isset .Params "teaser") (isset .Params "doi") (isset .Params "replicable") }}
+<div class="publication-quicklinks" style="display: inline-block;">
+    {{- with .Get "replicable" -}}
+        {{- if eq ($.Get "replicable") "true" -}}
+            {{- if isset $.Params "replicability_button_link" -}}
+            <a href="{{- $.Get "replicability_button_link" | relURL -}}"><img height="18" width="18" style="margin-top: -2px; margin-right: 2px;" title="Replicable Research" src="{{- $badge_image_url | relURL}}"></a>
+            {{- else -}}
+            <img height="18" width="18" style="margin-top: -2px; margin-right: 2px;" title="Replicable Research" src="{{- $badge_image_url | relURL}}">
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+    {{- with .Get "award" -}}
+    <span class="mx-1 small award" title="{{- . -}}"><i class="icon fas fa-trophy"></i></span>
+    {{- end -}}
+    {{- with .Get "recognition" -}}
+    <span class="mx-1 small recognition" title="{{- . -}}"><i class="icon fas fa-star"></i></span>
+    {{- end -}}
+    {{- with .Get "preprint" -}}
+    <a class="mx-1 small" role="button" href="{{- . | relURL -}}" target="_blank" rel="noopener" title="Preprint"><i class="icon fas fa-file-alt"></i></a>
+    {{- end -}}
+    {{- with .Get "interview" -}}
+    <a class="mx-1 small" role="button" href="{{- . | relURL -}}" target="_blank" rel="noopener" title="Interview"><i class="icon fab fa-youtube"></i></a>
+    {{- end -}}
+    {{- with .Get "video" -}}
+    <a class="mx-1 small" role="button" href="{{- . | relURL -}}" target="_blank" rel="noopener" title="Video"><i class="icon fas fa-video"></i></a>
+    {{- end -}}
+    {{- with .Get "teaser" -}}
+    <a class="mx-1 small" role="button" href="{{- . | relURL -}}" target="_blank" rel="noopener" title="Teaser"><i class="icon fab fa-youtube"></i></a>
+    {{- end -}}
+    {{- with .Get "doi" -}}
+        {{- if ne ($.Get "doi_state") "disabled" -}}
+    <a class="mx-1 small" role="button" href="https://doi.org/{{.}}" target="_blank" rel="noopener" title="DOI {{- . -}}"><i class="icon fas fa-link"></i></a>
+        {{- end -}}
+    {{- end -}}
+</div>
+{{- end -}}
+{{- if (isset .Params "author1") }}
+<div class="publication-links-authors">
+    <div class="author">
+    {{- range $authors -}}{{- . | safeHTML -}}{{- end -}}
+    </div>
+    {{ with .Get "affiliation1" }}<span class="affiliation"><sup>1 </sup>{{. | safeHTML}}</span>{{ end }}
+    {{ with .Get "affiliation2" }}<span class="affiliation"><sup>2 </sup>{{. | safeHTML}}</span>{{ end }}
+    {{ with .Get "affiliation3" }}<span class="affiliation"><sup>3 </sup>{{. | safeHTML}}</span>{{ end }}
+    {{ with .Get "affiliation4" }}<span class="affiliation"><sup>4 </sup>{{. | safeHTML}}</span>{{ end }}
+    {{ with .Get "affiliation5" }}<span class="affiliation"><sup>5 </sup>{{. | safeHTML}}</span>{{ end }}
+    {{ with .Get "affiliation6" }}<span class="affiliation"><sup>6 </sup>{{. | safeHTML}}</span>{{ end }}
+    {{ with .Get "affiliation7" }}<span class="affiliation"><sup>7 </sup>{{. | safeHTML}}</span>{{ end }}
+    {{ with .Get "affiliation8" }}<span class="affiliation"><sup>8 </sup>{{. | safeHTML}}</span>{{ end }}
+    {{ with .Get "affiliation9" }}<span class="affiliation"><sup>9 </sup>{{. | safeHTML}}</span>{{ end }}
+</div>
+{{- end -}}

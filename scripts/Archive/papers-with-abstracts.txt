@@ -1,0 +1,1358 @@
+
+Submission #3: VoIPLoc: Passive VoIP call provenance via acoustic side-channels
+===============================================================================
+
+Abstract
+--------
+We propose VoIPLoc, a novel location fingerprinting technique and
+apply it to the VoIP call provenance problem. It exploits echo-location
+information embedded within VoIP audio to support fine-grained
+location inference. We found consistent statistical features induced
+by the echo-reflection characteristics of the location into recorded
+speech. These features are discernible within traces received at the
+VoIP destination, enabling location inference. We evaluated VoIPLoc by
+developing a dataset of audio traces received through VoIP channels
+over the Tor network. We show that recording locations can be
+fingerprinted and detected remotely with a low false-positive rate, even
+when a majority of the audio samples are unlabelled. Finally, we note
+that the technique is fully passive and thus undetectable, unlike
+prior art. VoIPLoc is robust to the impact of environmental noise and
+background sounds, as well as the impact of compressive codecs and
+network jitter. The technique is also highly scalable and offers
+several degrees of freedom terms of the fingerprintable space.
+
+Authors
+-------
+1. Shishir Nagaraja <shishir.nagaraja@strath.ac.uk> (University of Strathclyde)
+2. Ryan Shah <ryan.shah@strath.ac.uk> (University of Strathclyde)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* physical tracking and location privacy
+* side channels
+
+ACM keywords
+------------
+VoIP security; call provenance; source identification; location privacy; acoustic fingerprint
+
+ACM Computing Classification
+----------------------------
+10003033.10003083.10003014.10003016 Networks~Web protocol security [500]; 10002978.10002991.10002994 Security and privacy~Pseudonymity, anonymity and untraceability [500]; 10003033.10003083.10003014 Networks~Network security [500]
+
+Source files
+------------
+source.zip
+
+
+Submission #13: Spearphone: A Lightweight Speech Privacy Exploit via Accelerometer-Sensed
+Reverberations from Smartphone Loudspeakers
+================================================================================================
+
+Abstract
+--------
+In this paper, we build a speech privacy attack that exploits speech reverberations generated from a smartphone’s inbuilt loudspeaker captured via a zero-permission motion sensor (accelerometer). We design our attack Spearphone, and demonstrate that speech reverberations from inbuilt loudspeakers, at an appropriate loudness, can impact the accelerometer, leaking sensitive information about the speech. In particular, we show that by exploiting the affected accelerometer readings and carefully selecting feature sets along with off-the-shelf machine learning techniques, Spearphone can successfully perform gender classification (accuracy over 90%) and speaker identification (accuracy over 80%) for any audio/video playback on the smartphone. We use lightweight classifiers and an off-the-shelf machine learning tool so that the attacking effort is minimized, making our attack deployable in practice. Our results with testing the attack on a voice call and voice assistant response were also encouraging, showcasing the impact of the proposed attack. In addition, we perform speech recognition and speech reconstruction to extract more information about the eavesdropped speech to an extent. Our work brings to light a fundamental design vulnerability in many currently-deployed smartphones, which may put people’s speech privacy at risk while using the smartphone in the loudspeaker mode during phone calls, media playback or voice assistant interactions.
+
+Authors
+-------
+1. S Abhishek Anand <sanand53@bloomberg.net> (The University of Alabama at Birmingham)
+2. Chen Wang <chenwang1@lsu.edu> (Louisiana State University)
+3. Jian Liu <jliu@utk.edu> (University of Tennessee, Knoxville)
+4. Nitesh Saxena <saxena@uab.edu> (The University of Alabama at Birmingham)
+5. Yingying Chen <yingche@scarletmail.rutgers.edu> (Rutgers University)
+
+Paper type
+----------
+Full paper
+
+Topic
+-----
+* side channels
+
+ACM keywords
+------------
+side channel; speech privacy; motion sensor
+
+ACM Computing Classification
+----------------------------
+10002978 Security and privacy [500]; 10002978.10003001.10010777.10011702 Security and privacy~Side-channel analysis and countermeasures [500]
+
+Source files
+------------
+Spearphone.zip
+
+
+Submission #21: Remotely Controlling TrustZone Applications? A Study on Securely and Resiliently
+Receiving Remote Commands
+================================================================================================
+
+Abstract
+--------
+Mobile devices are becoming an indispensable part of work for corporations and governments to store and process sensitive information. Thus, it is important for remote administrators to maintain control of these devices via Mobile Device Management (MDM) solutions. ARM TrustZone has been widely regarded as the de facto solution for protecting the security-sensitive software, such as MDM agents, from attacks of a compromised rich OS. However, little attention has been given to protecting the MDM control channel, a fundamental component for a remote administrator to invoke the TrustZone-based MDM agents and perform specific management operations.
+
+In this work, we design an ARM TrustZone-based network mechanism, called TZNIC, towards enabling resilient and secure access to TrustZone-based software, even in the presence of a malicious rich OS. TZNIC deploys two NIC drivers, one secure-world driver and one normal-world driver, multiplexing one physical NIC. We utilize the ARM TrustZone-based high privilege to protect the secure-world driver and further resolve several challenges on sharing one set of hardware peripherals between two isolated software environments. TZNIC does not require any changes or collaboration of the rich OS. We implement a prototype of TZNIC, and the evaluation results show that TZNIC can provide a reliable network channel to invoke the security software in the secure world, with minimal system overhead on the rich OS.
+
+Authors
+-------
+1. Shengye Wan <swan@email.wm.edu> (The College of William and Mary)
+2. Kun Sun <ksun3@gmu.edu> (George Mason University)
+3. Ning Zhang <zhang.ning@wustl.edu> (Washington University in St. Louis)
+4. Yue Li <yli20@email.wm.edu> (The College of William and Mary)
+
+Paper type
+----------
+Full paper
+
+Topic
+-----
+* platforms and operating systems
+
+ACM keywords
+------------
+Mobile Device Management; ARM TrustZone; Network Interface Card; Network Driver
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]; 10002978.10003006.10003007.10003008 Security and privacy~Mobile platform security [500]
+
+Source files
+------------
+WiSec_TZNIC_CameraReady.zip
+
+
+Submission #23: Z-Fuzzer: Device-agnostic Fuzzing of Zigbee Protocol Implementation
+===================================================================================
+
+Abstract
+--------
+With the proliferation of the Internet of Things (IoT) devices, Zigbee is widely adopted as a resource-efficient wireless protocol.
+Recently, severe vulnerabilities in Zigbee protocol implementations have compromised IoT devices from different manufacturers.
+It becomes imperative to perform security testing on Zigbee protocol implementations. However, it is not a trivial task to apply the existing vulnerability detection techniques such as fuzzing to Zigbee protocol implementations. In particular, it remains a significant obstacle to deal with low-level hardware events. Many existing protocol fuzzing tools lack a proper execution environment for the Zigbee protocol,
+which communicates via a radio channel instead of the Internet.
+
+To bridge the above gap, we develop a device-agnostic fuzzing platform named \emph{Z-Fuzzer} to detect security vulnerabilities in
+Zigbee protocol implementations. Z-Fuzzer provides a software simulation environment with pre-defined peripherals and hardware interrupts configurations to simulate Zigbee protocol execution on real IoT devices.
+We first extend the existing protocol fuzzing framework's capabilities with a proxy server to bridge communication with the Zigbee protocol execution.
+Second, we generate more high-quality test cases with code-coverage heuristics.
+We compare Z-Fuzzer with advanced protocol fuzzing tools, BooFuzz and Peach fuzzer, on top of Z-Fuzzer's simulation platform.
+Our results show that Z-Fuzzer can achieve higher code coverage in a mainstream Zigbee protocol implementation called Z-Stack.
+\mytool\ has detected more vulnerabilities using fewer test cases than BooFuzz and Peach.
+Three of them have been assigned CVE IDs with high CVSS scores (7.5$\sim$8.2).
+
+Authors
+-------
+1. Mengfei Ren <mengfei.ren@mavs.uta.edu> (The University of Texas at Arlington)
+2. Xiaolei Ren <xiaolei.ren@mavs.uta.edu> (The University of Texas at Arlington)
+3. Huadong Feng <huadong.feng@mavs.uta.edu> (The University of Texas at Arlington)
+4. Jiang Ming <jiang.ming@uta.edu> (The University of Texas at Arlington)
+5. Yu Lei <ylei@cse.uta.edu> (The University of Texas at Arlington)
+
+Paper type
+----------
+Full paper
+
+Topic
+-----
+* local wireless communication
+
+ACM keywords
+------------
+IoT network; Zigbee protocol; Fuzzing
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]
+
+Source files
+------------
+Z-Fuzzer-023.zip
+
+
+Submission #28: SigUnder: a Stealthy 5G Low Power Attack and Defenses
+=====================================================================
+
+Abstract
+--------
+The 3GPP 5G cellular system is hailed as a major step towards more ubiquitous and pervasive communications infrastructure (including for V2X, Smart Grid, and Healthcare). We disclose and evaluate SigUnder, an attack that enables an adversary to overshadow the Signal Synchronization Block (SSB) with an injected signal at 3.4dB below the legitimate signal (prior work required 3dB above). The attack exploits the polar coding mechanism of 5G and the physical layer OFDM structure. It can be used to make previous DoS and over-shadowing attacks lower-power and stealthy, but also enables new attacks unique to 5G such as setting the cellBarred field in the 5G MIB (and blocking access to a cell). We develop techniques (e.g., phase prediction) to make the attack feasible in a practical setup, and evaluate its performance both in simulations and over the air experiments. We also introduce SICUnder, an extension of Successive Interference Cancellation (SIC) to be able to address the unique challenges that SigUnder poses and demonstrate it effectiveness relatively to standard SIC.
+
+Authors
+-------
+1. Norbert Ludant <ludant.n@northeastern.edu> (Northeastern University)
+2. Guevara Noubir <g.noubir@northeastern.edu> (Northeastern University)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cellular communication
+* jamming
+
+ACM keywords
+------------
+wireless communications; 5G; synchronization signals; wireless security; denial of service
+
+ACM Computing Classification
+----------------------------
+10003033.10003083.10003014.10003017 Networks~Mobile and wireless security [500]; 10003033.10003083.10003014.10011610 Networks~Denial-of-service attacks [500]; 10003033.10003058.10003065 Networks~Wireless access points, base stations and infrastructure [300]; 10003033.10003083.10003014 Networks~Network security [500]
+
+Source files
+------------
+5G_SigUnder_sourcefiles.zip
+
+
+Submission #34: FADIA: FAirness-Driven collaboratIve remote Attestation
+=======================================================================
+
+Abstract
+--------
+Internet of Things (IoT) technology promises to bring new value creation opportunities across all major
+industrial sectors. This will yield industries to deploy more devices into their networks. A key pillar to ensure the safety and security of the running services on these devices is remote attestation. 
+Unfortunately,
+existing solutions fail to cope with the recent challenges raised by large IoT networks. In particular, the heterogeneity of
+the devices used in the network affects the performance of a remote
+attestation protocol. Another challenge in these networks is
+their dynamic nature: More IoT devices may be added
+gradually over time. This poses a problem in terms of key management in
+remote attestation.
+
+We propose FADIA, the first lightweight collaborative remote attestation protocol that is designed with fairness in mind. FADIA enables
+fair distribution of load/tasks on the attesting devices to achieve better performance. We also leverage the Eschenauer-Gligor scheme to enable efficient addition of devices to the network. We implement our solution on heterogeneous embedded devices and evaluate it in real scenarios. The evaluation shows that FADIA can 
+(i) increase the lifetime of a network by an order of magnitude and 
+(ii) decrease the runtime of a remote attestation protocol by 
+a factor of $1.6$.
+
+Authors
+-------
+1. Mohamad Mansouri <mohamad.mansouri@thalesgroup.com> (Thales SIX GTS)
+2. Wafa Ben Jaballah <wafa.benjaballah@thalesgroup.com> (Thales SIX GTS)
+3. Melek Önen <melek.onen@eurecom.fr> (EURECOM)
+4. Md Masoom Rabbani <mdmasoom.rabbani@esat.kuleuven.be> (KU Leuven)
+5. Mauro Conti <conti@math.unipd.it> (University of Padua)
+
+Paper type
+----------
+Full paper
+
+Topic
+-----
+* cyber-physical systems and IoT systems
+
+ACM keywords
+------------
+remote attestation; collaborative attestation; heterogeneous IoT networks; fairness; embedded systems
+
+ACM Computing Classification
+----------------------------
+10002978.10003006.10003013 Security and privacy~Distributed systems security [300]; 10002978.10003014.10003015 Security and privacy~Security protocols [500]; 10002978.10003014.10003017 Security and privacy~Mobile and wireless security [100]; 10003033.10003106.10010582.10011668 Networks~Mobile ad hoc networks [300]
+
+Source files
+------------
+fadia.zip
+
+
+Submission #45: Delegated Attestation: Scalable Remote Attestation of Commodity CPS by Blending
+Proofs of Execution with Software Attestation
+================================================================================================
+
+Abstract
+--------
+Remote Attestation (RA) is an interaction between a trusted verifier (Vrf) and one or more remote and potentially compromised devices (provers or Prv-s) that allow the former to measure the software state of the latter. RA is particularly relevant to safety-critical cyber-physical systems (CPS) where a set of low-end micro-controllers (MCUs), operate under the control of a remote and more powerful controller. In such cases, RA is an effective and relatively efficient means to detect software compromise, e.g., malware infections, on these low-end MCUs that cannot support expensive security mechanisms.
+
+Unfortunately, current RA techniques have a major practical limitation by requiring one or more of: (i) customized hardware support on every Prv; or (ii) physical presence of Vrf, which must be directly connected to all Prv-s, or (iii) secure pre-loading of trusted software. To overcome this limitation, we construct, implement and evaluate a Delegated Attestation (DA) scheme. In it, all Prv-s remain unmodified, meaning that it applies even to already deployed CPS devices. However, there is no requirement for Vrf’s physical proximity, hardware support or secure initial software pre-loading. Instead, DA uses a recently proposed primitive (called Proofs-of-Execution or PoX) which entails a single customized low-end embedded device (called Attestation Proxy or Prox) on the same local-area network (e.g., a CAN-bus) as Prv-s. In doing so, DA enables RA of all Prv-s.
+Importantly, this guarantee holds even if Prox is itself compromised, enabling secure RA of completely unmodified Prv-s in an efficient manner.
+
+Authors
+-------
+1. Mahmoud Ammar <mahmoud.ammar@huawei.com> (Huawei Technologies)
+2. Bruno Crispo <bruno.crispo@unitn.it> (KU Leuven & University of Trento)
+3. Ivan De Oliveira Nunes <ivanoliv@uci.edu> (UC Irvine)
+4. Gene Tsudik <gene.tsudik@uci.edu> (UC Irvine)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cyber-physical systems and IoT systems
+* malware
+* platforms and operating systems
+* vehicular networks security
+
+ACM keywords
+------------
+Proofs of Execution; Remote Attestation; Malware Detection; CPS Security; IoT Security
+
+ACM Computing Classification
+----------------------------
+10002978.10002997.10002998 Security and privacy~Malware and its mitigation [500]; 10002978.10003014.10003015 Security and privacy~Security protocols [500]; 10002978.10003001.10003003 Security and privacy~Embedded systems security [500]
+
+Source files
+------------
+WiSec21.zip
+
+
+Submission #49: Anonymous Device Authorization for Cellular Networks
+====================================================================
+
+Abstract
+--------
+Cellular networks connect nearly every human on the planet; they
+consequently have visibility into location data and voice, SMS, and data
+contacts and communications. Such near-universal visibility represents a
+significant threat to the privacy of mobile subscribers. In 5G networks,
+end-user mobile device manufacturers assign a Permanent Equipment
+Identifier (PEI) to every new device. Mobile operators legitimately use
+the PEI to blocklist stolen devices from the network to discourage
+device theft, but the static PEI also provides a mechanism to uniquely
+identify and track subscribers. Advertisers and data brokers have also
+historically abused the PEI for data fusion of location and analytics
+data, including private data sold by cellular providers.
+
+In this paper, we present a protocol that allows mobile devices to prove
+that they are not in the blocklist without revealing their PEI to any
+entity on the network. Thus, we maintain the primary purpose of the PEI
+while preventing potential privacy violations. We describe a
+*provably-secure* anonymous proof of blocklist non-membership for
+cellular network, based on the RSA accumulators and zero-knowledge
+proofs introduced by Camenisch and Lysyanskaya (Crypto'02) and expanded
+upon by Li, Li and Xue (ACNS'07). We show experimentally that this
+approach is viable for cellular networks: a phone can create a blocklist
+non-membership proof in only 3,432 milliseconds of online
+computation, and the network can verify the proof in less than one
+second on average. In total this adds fewer than  4.5  seconds to
+the rare network attach process. This work shows that PEIs can be
+attested anonymously in 5G and future network generations, and it paves
+the way for additional advances toward a cellular network with
+guaranteed privacy.
+
+Authors
+-------
+1. Abida Haque <ahaque3@ncsu.edu> (North Carolina State University)
+2. Varun Madathil <vrmadath@ncsu.edu> (North Carolina State University)
+3. Bradley Reaves <BGReaves@ncsu.edu> (North Carolina State University)
+4. Alessandra Scafuro <ascafur@ncsu.edu> (North Carolina State University)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cellular communication
+* cryptography
+* privacy and anonymization techniques
+
+ACM keywords
+------------
+5G security; Anonymity; Authorization
+
+ACM Computing Classification
+----------------------------
+10002978.10002979 Security and privacy~Cryptography [500]; 10003033.10003106.10003113 Networks~Mobile networks [500]; 10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]
+
+Source files
+------------
+Zero-Knowledge Argument for PEI (2).zip
+
+Supplements
+-----------
+Zero_Knowledge_Argument_for_PEI (9).pdf
+
+
+Submission #58: Spectrum-Flexible Secure Broadcast Ranging
+==========================================================
+
+Abstract
+--------
+Secure ranging is poised to play a critical role in several emerging applications such as self-driving cars, unmanned aerial systems, wireless IoT devices, and augmented reality. In this paper, we propose a design of a secure broadcast ranging system with unique features and techniques. Its \emph{spectral-flexibility}, and \emph{low-power short} ranging bursts enable co-existence with existing systems such as in the 2.4GHz ISM band. We exploit a set of RF techniques such as \emph{upsampling} and \emph{successive interference cancellation} to achieve high accuracy and scalability to tens of reflectors even when operating over narrow bands of spectrum. We demonstrate that it can be implemented on popular SDR platforms FPGA and/or hosts (with minimal FPGA modifications). The protocol design, and cryptographically generated/detected signals, and randomized timing of transmissions, provide stealth and security against denial of service, sniffing, and distance manipulation attacks. Through extensive experimental evaluations (and simulations for scalability to over 100 reflectors) we demonstrate an accuracy below 20cm on a wide range of SNR (as low as 0dB), spectrum 25MHz-100MHz, with bursts as short as 5us.
+
+Authors
+-------
+1. Tien Dang Vo-Huu <tienvh@ccs.neu.edu> (Northeastern University)
+2. Triet Dang Vo-Huu <vohuudtr@ccs.neu.edu> (Northeastern University)
+3. Guevara Noubir <g.noubir@northeastern.edu> (Northeastern University)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cyber-physical systems and IoT systems
+* jamming
+* local wireless communication
+* physical tracking and location privacy
+* privacy and anonymization techniques
+
+ACM keywords
+------------
+Wireless Ranging; Privacy; Protocols; Software Defined Radio
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003015 Security and privacy~Security protocols [500]
+
+Source files
+------------
+sbr-cameraready.zip
+
+
+Submission #61: Amazon Echo Dot or the Reverberating Secrets of IoT Devices
+===========================================================================
+
+Abstract
+--------
+Smart speakers, such as the Amazon Echo Dot, are very popular and routinely trusted with private and sensitive information. Yet, little is known about their security and potential attack vectors. We develop and synthesize a set of IoT forensics techniques and apply them to reverse engineer the hardware and software of the Amazon Echo Dot, and demonstrate its lacking protections of private user data. An adversary with physical access to such devices (e.g., purchasing a used one) can retrieve sensitive information such as Wi-Fi credentials, the physical location of (previous) owners, and cyber-physical devices (e.g., cameras, door locks). We show that such information, including all previous passwords and tokens, remains on the flash memory, even after a factory reset. This is due to the wear-leveling algorithms of the flash memory and lack of encryption. We identify and discuss the design flaws in the storage of sensitive information and the process of de-provisioning used devices. We demonstrate the practical feasibility of such attacks on 86 used devices purchased on eBay and flea markets. Finally, we propose secure design alternatives and mitigation techniques.
+
+Authors
+-------
+1. Dennis Giese <dgiese@ccs.neu.edu> (Northeastern University)
+2. Guevara Noubir <noubir@ccs.neu.edu> (Northeastern University)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cyber-physical systems and IoT systems
+* privacy and anonymization techniques
+* reverse engineering and tampering
+
+ACM keywords
+------------
+Internet of Things; privacy; forensic; reverse engineering; embedded systems security
+
+ACM Computing Classification
+----------------------------
+10002978.10003029.10011703 Security and privacy~Usability in security and privacy [500]; 10002978.10003006 Security and privacy~Systems security [500]; 10002978.10003001.10003003 Security and privacy~Embedded systems security [500]
+
+Source files
+------------
+Amazon Echo Forensics for WISEC_final.zip
+
+
+Submission #63: Selest: Secure Elevation Estimation of Drones Using MPC
+=======================================================================
+
+Abstract
+--------
+Drones are increasingly associated with incidents disturbing air traffic at airports, invading privacy, and even terrorism. Wireless Direction of Arrival (DoA) techniques, such as the MUSIC algorithm, can localize drones, but deploying a system that systematically localizes RF emissions can lead to intentional or unintentional (e.g.,if compromised) abuse. Multi-Party Computation (MPC) provides a solution for controlled computation of the elevation of RF emissions, only revealing estimates when some conditions are met, such as when the elevation exceeds a specified threshold. However, we show that a straightforward implementation of MUSIC, which relies on costly computation of complex matrix operations such as eigendecomposition, in state of the art MPC frameworks is extremely inefficient requiring over 20 seconds to achieve the weakest security guarantees. In this work, we develop a set of MPC optimizations and extension of MUSIC. We extensively evaluate our techniques in several MPC protocols achieving a speedup of 300-500 times depending on the security model and specific technique used. For instance a Malicious Shamir execution providing security against malicious adversaries enables 536 DoA estimations per second, making it practical for use in real-world setups
+
+Authors
+-------
+1. Marinos Vomvas <vomvas.m@northeastern.edu> (Northeastern University)
+2. Erik-Oliver Blass <erik-oliver.blass@airbus.com> (Airbus)
+3. Guevara Noubir <g.noubir@northeastern.edu> (Northeastern University)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cryptography
+* local wireless communication
+* physical tracking and location privacy
+* privacy and anonymization techniques
+
+ACM keywords
+------------
+private drone localization; DoA estimation; multiparty computation
+
+ACM Computing Classification
+----------------------------
+10002978.10003022.10003028 Security and privacy~Domain-specific security and privacy architectures [500]; 10002978.10003014.10003017 Security and privacy~Mobile and wireless security [300]; 10002978.10003029.10011150 Security and privacy~Privacy protections [100]
+
+Source files
+------------
+submission_63_source.zip
+
+
+Submission #64: Toward a Secure Crowdsourced Location Tracking System
+=====================================================================
+
+Abstract
+--------
+Low-energy Bluetooth devices have become ubiquitous and widely used for different applications. Among these, Bluetooth trackers are becoming popular as they allow users to track the location of their physical objects. To do so, Bluetooth trackers are often built-in within other commercial products connected to a larger crowdsourced tracking system. Such a system, however, can pose a threat to the security and privacy of the users, for instance, by revealing the location of a user’s valuable object. In this paper, we introduce a set of security properties and investigate the state of commercial crowdsourced tracking systems, which present common design flaws that make them insecure. Leveraging the results of our investigation, we propose a new design for a secure crowdsourced tracking system (SECROW), which allows devices to leverage the benefits of the crowdsourced model without sacrificing security and privacy. Our preliminary evaluation shows that SECROW is a practical, secure, and effective crowdsourced tracking solution.
+
+Authors
+-------
+1. Chinmay Garg <chinmay@ucsb.edu> (University of California, Santa Barbara)
+2. Aravind Machiry <amachiry@purdue.edu> (Purdue University)
+3. Andrea Continella <acontinella@iseclab.org> (University of Twente)
+4. Christopher Kruegel <chris@cs.ucsb.edu> (University of California, Santa Barbara)
+5. Giovanni Vigna <vigna@cs.ucsb.edu> (University of California, Santa Barbara)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cryptography
+* local wireless communication
+* physical tracking and location privacy
+* privacy and anonymization techniques
+
+ACM keywords
+------------
+BLE; Vulnerabilities; bluetooth low-energy; crowdsource; secure systems; public-key; vulnerabilities; secrow; Static Analysis
+
+ACM Computing Classification
+----------------------------
+10002978.10003001.10003002 Security and privacy~Tamper-proof and tamper-resistant designs [300]; 10002978.10003006.10011608 Security and privacy~Information flow control [500]; 10002978.10003006.10011634.10011633 Security and privacy~Penetration testing [300]; 10002978.10002979.10002981.10011745 Security and privacy~Public key encryption [500]; 10002978.10003022.10003465 Security and privacy~Software reverse engineering [500]
+
+Source files
+------------
+SECROW.tar.gz
+
+
+Submission #73: Let Numbers Tell the Tale: Measuring Security Trends in Wi-Fi Networks and Best
+Practices
+================================================================================================
+
+Abstract
+--------
+Motivated by the recent push towards adopting new standards and the discovery of numerous vulnerabilities in both new and old protocols, this paper analyzes the security of Wi-Fi networks. Our analysis is based on publicly available datasets and our own survey covering 250,137 networks across four countries in three continents. We present several key insights, including the continued use of outdated security configurations and vulnerable protocols, the adoption rates of modern protocols, the increasing presence of mesh networks as part of smart city infrastructure, and the vast differences depending on the surveyed geographic region and frequency spectrum. Additionally, we identify and improve upon shortcomings in previous surveys, and recommend best practices for future surveying. In summary, our work provides a more fine-grained understanding on Wi-Fi network security in the real-world. Finally, we publish our tools used for extracting security statistics, and make all anonymized datasets available to other researchers.
+
+Authors
+-------
+1. Domien Schepers <schepers.d@northeastern.edu> (Northeastern University)
+2. Aanjhan Ranganathan <aanjhan@northeastern.edu> (Northeastern University)
+3. Mathy Vanhoef <mathy.vanhoef@nyu.edu> (New York University Abu Dhabi)
+
+Paper type
+----------
+Short paper
+
+Additional material (optional for reviewers)
+--------------------------------------------
+wisec-73-wifi-surveying-repository.zip
+
+Topic
+-----
+* local wireless communication
+
+ACM keywords
+------------
+IEEE 802.11; Wi-Fi; Surveying; Measurements; Security
+
+ACM Computing Classification
+----------------------------
+10003033.10003083.10003014.10003017 Networks~Mobile and wireless security [500]
+
+Source files
+------------
+paper-wisec-2021_arXiv.zip
+
+
+Submission #80: Recurring Verification of Interaction Authenticity Within Bluetooth Networks
+============================================================================================
+
+Abstract
+--------
+Although *user* authentication has been well explored,
+  *device-to-device* authentication -- specifically in Bluetooth
+  networks -- has not seen the same attention. We propose *Verification
+  of Interaction Authenticity (VIA)* -- a recurring authentication
+  scheme based on evaluating characteristics of the communications
+  (*interactions*) between devices. We adapt techniques from wireless
+  traffic analysis and intrusion-detection systems to develop behavioral
+  models that capture typical, authentic device interactions
+  (*behavior*); these models enable recurring verification of device
+  behavior. To evaluate our approach we produced a new dataset
+  consisting of more than 300 Bluetooth network traces collected from 20
+  Bluetooth-enabled smart-health and smart-home devices. In our
+  evaluation, we found that devices can be correctly verified at a
+  variety of granularities, achieving an F1-score of 0.86 or better in
+  most cases.
+
+Authors
+-------
+1. Travis Peters <travis.peters1@montana.edu> (Montana State University)
+2. Timothy J. Pierson <timothy.j.pierson@dartmouth.edu> (Dartmouth College)
+3. Sougata Sen <sougatas@goa.bits-pilani.ac.in> (BITS Pilani, KK Birla Goa Campus, India)
+4. José Camacho <josecamacho@go.ugr.es> (University of Granada, Spain)
+5. David Kotz <david.f.kotz@dartmouth.edu> (Dartmouth College)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* local wireless communication
+* malware
+* mobile applications
+* usable security and privacy
+
+ACM keywords
+------------
+Traffic Analysis; Behavioral Analysis; Bluetooth; Verification
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]; 10002978.10002997.10002999 Security and privacy~Intrusion detection systems [500]; 10002978.10002991.10002992.10011619 Security and privacy~Multi-factor authentication [500]
+
+Source files
+------------
+wisec_submit.zip
+
+
+Submission #88: RIP StrandHogg: A Practical StrandHogg Attack Detection Method on Android
+=========================================================================================
+
+Abstract
+--------
+StrandHogg vulnerabilities affect Android's multitasking system and threaten up to 90% of Android platforms, which translates to millions of affected users. Existing countermeasures require modification of the OS, have usability drawbacks, or are limited to the detection of certain attack versions. In this work, we aim to develop a generic, efficient, and usability-friendly attack detection method, which does not require OS modifications and can be employed by apps installed on any vulnerable Android platform. To achieve our goal, we analyze StrandHogg attack techniques and develop two countermeasures, one using Machine Learning and the other one using ActivityCounter $-$ a reliable attack indicator, which we could synthetically engineer. Our first approach achieves an average F1 score of 92% across all attack variations, while ActivityCounter shows superior performance and efficiently detects all attack versions without false positives. ActivityCounter is the first solution without practical limitations, which can be easily deployed in practice and protect millions of affected users.
+
+Authors
+-------
+1. Jasper Stang <jasper.stang@stud-mail.uni-wuerzburg.de> (University of Wuerzburg)
+2. Alexandra Dmitrienko <alexandra.dmitrienko@uni-wuerzburg.de> (University of Wuerzburg)
+3. Sascha Roth <sascha.roth@kobil.com> (KOBIL Systems GmbH)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* malware
+* mobile applications
+* usable security and privacy
+
+ACM keywords
+------------
+Android Task Hijacking; StrandHogg; StrandHogg v2; StrandHogg Mitigation; StrandHogg Detection
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]; 10002978.10002997.10002998 Security and privacy~Malware and its mitigation [300]
+
+Source files
+------------
+StrandHoggFinalVersion.zip
+
+
+Submission #100: Happy MitM - Fun and Toys in Every Bluetooth Device
+====================================================================
+
+Abstract
+--------
+Bluetooth pairing establishes trust on first use between two devices by creating a shared key. Similar to certificate warnings in TLS, the Bluetooth specification requires warning users upon issues with this key, because this can indicate ongoing Machine-in-the-Middle (MitM) attacks. This paper uncovers that none of the major Bluetooth stacks warns users, which violates the specification. Clear warnings would protect users from recently published and potential future security issues in Bluetooth authentication and encryption.
+
+Authors
+-------
+1. Jiska Classen <jclassen@seemoo.de> (TU Darmstadt, Germany)
+2. Matthias Hollick <mhollick@seemoo.tu-darmstadt.de> (TU Darmstadt, Germany)
+
+Paper type
+----------
+Short paper
+
+Additional material (optional for reviewers)
+--------------------------------------------
+iphone_galaxynote205g_keychange.mkv; iphone_iphone_tethering_keychange.mkv; iphone_pixel5_tethering_keychange.mkv
+
+Topics
+------
+* key management
+* local wireless communication
+
+ACM keywords
+------------
+Bluetooth; Machine-in-the-Middle; Usable Security
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]; 10002978.10003014.10003015 Security and privacy~Security protocols [300]; 10002978.10002979.10002980 Security and privacy~Key management [300]
+
+Source files
+------------
+wisec.zip
+
+
+Submission #111: Misactivation Detection and User Identification in Smart Home Speakers using
+Traffic Flow Features
+================================================================================================
+
+Abstract
+--------
+The advancement in Internet of Things (IoT) technology has transformed our daily lifestyle. Particularly, voice assistants such as Amazon’s Alexa and Google Assistant are commonly deployed in households. These voice assistants enable users to interact with other devices in a smart home ecosystem. In this paper, we focus on two security issues that arise with the use of smart speakers, and present network flow fingerprinting methods to mitigate their impact. First, we concentrate on the misactivation of smart speakers in which spoken words unintentionally activate the device. This may lead to private user conversations being recorded and sent to the cloud without the user even noticing. To prevent such misactivation, we explore locality-sensitive hash-based machine learning approaches. Our evaluation results with the network traffic of four different smart speakers show that the proposed approach can achieve an area under the curve (i. e., AUC) of 93% to 99%. Secondly, we explore whether the voice commands of the device owner can be distinguished from other individuals based on the generated network traffic fingerprint without any analysis of the actual sound wave. Evaluation results with five different user voices show that we can achieve an average AUC of 72% to 81% by ensembling multiple machine learning models.
+
+Authors
+-------
+1. Batyr Charyyev <bcharyye@stevens.edu> (Stevens Institute of Technology)
+2. Mehmet Hadi Gunes <mgunes@stevens.edu> (Stevens Institute of Technology)
+
+Paper type
+----------
+Full paper
+
+Topic
+-----
+* cyber-physical systems and IoT systems
+
+ACM keywords
+------------
+traffic fingerprinting; machine learning; security; privacy; IoT
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]; 10003033.10003083.10003014.10003017 Networks~Mobile and wireless security [500]
+
+Source files
+------------
+Misactivation Detection and User Identification in Smart Home Speakers using Traffic Flow Features.zip
+
+
+Submission #112: Julia: Fast and Secure Key Agreement for IoT Devices
+=====================================================================
+
+Abstract
+--------
+Even the most resource-constrained IoT devices need to communicate securely. In order to establish a secure channel, key agreement between the communicating parties is used. Today's key agreement protocols require at least three scalar multiplications in the handshake to achieve mutual authentication, forward and backward secrecy, and protection against key-compromise impersonation. As this is a computationally heavy operation, resource-constrained devices benefit from a lower number of scalar multiplications. In this paper we present Julia Key Agreement (JKA), a protocol that satisfies the aforementioned security properties using two scalar multiplications, and thus saves both time and energy. In addition, we define an optimized JKA that only requires a single scalar multiplication for a particular use case.
+
+Authors
+-------
+1. Frans Lundberg <frans.lundberg@assaabloy.com> (ASSA ABLOY AB)
+2. Juraj Feljan <juraj.feljan@assaabloy.com> (ASSA ABLOY AB)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cryptography
+* cyber-physical systems and IoT systems
+* usable security and privacy
+
+ACM keywords
+------------
+IoT; scalar multiplication; asymmetric cryptography; secure channel; key agreement; handshake; Diffie-Hellman
+
+ACM Computing Classification
+----------------------------
+10002978.10002979.10002981.10011745 Security and privacy~Public key encryption [500]; 10010520.10010553.10010560 Computer systems organization~System on a chip [500]
+
+Source files
+------------
+wisec.zip
+
+
+Submission #134: A Comprehensive Formal Analysis of 5G Handover
+===============================================================
+
+Abstract
+--------
+5G has been under standardization for over a decade and will drive the world's mobile technologies in the decades to come. One of the cornerstones of the 5G standard is its security, also for devices that move frequently between networks, such as autonomous vehicles, and must therefore be handed over from one network operator to another. We present a novel, comprehensive, formal analysis of the security of the device handover protocols specified in the 5G standard. Our analysis covers both handovers within the 5G core network, as well as fallback methods for backwards compatibility with 4G/LTE. We identify four main handover protocols and formally model them in the security protocol verification tool Tamarin. Using these models, we determine for each protocol the minimal set of security assumptions required for its intended security goals to be met. Understanding these requirements is essential when designing devices and other protocols that depend on the reliability and security of network handovers.
+
+Authors
+-------
+1. Aleksi Peltonen <aleksi.peltonen@aalto.fi> (Aalto University)
+2. Ralf Sasse <ralf.sasse@inf.ethz.ch> (ETH Zurich)
+3. David Basin <basin@inf.ethz.ch> (ETH Zurich)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cellular communication
+* theoretical and formal approaches
+
+ACM keywords
+------------
+5G; handover protocols; protocol verification; formal analysis
+
+ACM Computing Classification
+----------------------------
+10003033.10003039.10003041.10003042 Networks~Protocol testing and verification [500]; 10003033.10003106.10003113 Networks~Mobile networks [500]
+
+Source files
+------------
+wisec_camera-ready.zip
+
+
+Submission #173: No need to ask the Android: Bluetooth-Low-Energy scanning without the location
+permission
+================================================================================================
+
+Abstract
+--------
+Bluetooth-Low-Energy (BLE) scanning can be misused by applications to determine a device location. In order to prevent unconsented location tracking by applications, Android conditions the use of some BLE functions to the prior obtention of the location permission and the activation of the location setting. In this paper, we detail a vulnerability that allows applications to perform BLE scans without the location permission. We present another flaw allowing to bypass the active location requirement. Together those flaws allow an app to fully circumvent the location restrictions applying to BLE scanning. The presented vulnerability affects devices running Android 6 up to 11 and could be misused by application developers to track the location of users. This vulnerability has been disclosed to Google and assigned the CVE-2021-0328.
+
+Authors
+-------
+1. Vincent Toubiana <vtoubiana@cnil.fr> (CNIL)
+2. Mathieu Cunche <mathieu.cunche@insa-lyon.fr> (INSA-Lyon, Inria, CITI Lab)
+
+Paper type
+----------
+Short paper
+
+Topics
+------
+* mobile applications
+* physical tracking and location privacy
+* platforms and operating systems
+
+ACM keywords
+------------
+Location; Bluetooth; Bluetooth-Low-Energy; Scanning, Permission; Android; Vulnerability
+
+ACM Computing Classification
+----------------------------
+10002978.10003006.10003007.10003008 Security and privacy~Mobile platform security [500]; 10002978.10002991.10002993 Security and privacy~Access control [500]
+
+Source files
+------------
+Wisecv7.zip
+
+
+Submission #184: SoK: Assessing the Threat Potential of Vibration-based Attacks against Live
+Speech using Mobile Sensors
+================================================================================================
+
+Abstract
+--------
+Existing academic research on vibration-based speech attacks has  introduced interesting and intellectually appealing threat vectors with proof-of-concept demonstrations in controlled environments. The attacks presented in these studies exploit different types of sensors such as MEMS motion sensors, laser-based sensors, and some other sensors (camera, position error signal, piezo-disc) to measure the vibrations induced on an object by nearby sensitive speech. Such sensors are commonly found on mobile devices like smartphones and tablets that can be exposed to sensitive speech, revealing the significance of this potential threat. These studies have amassed significant attention in news and media and introduced concern to people about the safety of their day-to-day speech and around their personal, wireless and IoT devices. However, we hypothesize that the controlled experiments in the prior research maintain critical parameter values that are favorable to attack success (deviating from the limiting settings in a real-world scenario) and produce results that suggest a greater real-life threat level than actually exists.
+
+The contributions made in this paper are as follows; First, we provide a detailed review of 10 existing academic research works related to vibration-based eavesdropping attacks. Second, we identify key experimental parameters that can impact the success of eavesdropping in the vibration domain. Third, we build a framework to evaluate the existing literature based on the Percent Parameters in Favored Settings (PPFS) Score metric that we define. Lastly, we use our defined framework to evaluate the feasibility of the existing vibration-based speech attacks to compromise live human speech to the extent of full speech recognition. The results of our evaluation suggest that none of the existing vibration-based eavesdropping attacks have a high likelihood of successfully compromising live human speech in a real-world scenario.
+
+Authors
+-------
+1. Payton Walker <prw0007@uab.edu> (The University of Alabama at Birmingham)
+2. Nitesh Saxena <saxena@uab.edu> (The University of Alabama at Birmingham)
+
+Paper type
+----------
+Systematization of Knowledge (SoK) paper
+
+Topics
+------
+* cyber-physical systems and IoT systems
+* side channels
+* usable security and privacy
+
+ACM keywords
+------------
+side-channel; vibration; speech eavesdropping; SoK
+
+ACM Computing Classification
+----------------------------
+10002978 Security and privacy [500]
+
+Source files
+------------
+paper184_source_files.zip
+
+
+Submission #189: 5G SUCI-Catchers: Still catching them all?
+===========================================================
+
+Abstract
+--------
+In mobile networks, IMSI-Catchers identify and track users simply by requesting all users’ permanent identities (IMSI) in range. The 5G standard attempts to fix this issue by encrypting the permanent identifier (now SUPI) and transmitting the SUCI. Since the encrypted SUCI is re-generated with an ephemeral key for each use, an attacker can no longer derive the user’s identity. However, this scheme does not prevent all tracking and linking: if the identity of a user is already known, an attacker can probe users for that identity.
+
+We demonstrate a proof-of-concept 5G SUCI-Catcher attack in a 5G standalone network. Based on prior work on linkability through the Authentication and Key Agreement (AKA) procedure, we introduce an attack variant that enables practical, repeatable attacks. We capture encrypted SUCIs and use the AKA-procedure to link the encrypted identities between sessions. This answers *Is user X present now?* — a typical scenario for IMSI-Catchers. We analyze the attack’s scalability, discuss real-world applicability, and possible countermeasures by network operators.
+
+Authors
+-------
+1. Merlin Chlosta <merlin.chlosta@rub.de> (Ruhr University Bochum)
+2. David Rupprecht <david.rupprecht@rub.de> (Ruhr University Bochum)
+3. Christina Pöpper <christina.poepper@nyu.edu> (New York University Abu Dhabi)
+4. Thorsten Holz <thorsten.holz@rub.de> (Ruhr University Bochum)
+
+Paper type
+----------
+Short paper
+
+Additional material (optional for reviewers)
+--------------------------------------------
+Artifacts WiSec 21.zip
+
+Topic
+-----
+* cellular communication
+
+ACM keywords
+------------
+5G Security; IMSI-Catcher; SUCI-Catcher; Fake Base Station; AKA; SUPI; SUCI; IMSI; Subscription Concealed Identifier
+
+ACM Computing Classification
+----------------------------
+10003033.10003083.10003014.10003017 Networks~Mobile and wireless security [500]
+
+Source files
+------------
+wisec-suci-final-keywords.zip
+
+
+Submission #199: Orbit-based Authentication Using TDOA Signatures in Satellite Networks
+=======================================================================================
+
+Abstract
+--------
+Given the nature of satellites orbiting the Earth on a fixed trajectory, in principle, it is interesting to investigate how this invariant can be exploited for security purposes. In particular, satellite orbit information can be retrieved from public databases. Using time difference of arrival (TDOA) measurements from multiple receivers, we can check this orbit information against a corresponding TDOA-based signature of the satellite. In that sense, we propose an orbit-based authentication scheme for down-link satellite communications in this paper. To investigate the properties and fundamentals of our novel TDOA signature scheme we study two satellite systems at different altitudes: Iridium and Starlink.
+    
+Clearly, many challenging questions with respect to the feasibility and effectiveness of this authentication scheme arise; to name some: how many receivers are necessary, how should they be distributed, and how many consecutive measurements do we need for the TDOA signatures. We address these questions by a full factorial experimental design using a simulation framework, we developed for that purpose. Besides a deep understanding about the effects of the major factors on the authentication performance, we find that in adequate configurations, even under a versatile attacker, the orbit-based authentication scheme is able to achieve low false authentication rates well below 1%  at false rejection rates of about 2%, for both, Iridium and Starlink satellites.
+
+Authors
+-------
+1. Eric Jedermann <jedermann@cs.uni-kl.de> (TU Kaiserslautern)
+2. Martin Strohmeier <Martin.Strohmeier@armasuisse.ch> (Armasuisse)
+3. Matthias Schäfer <schaefer@cs.uni-kl.de> (University of Kaiserslautern)
+4. Jens Schmitt <jschmitt@cs.uni-kl.de> (University of Kaiserslautern)
+5. Vincent Lenders <vincent.lenders@armasuisse.ch> (Armasuisse)
+
+Paper type
+----------
+Short paper
+
+Topics
+------
+* cyber-physical systems and IoT systems
+* physical tracking and location privacy
+
+ACM keywords
+------------
+satellites; TDOA signature; authentication; ANOVA
+
+ACM Computing Classification
+----------------------------
+10002978.10003006 Security and privacy~Systems security [300]; 10002978.10002991.10002992 Security and privacy~Authentication [300]
+
+Source files
+------------
+Orbit-based Authentication Using TDOA Signatures in Satellite Networks.zip
+
+
+Submission #201: On the Challenges of Automata Reconstruction in LTE Networks
+=============================================================================
+
+Abstract
+--------
+Mobile networks are a crucial part of our digital lives and require adequate security measures. The 4G and 5G network standards are complex and challenging to implement, which led to several implementation issues being discovered over the last years.
+Consequently, we aim to strengthen automation in testing and increase test coverage to spot issues and potential security vulnerabilities.
+
+In this paper, we explore *active automata learning* for 4G/LTE protocol state machines.
+We focus on LTE's Mobility Management Entity (MME), the main core network element that handles all user registration and authentication through the NAS protocol. Based on automata learning, we automatically reconstruct the NAS protocol state machine to study implementation-specific artifacts and their security implications. We design and implement a reliable UE-to-MME interface for testing the MME from the perspective of a user device. This method allows testing of fully functional core networks without modification. Based on a prototype implementation, we test two open-source projects, one commercial MME implementation, and one MME in an operator's test network replicating the live LTE network. We expose several bugs, including crashes in three of the four implementations, potentially leading to network outages.
+
+Authors
+-------
+1. Merlin Chlosta <merlin.chlosta@rub.de> (Ruhr University Bochum)
+2. David Rupprecht <david.rupprecht@rub.de> (Ruhr University Bochum)
+3. Thorsten Holz <thorsten.holz@rub.de> (Ruhr University Bochum)
+
+Paper type
+----------
+Full paper
+
+Topic
+-----
+* cellular communication
+
+ACM keywords
+------------
+LTE Security; MME; Automated Testing; Automata Reconstruction
+
+ACM Computing Classification
+----------------------------
+10003033.10003083.10003014.10003017 Networks~Mobile and wireless security [500]; 10003033.10003039.10003041 Networks~Protocol correctness [500]
+
+Source files
+------------
+wisec-automata-keywords-2.zip
+
+
+Submission #206: Non-IID Data Re-balancing at IoT Edge with Peer-to-peer Federated Learning for
+Anomaly Detection
+================================================================================================
+
+Abstract
+--------
+The increase of the computational power in edge devices has enabled the penetration of distributed machine learning technologies such as federated learning, which allows to build collaborative models performing the training locally in the edge devices, improving the efficiency and the privacy for training of machine learning models, as the data remains in the edge devices. However, in some IoT networks the connectivity between devices and system components can be limited, which prevents the use of federated learning, as it requires a central node to orchestrate the training of the model. To sidestep this, peer-to-peer learning appears as a promising solution, as it does not require such an orchestrator.
+  On the other side, the security challenges in IoT deployments have fostered the use of machine learning for attack and anomaly detection. In these problems, under supervised learning approaches, the training datasets are typically imbalanced, i.e. the number of anomalies is very small compared to the number of benign data points, which requires the use of re-balancing techniques to improve the algorithms' performance. In this paper, we propose a novel peer-to-peer algorithm,P2PK-SMOTE, to train supervised anomaly detection machine learning models in non-IID scenarios, including mechanisms to locally re-balance the training datasets via synthetic generation of data points from the minority class. To improve the performance in non-IID scenarios, we also include a mechanism for sharing a small fraction of synthetic data from the minority class across devices, aiming to reduce the risk of data de-identification. Our experimental evaluation in real datasets for IoT anomaly detection across a different set of scenarios validates the benefits of our proposed approach.
+
+Authors
+-------
+1. Han Wang <han.wang@ri.se> (RISE Research Institutes of Sweden)
+2. Luis Muñoz-González <l.munoz@imperial.ac.uk> (Imperial College London)
+3. David Eklund <david.eklund@ri.se> (RISE Research Institutes of Sweden)
+4. Shahid Raza <shahid.raza@ri.se> (RISE Research Institutes of Sweden)
+
+Paper type
+----------
+Full paper
+
+Topic
+-----
+* cyber-physical systems and IoT systems
+
+ACM keywords
+------------
+Federated Learning; Imbalanced Data; non-IID Data; Anomaly Detection
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]; 10002978.10002997 Security and privacy~Intrusion/anomaly detection and malware mitigation [500]; 10010147.10010257 Computing methodologies~Machine learning [500]
+
+Source files
+------------
+Submission_206.zip
+
+
+Submission #217: Here, There, and Everywhere: Security Analysis of Wi-Fi Fine Timing Measurement
+================================================================================================
+
+Abstract
+--------
+Today, an increasing number of applications rely on location and proximity information to deliver services. With the introduction of Wi-Fi Fine Timing Measurement (FTM) in the IEEE 802.11-2016 standard, Wi-Fi derived location and proximity information will play a key role in many safety- and security-critical applications. For example, Wi-Fi FTM is adopted in Wi-Fi Aware where it enables geo-fencing and mobile identification. In this paper, we perform the first security analysis of Wi-Fi FTM and analyze its security guarantees across the logical and physical layers. We find various weaknesses that enable an attacker to introduce distance reductions and enlargements to any arbitrary attacker-chosen value, requiring commodity hardware only. We perform an evaluation using commercial access points, smartphones, and off-the-shelf Wi-Fi cards, and show that an attacker can manipulate distances with meter-level precision. Furthermore, we highlight the distance manipulation attacks which are independent of any higher-layer cryptographic protection, exposing fundamental limitations to achieving secure distance measurements in the current standard. Finally, we present security recommendations for the design and implementation of Wi-Fi FTM and next-generation positioning protocols.
+
+Authors
+-------
+1. Domien Schepers <schepers.d@northeastern.edu> (Northeastern University)
+2. Mridula Singh <mrsingh@inf.ethz.ch> (ETH Zurich)
+3. Aanjhan Ranganathan <aanjhan@northeastern.edu> (Northeastern University)
+
+Paper type
+----------
+Full paper
+
+Additional material (optional for reviewers)
+--------------------------------------------
+wisec-wifi-ftm-repo.zip
+
+Topic
+-----
+* local wireless communication
+
+ACM keywords
+------------
+IEEE 802.11; Wi-Fi; Fine Timing Measurement; Security
+
+ACM Computing Classification
+----------------------------
+10003033.10003083.10003014.10003017 Networks~Mobile and wireless security [500]; 10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]
+
+Source files
+------------
+paper-wisec_arXiv.zip
+
+
+Submission #221: SNOW-Vi: An Extreme Performance Variant of SNOW-V for Lower Grade CPUs
+=======================================================================================
+
+Abstract
+--------
+SNOW 3G is a stream cipher used as one of the standard algorithms for data confidentiality and integrity protection over the air interface in the 3G and 4G mobile communication systems. SNOW-V is a recent new version that was proposed as a candidate for inclusion in the 5G standard. In this paper, we propose a faster variant of SNOW-V, called SNOW-Vi, that can reach the targeted speeds for 5G in a software implementation on a larger variety of CPU architectures. SNOW-Vi differs in the way how the LFSR is updated and also introduces a new location of the tap $T2$ for stronger security, while everything else is kept the same as in SNOW-V. The throughput in a software environment is increased by around 50% in average, up to 92 Gbps. This makes the applicability of the cipher much wider and more use cases are covered. The security analyses previously done for SNOW-V are not affected in most aspects, and SNOW-Vi provides the same 256-bit security level as SNOW-V.
+
+Authors
+-------
+1. Patrik Ekdahl <patrik.ekdahl@ericsson.com> (Ericsson Research)
+2. Thomas Johansson <thomas.johansson@eit.lth.se> (Lund University)
+3. Alexander Maximov <alexander.maximov@ericsson.com> (Ericsson Research)
+4. Jing Yang <jing.yang@eit.lth.se> (Lund University)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cellular communication
+* cryptography
+
+ACM keywords
+------------
+SNOW; stream cipher; 5G mobile system security
+
+ACM Computing Classification
+----------------------------
+10002978.10002979.10002982.10011598 Security and privacy~Block and stream ciphers [500]; 10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]
+
+Source files
+------------
+SNOW-Vi for WiSec.zip
+
+
+Submission #261: LightningStrike: (In)secure Practices of E-IoT Systems in the Wild
+===================================================================================
+
+Abstract
+--------
+Recent years have witnessed the widespread adoption of specialty smart ecosystems that have changed the lives of everyday users worldwide. As a part of smart ecosystems, Enterprise Internet of Things (E-IoT) allow users to integrate and control more complex installations in comparison to off-the-shelf IoT systems. With E-IoT, users have complete control of audio, video, scheduled events, lightning fixtures, shades, door access, and relays via available user interfaces. As such, these systems see widespread use in government or smart private offices, schools, smart buildings, professional conference rooms, hotels, smart homes, yachts, and similar professional settings. However, even with their widespread use, the security of many E-IoT systems has not been researched in the literature. Further, many E-IoT systems utilize proprietary communication protocols that rely mostly on security through obscurity, which has many users to mistakenly assume that these systems are secure. To address this open research problem and determine if E-IoT systems are vulnerable, we focus on one of the core E-IoT components, E-IoT communication buses. Communication buses are used by  E-IoT proprietary protocols to connect multiple E-IoT devices (e.g., keypads and touchscreens) and trigger pre-configured events upon user actions. In this study, we introduce LightningStrike, the implementation of four proof-of-concept attacks that demonstrate several weaknesses in E-IoT proprietary communication protocols through communication buses. With LightningStrike, we show that it is feasible for an attacker to compromise E-IoT systems using E-IoT communication buses. We demonstrate that E-IoT proprietary communication protocols are susceptible to Denial-of-Service, eavesdropping, impersonation, and replay attacks. As E-IoT systems control physical access, safety components, and emergency equipment, an attacker with a low level of effort and knowledge can easily exploit E-IoT vulnerabilities to impact the security and safety of users, smart systems, and smart buildings worldwide.
+
+Authors
+-------
+1. Luis C. Puche Rondon <lpuch002@fiu.edu> (Florida International University)
+2. Leonardo Babun <lbabu002@fiu.edu> (Florida International University)
+3. Ahmet Aris <aaris@fiu.edu> (Florida International University)
+4. Kemal Akkaya <kakkaya@fiu.edu> (Florida International University)
+5. Selcuk Uluagac <suluagac@fiu.edu> (Florida International University)
+
+Paper type
+----------
+Full paper
+
+Topic
+-----
+* cyber-physical systems and IoT systems
+
+ACM keywords
+------------
+Enterprise Internet-of-Things; E-IoT Security; Attacks; Cresnet
+
+ACM Computing Classification
+----------------------------
+10002978.10003006.10011610 Security and privacy~Denial-of-service attacks [500]; 10003033.10003106.10003112 Networks~Cyber-physical networks [500]
+
+Source files
+------------
+261_LightningStrike_Source.zip
+
+
+Submission #288: Write to Know: On the Feasibility of Wrist Motion based User-Authentication
+from Handwriting
+================================================================================================
+
+Abstract
+--------
+The popularity of smart wrist wearable technology (e.g., smartwatches) has rejuvenated the exploration of dynamic biometric-based authentication techniques that employ sensor data from these devices. Despite the progress demonstrated by the scientific community, research in this area has not successfully transitioned to practice, and we are yet to see a mainstream user-authentication product based on a dynamic biometric such as handwriting/hand gestures captured using commercial wrist wearables. This work undertakes an investigative analysis to further explore why that is the case. We accomplish this by studying the feasibility and practical deployability of handwriting-based authentication techniques in the literature that utilize motion sensors on-board wrist wearables. We conduct this analysis by replicating four state-of-the-art and representative handwriting-based authentication schemes that employ wrist motion data, in order to test their viability in realistic hand-writing/gesture scenarios. By using data collected from actual human subjects in an unconstrained fashion, we comparatively evaluate the performance of these schemes with well-defined usability and security metrics. Our experimental results show that some of the tested schemes perform considerably well in practice, and are promising. However, they do suffer from several practical user-dependent and technique-specific challenges that act as roadblocks towards their wide-scale adoption in mainstream applications.
+
+Authors
+-------
+1. Raveen Wijewickrama <raveen.wijewickrama@utsa.edu> (University of Texas at San Antonio)
+2. Anindya Maiti <am@ou.edu> (University of Oklahoma)
+3. Murtuza Jadliwala <murtuza.jadliwala@utsa.edu> (University of Texas at San Antonio)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* mobile applications
+* usable security and privacy
+
+ACM keywords
+------------
+User Authentication; Biometrics; Wrist Wearables; Handwriting
+
+ACM Computing Classification
+----------------------------
+10002978.10002991.10002992.10003479 Security and privacy~Biometrics [500]; 10003120.10003138.10011767 Human-centered computing~Empirical studies in ubiquitous and mobile computing [500]; 10003120.10003123.10010860.10010877 Human-centered computing~Activity centered design [500]
+
+Source files
+------------
+source.zip
+
+
+Submission #292: Security Analysis of IEEE 802.15.4z/HRP UWB Time-of-Flight Distance Measurement
+================================================================================================
+
+Abstract
+--------
+IEEE 802.15.4z, a standard for Ultra-Wide Band (UWB) secure distance measurement, was adopted in 2020 and the chips that implement this standard are already deployed in mobile phones and in automotive (for Passive Keyless Entry and Start). The standard specifies two different modes—LRP and HRP. While some deployments use the LRP mode, where the security has been analyzed
+and is available in the standard, other implementations, like NXP Trimension SR150/SR040 as well as the U1 chip in Apple iPhones, rely on the HRP mode. However, the security guarantees of HRP
+mode are neither fully specified in the standard, nor is there an open security analysis.
+In this work we perform the first open analysis of the 802.15.4z HRP
+mode. Our analysis reviews possible attacks on HRP and assesses
+strategies that an HRP receiver could implement. We show that in realistic deployments, despite countermeasures, HRP is hard to configure to be both performant and secure. If a distance missdetection rate is set to less than 10% (in benign scenarios), the probability of a
+successful distance shortening attacks ranges from 7% to over 90%.
+
+Authors
+-------
+1. Mridula Singh <mridula.singh@inf.ethz.ch> (ETH Zurich, Switzerland)
+2. Marc Röschlin <marc.roeschlin@inf.ethz.ch> (ETH Zurich, Switzerland)
+3. Ezzat Zalzala <ezzat.zalzala@inf.ethz.ch> (ETH Zurich, Switzerland)
+4. Patrick Leu <patrick.leu@inf.ethz.ch> (ETH Zurich, Switzerland)
+5. Srdjan Capkun <srdjan.capkun@inf.ethz.ch> (ETH Zurich, Switzerland)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cyber-physical systems and IoT systems
+* local wireless communication
+* payment
+* physical tracking and location privacy
+
+ACM keywords
+------------
+IEEE 802.15.4z; HRP; UWB ranging; Ultra-wide band; Distance ranging; Secure distance measurement; Physical-layer security; Time-of-flight measurement
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]
+
+Source files
+------------
+HRP Paper_font_fixed.zip
+
+
+Submission #302: Direct Anonymous Attestation on the Road: Efficient and Privacy-Preserving
+Revocation in C-ITS
+================================================================================================
+
+Abstract
+--------
+Vehicular networks rely on public key infrastructure (PKI) to generate long-term and short-term pseudonyms that protect vehicle's privacy. Instead of relying on a complex and centralized ecosystem of PKI entities, a more scalable solution is to rely on Direct Anonymous Attestation (DAA) and the use of Trusted Computing elements. In particular, revocation based on DAA is very attractive in terms of efficiency and privacy: it does not require the use of CRLs and  revocation authority can exclude misbehaving participants from a V2X system without resolving (i.e. learning) their long-term identity.  In this paper we design a novel revocation protocol based on DAA and show a detailed design and modeling of the implementation on a real TPM platform in order to demonstrate its significant performance improvements compared to existing solutions.
+
+Authors
+-------
+1. Benjamin Larsen <benlar@dtu.dk> (Technical University of Denmark (DTU))
+2. Thanassis Giannetsos <agiannetsos@ubitech.eu> (UBITECH)
+3. Ioannis Krontiris <ioannis.krontiris@huawei.com> (Huawei Technologies)
+4. Kenneth Goldman <kgoldman@us.ibm.com> (IBM)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* physical tracking and location privacy
+* privacy and anonymization techniques
+* usable security and privacy
+* vehicular networks security
+
+ACM keywords
+------------
+Security; Privacy; Direct Anonymous Attestation; Trusted Platform Module (TPM); Revocation; C-ITS; V2X
+
+ACM Computing Classification
+----------------------------
+10002978.10003006.10003007.10003009 Security and privacy~Trusted computing [500]
+
+Source files
+------------
+wisec21-302.zip
+
+
+Submission #313: OutletSpy: Cross-outlet Application Inference via Power Factor Correction
+Signal
+================================================================================================
+
+Abstract
+--------
+Trade secrets such as intellectual properties are the inherent values for firms. Although companies have exploited strict access management policies and isolated their networks from the public Internet, trade secrets are still vulnerable to side-channel attacks. side-channels can reveal the computing processes of computers in forms of various physical signals such as light, electromagnetism, and even heat. Such side-channels can bypass the isolation mechanism and therefore bring about severe threats. However, existing side-channels can only perform well within a short-distance (e.g., less than 1 meter) due to the high attenuation of signals. In this paper, we seek to utilize the built-in power lines in a building and construct a power side-channel that enables remote, i.e., cross-outlet attack against trade secrets.
+To this end, we investigate the power factor correction (PFC) module inside the power supply units of commodity computers and find that the PFC signals observed from an outlet can precisely reveal the power consumption information of all the connected devices, even from the outlets in adjacent rooms. Based upon this insight, we design and implement OutletSpy, a power side-channel attack that can infer application launching from a remote outlet and therefore enjoys the stealthiness property. We validate and evaluate OutletSpy with a dataset under different background APPs, time variations and different locations. The experiment results show OutletSpy can infer the application launching with 98.25% accuracy.
+
+Authors
+-------
+1. Juchuan Zhang <zhangjuchuan@zju.edu.cn> (Zhejiang University)
+2. Xiaoyu Ji <xji@zju.edu.cn> (Zhejiang University)
+3. Yuehan Chi <21910095@zju.edu.cn> (Zhejiang University)
+4. Yichao Chen <yichao@sjtu.edu.cn> (Shanghai Jiao Tong University)
+5. Bin Wang <wbin2006@gmail.com> (Zhejiang University)
+6. Wenyuan Xu <wyxu@zju.edu.cn> (Zhejiang University)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cyber-physical systems and IoT systems
+* side channels
+
+ACM keywords
+------------
+Side channel inference; Power factor correction signal
+
+ACM Computing Classification
+----------------------------
+10002978.10003014.10003017 Security and privacy~Mobile and wireless security [500]
+
+Source files
+------------
+wisec2021.zip
+
+
+Submission #318: LNGate: Powering IoT with Next Generation Lightning Micro-payments using
+Threshold Cryptography
+================================================================================================
+
+Abstract
+--------
+Bitcoin has emerged as a revolutionary payment system with its decentralized ledger concept however it has significant problems such as high transaction fees and long confirmation times. Lightning Network (LN), which was introduced much later, solves most of these problems with an innovative concept called off-chain payments. With this advancement, Bitcoin has become an attractive venue to perform micro-payments which can also be adopted in many IoT applications (e.g. toll payments). Nevertheless, it is not feasible to host LN and Bitcoin on IoT devices due to the storage, memory, and processing requirements. Therefore, in this paper, we propose an efficient and secure protocol that enables an IoT device to use LN through an untrusted gateway node. The gateway hosts LN and Bitcoin nodes and can open & close LN channels, send LN payments on behalf of the IoT device. This delegation approach is powered by a (2,2)-threshold scheme that requires the IoT device and the LN gateway to jointly perform all LN operations which in turn secures both parties' funds. Specifically, we propose to thresholdize LN's Bitcoin public and private keys as well as its commitment points. With these and several other protocol level changes, IoT device is protected against revoked state broadcast, collusion, and ransom attacks. We implemented the proposed protocol by changing LN's source code and thoroughly evaluated its performance using a Raspberry Pi. Our evaluation results show that computational and communication delays associated with the protocol are negligible. To the best of our knowledge, this is the first work that implemented threshold cryptography in LN.
+
+Authors
+-------
+1. Ahmet Kurt <akurt005@fiu.edu> (Florida International University)
+2. Suat Mercan <smercan@fiu.edu> (Florida International University)
+3. Omer Shlomovits <omer@zengo.com> (ZenGo X)
+4. Enes Erdin <eerdin@uca.edu> (University of Central Arkansas)
+5. Kemal Akkaya <kakkaya@fiu.edu> (Florida International University)
+
+Paper type
+----------
+Full paper
+
+Topics
+------
+* cryptography
+* cyber-physical systems and IoT systems
+* payment
+
+ACM keywords
+------------
+Lightning Network; Bitcoin; Threshold Cryptography; Internet of Things; Micro-payments
+
+ACM Computing Classification
+----------------------------
+10003033.10003039.10003040 Networks~Network protocol design [500]; 10010405.10003550.10003557 Applied computing~Secure online transactions [500]; 10002978.10003022.10003028 Security and privacy~Domain-specific security and privacy architectures [300]
+
+Source files
+------------
+LNGate_WiSec_source_files.zip
+
+
+Submission #343: Message Sieving to Mitigate Smart Gridlock Attacks in V2V
+==========================================================================
+
+Abstract
+--------
+Growing deployment of vehicle-to-vehicle (V2V) communications is expected to significantly increase the volume of Basic Safety Messages (BSM) in highways and dense roads. Computational overhead of verifying the integrity of BSMs will therefore be high while current V2V equipment can process only a limited number of BSMs per second. As a result, critical BSMs carrying vital information may fail to be processed on time, creating unsafe outcomes. In this paper, we expose this vulnerability, discuss critical scenarios, develop novel attacks that exploit this vulnerability, and propose a sieving technique to mitigate these verification gridlock attacks. We show on a USRP testbed that our proposed sieving mechanism to counter sophisticated attackers who exploit this vulnerability achieves $80\%$ accuracy at SNR greater than $6\,$dB, effectively mitigating the attack.
+
+Authors
+-------
+1. Siddharth Dongre <sd4767@g.rit.edu> (Rochester Institute of Technology)
+2. Hanif Rahbari <rahbari@mail.rit.edu> (Rochester Institute of Technology)
+
+Paper type
+----------
+Short paper
+
+Topic
+-----
+* vehicular networks security
+
+ACM keywords
+------------
+Connected vehicle security; PHY-layer authentication; USRP testbed
+
+ACM Computing Classification
+----------------------------
+10010583.10010588.10003247.10003248 Hardware~Digital signal processing [500]; 10002978.10003014.10003017 Security and privacy~Mobile and wireless security [300]
+
+Source files
+------------
+Latex_Source_Files_Final.zip
+
+
+

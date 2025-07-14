@@ -1,0 +1,10 @@
+name = "Hugo Theme INS Conferences"
+license = "MPL 2.0"
+licenselink = "https://mozilla.org/MPL/2.0/"
+description = "Hugo template for conference websites"
+homepage = "https://git.ins.jku.at/conferences/template-hugo-conferences"
+min_version = 0.58
+
+[author]
+  name = "Michael Roland"
+  homepage = "https://mroland.at/"

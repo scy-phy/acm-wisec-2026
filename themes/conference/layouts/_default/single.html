@@ -1,0 +1,18 @@
+{{ define "title" }}{{ if not .IsHome }}{{ .Title }} &ndash; {{ end }}{{ .Site.Title }}{{ end }}
+
+{{ define "header" }}{{ partial "header.html" . }}{{ end }}
+
+{{ define "main" }}
+<main id="main" class="container container-fluid-lg">
+    <div class="row">
+        <div class="col-12 col-md-9 mb-5">
+            <article id="main-content" class="main-content {{ .Type }} {{ .Kind }} {{ .Type }}-{{ .File.UniqueID }}">
+            {{ .Content }}
+            </article>
+        </div>
+        {{ partial "sidebar-main.html" . }}
+    </div>
+</main>
+{{ end }}
+
+{{ define "footer" }}{{ partial "footer.html" . }}{{ end }}

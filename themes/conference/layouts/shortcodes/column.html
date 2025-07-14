@@ -1,0 +1,5 @@
+<div class="{{ with .Get 1 }}col-12 col-{{ . }}{{ else }}col{{ end }}-{{ with .Get 0 }}{{ div 12 . }}{{ end }}">
+{{- with .Inner -}}
+    {{- . -}}
+{{- end -}}
+</div>

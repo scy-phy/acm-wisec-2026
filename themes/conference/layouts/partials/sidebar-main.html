@@ -1,0 +1,23 @@
+<div id="sidebar" class="col-12 col-md-3 sidebar">
+    {{- $toc_show := $.Param "toc_show" -}}
+    {{- $toc_heading_text := $.Param "toc_heading" -}}
+    {{- $toc_heading_show := $.Param "toc_heading_show" -}}
+    {{- if $toc_show -}}
+	<div class="sidebar-module clearfix">
+		<div class="sidebar-toc">
+			<h1 class="sidebar-heading{{ if not $toc_heading_show }} sr-only{{ end }}">{{ $toc_heading_text }}</h1>
+			{{ .TableOfContents }}
+		</div>
+	</div>
+    {{- end -}}
+    {{- $current_page := . -}}
+    {{- range .Site.Menus.sidebar -}}
+        {{- if not .Page.Params.hidden -}}
+            {{- if not (in .Page.Params.hideOn $current_page.RelPermalink) -}}
+	<div class="sidebar-module clearfix">
+                {{ .Page.Content }}
+	</div>
+            {{- end -}}
+        {{- end -}}
+    {{- end -}}
+</div><!-- /#sidebar -->

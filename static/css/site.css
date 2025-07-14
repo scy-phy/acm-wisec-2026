@@ -1,0 +1,6 @@
+@media (max-width: 550px)    { #main-navigation .navbar-brand .navbar-brand-text { max-width: 270px; } }
+@media (max-width: 500px)    { #main-navigation .navbar-brand .navbar-brand-text { max-width: 270px; } }
+@media (max-width: 450px)    { #main-navigation .navbar-brand .navbar-brand-text { max-width: 270px; } }
+@media (max-width: 400px)    { #main-navigation .navbar-brand .navbar-brand-text { max-width: 270px; } }
+@media (max-width: 350px)    { #main-navigation .navbar-brand .navbar-brand-text { max-width: 250px; } }
+@media (max-width: 300px)    { #main-navigation .navbar-brand .navbar-brand-text { max-width: 200px; } }

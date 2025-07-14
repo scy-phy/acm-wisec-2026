@@ -1,0 +1,11 @@
+<a href="mailto:{{ .Get 0 }}" class="mailto">
+{{- with .Inner -}}
+    {{- . -}}
+{{- else -}}
+    {{- with .Get 1 -}}
+        {{- . | safeHTML -}}
+    {{- else -}}
+        {{- .Get 0 -}}
+    {{- end -}}
+{{- end -}}
+</a>

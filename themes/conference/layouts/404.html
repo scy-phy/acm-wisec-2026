@@ -1,0 +1,18 @@
+{{ define "title" }}{{ if not .IsHome }}{{ .Title }} &ndash; {{ end }}{{ .Site.Title }}{{ end }}
+
+{{ define "header" }}{{ partial "header.html" . }}{{ end }}
+
+{{ define "main" }}
+<main id="main" class="container container-fluid-lg">
+    <div class="row">
+        <div class="col-12 mb-5">
+            <article id="main-content" class="main-content error error-404">
+            <h1 id="error-404">Page not found</h1>
+            <p>The requested URL was not found on this server.</p>
+            </article>
+        </div>
+    </div>
+</main>
+{{ end }}
+
+{{ define "footer" }}{{ partial "footer.html" . }}{{ end }}
