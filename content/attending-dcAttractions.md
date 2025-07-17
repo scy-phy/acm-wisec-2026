@@ -1,5 +1,6 @@
 +++
 title = "DC Attractions"
+hidden = true
 [menu.main]
     parent = "Attending"
     weight = 2000

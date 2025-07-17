@@ -1,6 +1,6 @@
 +++
 title = "Registration"
-hidden = false
+hidden = true
 [menu.main]
     parent = "Attending"
     weight = 500

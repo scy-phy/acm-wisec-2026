@@ -1,5 +1,6 @@
 +++
 title = "Call for Posters and Demos"
+hidden = true
 [menu.main]
     parent = "Call for"
     weight = 2012

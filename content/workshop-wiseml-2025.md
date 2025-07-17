@@ -1,6 +1,6 @@
 +++
 title = "Workshop Overview"
-hidden = false
+hidden = true
 slug = "wiseml2025-workshops"
 aliases = [ "wiseml", "workshop-wiseml-2025" ]
 [menu.main]

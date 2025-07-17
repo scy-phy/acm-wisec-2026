@@ -1,5 +1,6 @@
 +++
 title = "Awards"
+hidden = true
 [menu.main]
     weight = 10000
 +++

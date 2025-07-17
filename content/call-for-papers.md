@@ -1,6 +1,6 @@
 +++
 title = "Call for Papers"
-# hidden = true
+hidden = true
 [menu.main]
     parent = "Call for"
     weight = 2011

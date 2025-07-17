@@ -17,7 +17,7 @@ ACM is the world’s largest educational and scientific computing society. ACM W
 
 # Registration
 
-[Registration](/attending-registration/) for ACM WiSec 2026 is not yet open. 
+Registration for ACM WiSec 2026 is not yet open. 
 
 ## Past conferences
 - {{< link title="WiSec 2025" target="_blank" href="https://wisec2025.gmu.edu/" />}} / {{< link title="WiseML 2025" target="_blank" href="https://wisec2025.gmu.edu/wiseml2025/" />}}

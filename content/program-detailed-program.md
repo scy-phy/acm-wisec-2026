@@ -1,6 +1,6 @@
 +++
 title = "Detailed Program"
-hidden = false
+hidden = true
 draft = false
 [menu.main]
     parent = "menu_program"

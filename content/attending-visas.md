@@ -1,7 +1,7 @@
 
 +++
 title = "Visa Information"
-hidden = false
+hidden = true
 [menu.main]
     parent = "Attending"
     weight = 4000

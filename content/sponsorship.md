@@ -1,5 +1,6 @@
 +++
 title = "Sponsorships"
+hidden = true
 [menu.main]
     weight = 5000
 +++
