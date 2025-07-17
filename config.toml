@@ -26,32 +26,32 @@ enableGitInfo = false
 [[menu.main]]
     name = "Program"
     identifier = "menu_program"
-    url = "/program-at-a-glance/"
+##    url = "/program-at-a-glance/"
     weight = 2000
 
 [[menu.main]]
   name = "Proceedings"
   identifier = "wisec-proceedings"
   parent = "menu_program"
-  url = "https://wisec26.scy-phy.net/proceedings/acm-wisec-2026-toc.html"
+##  url = "https://wisec26.scy-phy.net/proceedings/acm-wisec-2026-toc.html"
   weight = 6000
 
 [[menu.main]]
     name = "Call for"
-    url = "/call-for-papers/"
+##    url = "/call-for-papers/"
     weight = 3000
 
   [[menu.main]]
   name = "wiseml2026"
   title = "WiseML 2026"
   weight = 4000
-  url = "/wiseml2026-workshops/"
+##  url = "/wiseml2026-workshops/"
 
   [[menu.main]]
     name = "Proceedings"
     identifier = "wiseml-proceedings"
     parent = "wiseml2026"
-    url = "https://wisec26.scy-phy.net/proceedings/acm-wiseml-2026-toc.html"
+##    url = "https://wisec26.scy-phy.net/proceedings/acm-wiseml-2026-toc.html"
     weight = 4000
 
   [[menu.main]]
@@ -64,7 +64,7 @@ enableGitInfo = false
   name = "Attending"
   title = "Attending"
   weight = 7000
-  url = "/attending-registration/"
+##  url = "/attending-registration/"
 
 #[[menu.sociallinks]]
 #	name = "Twitter @acm_wisec"

@@ -16,12 +16,12 @@ hidden = false
 
 {{< person-list >}}
 
-{{< person name="<a href='https://maxalbanese.com/' target='_blank'>Massimiliano Albanese</a>" img="images/persons/Massimiliano Albanese.jpg" >}}
-George Mason University, USA<br>
+{{< person name="<a href='https://tippenhauer.de/' target='_blank'>Nils Ole Tippenhauer</a>" img="images/persons/nils.png" >}}
+CISPA, Germany<br>
 {{< /person >}}
 
-{{< person name="<a href='https://cyberinitiative.org/about/leadership-staff/dasilva-luiz.html' target='_blank'>Luiz da Silva</a>" img="images/persons/Luiz da Silva.jpg" >}}
-Virginia Tech, USA<br>
+{{< person name="<a href='https://cispa.de/en/people/c01mrsi' target='_blank'>Mridula Singh</a>" img="images/persons/mridula-singh.jpg" >}}
+CISPA, Germany<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -33,12 +33,12 @@ Virginia Tech, USA<br>
 
 {{< person-list >}}
 
-{{< person name="Jean-Pierre Seifert" img="images/persons/Jean-Pierre Seifert.jpg" >}}
-TU Berlin, Germany<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
-{{< person name="Aanjhan Ranganathan" img="images/persons/Aanjhan Ranganathan.jpg" >}}
-Northeastern University, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -47,12 +47,12 @@ Northeastern University, USA<br>
 
 {{< person-list >}}
 
-{{< person name="Loukas Lazos" img="images/persons/Loukas Lazos.jpg" >}}
-University of Arizona, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
-{{< person name="Levente Buttyán" img="images/persons/Levente Buttyán.jpg" >}}
-Budapest University of Technology and Economics, Hungary<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -61,12 +61,12 @@ Budapest University of Technology and Economics, Hungary<br>
 
 {{< person-list >}}
 
-{{< person name="Vijay K. Shah" img="images/persons/Vijay K. Shah.jpg" >}}
-North Carolina State University, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
-{{< person name="Mridula Singh" img="images/persons/mridula-singh.jpg" >}}
-CISPA, Germany<br>
+{{< person name="TBD" img="" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -75,8 +75,8 @@ CISPA, Germany<br>
 
 {{< person-list >}}
 
-{{< person name="Wenjing Lou" img="images/persons/Wenjing Lou.jpg" >}}
-Virginia Tech, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -86,12 +86,12 @@ Virginia Tech, USA<br>
 
 {{< person-list >}}
 
-{{< person name="Harshad Sathaye" img="images/persons/harshad-sathaye.jpg" >}}
-ETH Zurich, Switzerland<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
-{{< person name="Altaf Shaik" img="images/persons/Altaf Shaik.jpg" >}}
-Technische Universität Berlin, Germany<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -100,12 +100,12 @@ Technische Universität Berlin, Germany<br>
 
 {{< person-list >}}
 
-{{< person name="Xiaonan Guo" img="images/persons/Xiaonan Guo.jpg" >}}
-George Mason University, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
-{{< person name="Lei Yang" img="images/persons/Lei Yang.jpg" >}}
-George Mason University, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -114,8 +114,8 @@ George Mason University, USA<br>
 
 {{< person-list >}}
 
-{{< person name="Sadegh Torabi" img="images/persons/Sadegh Torabi.jpg" >}}
-George Mason University, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -125,9 +125,8 @@ George Mason University, USA<br>
 
 {{< person-list >}}
 
-{{< person name="Rocky Slavin" img="images/persons/rocky-slavin.jpg" >}}
-University of Texas at San Antonio<br>
-San Antonio, Texas, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -137,12 +136,12 @@ San Antonio, Texas, USA<br>
 
 {{< person-list >}}
 
-{{< person name="Hoda Hassan" img="images/persons/Hoda Hassan.jpg" >}}
-George Mason University, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
-{{< person name="Mostafa Omidi" img="images/persons/MostafaOmidi.jpg" >}}
-George Mason University, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -162,16 +161,12 @@ San Antonio, Texas, USA<br>
 
 {{< person-list >}}
 
-{{< person name="Duminda Wijesekera" img="images/persons/Duminda Wijesekera.jpg" >}}
-George Mason University, USA<br>
+{{< person name="Sabrina Ute Klein" img="images/persons/ute.jpg" >}}
+CISPA, Germany<br>
 {{< /person >}}
 
-{{< person name="Joao Santos" img="images/persons/Joao Santos.jpg" >}}
-Virginia Tech, USA<br>
-{{< /person >}}
-
-{{< person name="Sanchari Das" img="images/persons/Sanchari Das.jpg" >}}
-George Mason University, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -179,27 +174,27 @@ George Mason University, USA<br>
 
 ### Treasurer
 
-{{< person name="Brian Mark" img="images/persons/Brian Mark.jpg" >}}
-George Mason University, USA<br>
+{{< person name="Theo Jäger" img="images/persons/theo.jpg" >}}
+CISPA, Germany<br>
 {{< /person >}}
 
 
 ### Sponsorship Chair
 
-{{< person name="Mercedes T. Price" img="images/persons/Mercedes T. Price.jpg" >}}
-George Mason University (she is the Senior Director of Corporate and Foundation Relations), USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 ### Student Travel Grant Chairs
 
 {{< person-list >}}
 
-{{< person name="Sachin Shetty" img="images/persons/Sachin Shetty.jpg" >}}
-Old Dominion University, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
-{{< person name="Doowon Kim" img="images/persons/Doowon Kim.jpg" >}}
-University of Tennessee, Knoxville, USA<br>
+{{< person name="TBD" img="images/persons/tbd.jpg" >}}
+TBD<br>
 {{< /person >}}
 
 {{< /person-list >}}
