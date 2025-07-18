@@ -161,7 +161,7 @@ San Antonio, Texas, USA<br>
 
 {{< person-list >}}
 
-{{< person name="Sabrina Ute Klein" img="images/persons/ute.jpg" >}}
+{{< person name="Sabrina Ute Klein" img="images/persons/sabrina-ute-klein.jpg" >}}
 CISPA, Germany<br>
 {{< /person >}}
 
@@ -174,7 +174,7 @@ TBD<br>
 
 ### Treasurer
 
-{{< person name="Theo Jäger" img="images/persons/theo.jpg" >}}
+{{< person name="Theo Jäger" img="images/persons/theo-jaeger.jpg" >}}
 CISPA, Germany<br>
 {{< /person >}}
 
