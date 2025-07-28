@@ -33,12 +33,12 @@ CISPA, Germany<br>
 
 {{< person-list >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Vincent Lenders" img="images/persons/vincent-lenders.jpg" >}}
+University of Luxembourg<br>
 {{< /person >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Gerhard Hancke" img="images/persons/gerhard-hancke.jpg" >}}
+City University of Hong Kong<br>
 {{< /person >}}
 
 {{< /person-list >}}
