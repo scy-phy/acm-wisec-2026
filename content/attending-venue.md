@@ -1,5 +1,6 @@
 +++
 title = "Conference Venue"
+hidden = true
 [menu.main]
     parent = "Attending"
     weight = 3000

@@ -1,10 +1,10 @@
 +++
 title = "Keynote Speaker"
-hidden = false
+hidden = true
 draft = false
 [menu.main]
-  parent = "wiseml2025"
-  name = "workshop-wiseml-2025-keynote-speaker"
+  parent = "wiseml2026"
+  name = "workshop-wiseml-2026-keynote-speaker"
   weight = 3000
 +++
 

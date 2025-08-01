@@ -1,10 +1,10 @@
 +++
 title = "Workshop Overview"
-hidden = false
-slug = "wiseml2025-workshops"
-aliases = [ "wiseml", "workshop-wiseml-2025" ]
+hidden = true
+slug = "wiseml2026-workshops"
+aliases = [ "wiseml", "workshop-wiseml-2026" ]
 [menu.main]
-  parent = "wiseml2025"
+  parent = "wiseml2026"
   name = "Workshops"
   weight = 1000
 +++

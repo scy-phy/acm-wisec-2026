@@ -1,6 +1,6 @@
 +++
 title = "Area Hotels"
-hidden = false
+hidden = true
 [menu.main]
     parent = "Attending"
     weight = 1000

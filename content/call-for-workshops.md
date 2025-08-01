@@ -1,5 +1,6 @@
 +++
 title = "Call for Workshops"
+hidden = true
 [menu.main]
     parent = "Call for"
     weight = 2020

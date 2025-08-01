@@ -15,6 +15,7 @@ title = "Sidebar: Sponsors"
 
 </div>
 
+<!--
 # Corporate Sponsors
 
 {{< sponsor-logo width="240" height="84" src="images/logos/corporate/newpush.png"   url="https://www.newpush.com/" title="Newpush" >}}
@@ -24,7 +25,6 @@ title = "Sidebar: Sponsors"
 # Travel Grants Sponsor
 
 {{< sponsor-logo width="90" height="84" src="images/logos/nsf.png" url="https://www.nsf.gov/" title="National Science Foundation" >}}
-
 # Partners
 
 <div style="display: flex; align-items: center; gap: 20px;">
@@ -35,4 +35,5 @@ title = "Sidebar: Sponsors"
 
 {{< sponsor-logo width="120" height="84" src="images/logos/corporate/arlington.jpeg"   url="https://www.arlingtoneconomicdevelopment.com/" title="Arlington County" >}}
 
+-->
 

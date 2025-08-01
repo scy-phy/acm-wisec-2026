@@ -1,5 +1,6 @@
 +++
 title = "Program Committee"
+hidden = true
 [menu.main]
     parent = "Organization"
     weight = 2000

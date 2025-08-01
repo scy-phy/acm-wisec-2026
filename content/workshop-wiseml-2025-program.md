@@ -1,10 +1,10 @@
 +++
 title = "Detailed Program"
-hidden = false
+hidden = true
 draft = false
 [menu.main]
-  parent = "wiseml2025"
-  name = "workshop-wiseml-2025-program"
+  parent = "wiseml2026"
+  name = "workshop-wiseml-2026-program"
   weight = 2000
 +++
 

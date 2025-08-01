@@ -1,6 +1,6 @@
 +++
 title = "Call for Artifacts"
-# hidden = true
+hidden = true
 [menu.main]
     parent = "Call for"
     weight = 3000
