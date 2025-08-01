@@ -1,0 +1,6 @@
+# Generated public html
+public/
+venv/
+# Misc files
+.hugo_build.lock
+.DS_Store

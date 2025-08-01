@@ -8,6 +8,7 @@ title = "Sidebar: Past Conferences"
 
 # Past Conferences
 
+- {{< link title="WiSec 2025" target="_blank" href="https://wisec2025.gmu.edu/" />}} / {{< link title="WiseML 2025" target="_blank" href="https://wisec2025.gmu.edu/wiseml2025/" />}}
 - {{< link title="WiSec 2024" target="_blank" href="https://wisec2024.kaist.ac.kr/" />}} / {{< link title="WiseML 2024" target="_blank" href="https://wisec2024.kaist.ac.kr/wiseml2024/" />}}
 - {{< link title="WiSec 2023" target="_blank" href="https://wisec2023.surrey.ac.uk/" />}} / {{< link title="WiseML 2023" target="_blank" href="https://wisec2023.surrey.ac.uk/wiseml2023/" />}}
 - {{< link title="WiSec 2022" target="_blank" href="https://wisec2022.cs.utsa.edu/" />}} / {{< link title="WiseML 2022" target="_blank" href="https://wisec2022.cs.utsa.edu/wiseml2022" />}}

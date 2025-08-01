@@ -1,4 +1,4 @@
-baseURL = "https://wisec26.scy-phy.net/"
+baseURL = "https://wisec26.events.cispa.de/"
 
 languageCode = "en-us"
 title = "ACM WiSec 2026"
@@ -33,7 +33,7 @@ enableGitInfo = false
   name = "Proceedings"
   identifier = "wisec-proceedings"
   parent = "menu_program"
-  url = "https://wisec26.scy-phy.net/proceedings/acm-wisec-2026-toc.html"
+  url = "https://wisec26.events.cispa.de/proceedings/acm-wisec-2026-toc.html"
   weight = 6000
 
 [[menu.main]]
@@ -51,7 +51,7 @@ enableGitInfo = false
     name = "Proceedings"
     identifier = "wiseml-proceedings"
     parent = "wiseml2026"
-    url = "https://wisec26.scy-phy.net/proceedings/acm-wiseml-2026-toc.html"
+    url = "https://wisec26.events.cispa.de/proceedings/acm-wiseml-2026-toc.html"
     weight = 4000
 
   [[menu.main]]
@@ -83,3 +83,7 @@ enableGitInfo = false
 # 	identifier = "travel_info"
 #     url = "/student-travel-grants/"
 #     weight = 11011
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
