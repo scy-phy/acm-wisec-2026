@@ -136,8 +136,8 @@ TBD<br>
 
 {{< person-list >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Alessandro Erba" img="images/persons/alessandro_erba.png" >}}
+KIT, Germany<br>
 {{< /person >}}
 
 {{< person name="TBD" img="images/persons/tbd.jpg" >}}
