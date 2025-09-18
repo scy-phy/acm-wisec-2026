@@ -1,6 +1,6 @@
 +++
 title = "Call for Papers"
-hidden = true
+hidden = false
 [menu.main]
     parent = "Call for"
     weight = 2011
@@ -11,7 +11,7 @@ hidden = true
 
 <!-- <b>Submission site:</b> [https://wisec24-spring.hotcrp.com](https://wisec24-spring.hotcrp.com) -->
 
-The 18<sup>th</sup> ACM Conference on Security and Privacy in Wireless and Mobile Networks (ACM WiSec 2025) will be held in person from June 30 to July 3, 2025, in Arlington, Virginia, USA.
+The 19<sup>th</sup> ACM Conference on Security and Privacy in Wireless and Mobile Networks (ACM WiSec 2026) will be held in person from June 30 to July 3, 2026 (TBC), in Saarbrücken, Germany.
 <!--**First submission deadline** is approaching fast, on **November 21, 2024**.
 Then **Second submission deadline** is, on **March 12, 2025**. -->
 
@@ -23,10 +23,10 @@ Topics of interest for WiSec include the following, concerning systems in the se
 - Confidentiality, integrity, availability
 - Authentication, identity, authorization, access control models and policies, localization, key management (agreement or distribution),
 - Privacy of systems, devices, users, their locations and other attributes
-- Exploitation of systems, including through reverse engineering, fuzzing, hardware or software vulnerabilities, protocol vulnerabilities, side channels, fault injection, resource  exhaustion, jamming, or other means.
-- Abuse of and through systems, including messaging abuse (spam, robocalls, etc.), theft  of service, and fraud
+- Exploitation of systems, including through reverse engineering, fuzzing, hardware or software vulnerabilities, protocol vulnerabilities, side channels, fault injection, resource exhaustion, jamming, or other means.
+- Abuse of and through systems, including messaging abuse (spam, robocalls, etc.), theft of service, and fraud
 - Defenses for exploitation and abuse
-- Experiences developing, testing, and deploying production-ready or large-scale secure  wireless systems
+- Experiences developing, testing, and deploying production-ready or large-scale secure wireless systems
 - Formal analysis, formal verification, and proof-based security approaches
 - Information theoretical approaches for security
 - Usable security and privacy, human factors
@@ -34,42 +34,43 @@ Topics of interest for WiSec include the following, concerning systems in the se
 - Economic and social impacts to security and privacy
 
 Wireless and Mobile Systems of Interest include:
-
-- Wireless networking protocols, for example: 802.11, Bluetooth, 802.15.4-based protocols, cellular air protocols including LTE and 5G-NR, Vehicle and industrial device protocols (e.g., LoRA), wireless for critical infrastructure (e.g., ADS-B, GPS, rail, satellites), NFC and smart payment applications
-Cryptographic primitives and protocols for wireless and mobile systems, including: WPA2, AKA, etc.
+- Wireless networking protocols, for example: 802.11, Bluetooth, 802.15.4-based protocols, cellular air protocols including LTE and 5G-NR, Vehicle and industrial device protocols (e.g., LoRA), wireless for critical infrastructure (e.g., ADS-B, GPS, rail, satellites), NFC and smart payment applications Cryptographic primitives and protocols for wireless and mobile systems, including: WPA2, AKA, etc.
 - Wireless physical layer technologies: transmission, reception, modulation, localization, remote sensing (e.g., radar, mmWave sensing), jammers, dynamic spectrum reuse and cognitive radio systems
 - Wireless and mobile device hardware and software, for example: embedded devices, wearables (e.g., watches), smartphones, mobile sensors, home and industrial automation devices (e.g., IoT, Smart Home, utilities, etc.), healthcare devices, vehicles (e.g., drones, automotive, avionics, satelites), and payment systems
-- Wireless and mobile adjacent topics, including voice interfaces, visible light communications, sonic, underwater communications, legacy telecommunications, ...
-
+- Wireless and mobile adjacent topics, including voice interfaces, visible light communications, sonic, underwater communications, legacy telecommunications
 The proceedings of ACM WiSec, sponsored by SIGSAC, will be published by ACM.
 
 ## Important dates
 
 Please note: WiSec will have two rounds of submissions. In previous years, WiSec has had a tradition of announcing deadline extensions. Due to the change in the submission process, there will not be time for extensions this year and all deadlines are firm.
 
+<!--<span style="color:red">~~Mar 12, 2025~~</span> March 16, 2025 (AOE)   -->
+
 * **First Cycle deadlines**
-  * Submission: November 21, 2024
-  * Author Notification: January 15, 2025
-  * Camera-ready: February 5, 2025
+  * Submission: November 18, 2025 (AOE)
+  * Notification: January 13, 2026
+  * Camera-ready: February 3, 2026
 * **Second Cycle deadlines**
-  * Submission: <span style="color:red">~~Mar 12, 2025~~</span> March 16, 2025 (AOE)  
-  * Author Notification: April 25, 2025
-  * Camera-ready: May 12, 2025
+  * Submission: March 3, 2026 (AOE)
+  * Notification: April 14, 2026
+  * Camera-ready: May 5, 2026
 * **Posters/Demo deadlines**
-  * Submission: <span style="color:red">~~Apr 28, 2025~~</span> Apr 30, 2025 (AOE)
-  * Author Notification: May 8, 2025
-  * Camera-ready: May 12, 2025
+  * Submission: April 7, 2026 (AOE)
+  * Notification: May 21, 2026
+  * Camera-ready: May 5, 2026
 
 * **Conference dates**
-  * June 30 - July 3, 2025
+  * June 30 to July 3, 2026 (TBC)
 
 
 ## Submission Guidelines
 
-All papers for ACM WiSec 2025 must be submitted electronically through the HotCRP conference management system.
+All papers for ACM WiSec 2026 must be submitted electronically through the HotCRP conference management system.
 
-  *   First Cycle: [HotCRP submission site for Cycle 1](https://wisec25.hotcrp.com/)
-  *   Second Cycle: [HotCRP submission site for Cycle 2](https://wisec25-cycle2.hotcrp.com)
+  *   First Cycle:  TBA
+  <!-- [HotCRP submission site for Cycle 1](TBA) -->
+  *   Second Cycle: TBA
+  <!-- [HotCRP submission site for Cycle 2](TBA) -->
 
 Only PDF files will be accepted. Submissions must be prepared using the following ACM proceedings template and must use US Letter page size (215.9 x 279.4 mm / 8.5 x 11 inches):
 
@@ -88,13 +89,13 @@ In addition to regular papers that present novel contributions in the field, we 
 
 ## Posters and demos 
 
-WiSec will solicit the submission of posters and demos. The instructions to submit posters/demos will be made available on the WiSec 2025 website.
+WiSec will solicit the submission of posters and demos. The instructions to submit posters/demos will be made available on the WiSec 2026 website.
 
 ## Artifact Evaluation label
 
 In the spirit of open science, WiSec encourages authors of accepted papers to make software and data artifacts publicly available to the community.
 
-Such artifacts will be evaluated by the artifact evaluation committee and corresponding papers will be granted an artifact evaluation label. While artifacts are optional, their availability will be positively considered during paper evaluation. Should the authors choose to submit their artifacts for evaluation, they should indicate their decision upon paper submission and follow the artifact submission guidelines in order to submit them upon paper acceptance. The detailed guidelines will be made available on the WiSec 2025 website.
+Such artifacts will be evaluated by the artifact evaluation committee and corresponding papers will be granted an artifact evaluation label. While artifacts are optional, their availability will be positively considered during paper evaluation. Should the authors choose to submit their artifacts for evaluation, they should indicate their decision upon paper submission and follow the artifact submission guidelines in order to submit them upon paper acceptance. The detailed guidelines will be made available on the WiSec 2026 website.
 
 ## Double submissions 
 
