@@ -61,8 +61,8 @@ TBD<br>
 
 {{< person-list >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Daniele Antonioli" img="images/persons/antonioli-daniele.png" >}}
+EURECOM, France<br>
 {{< /person >}}
 
 {{< person name="TBD" img="" >}}
