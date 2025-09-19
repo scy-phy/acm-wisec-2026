@@ -17,7 +17,7 @@ title = "Sidebar: Important Dates"
   * Camera-ready: May 5, 2026
 * **Posters/Demo deadlines**
   * Submission: April 7, 2026 (AOE)
-  * Notification: May 21, 2026
+  * Notification: April 21, 2026
   * Camera-ready: May 5, 2026
 * **Author registration**
   * May TBA, 2026 (Firm)

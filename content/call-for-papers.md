@@ -56,7 +56,7 @@ Please note: WiSec will have two rounds of submissions. In previous years, WiSec
   * Camera-ready: May 5, 2026
 * **Posters/Demo deadlines**
   * Submission: April 7, 2026 (AOE)
-  * Notification: May 21, 2026
+  * Notification: April 21, 2026
   * Camera-ready: May 5, 2026
 
 * **Conference dates**
