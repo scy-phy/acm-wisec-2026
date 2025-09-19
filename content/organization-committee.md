@@ -100,8 +100,8 @@ TBD<br>
 
 {{< person-list >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Ali Abbasi" img="images/persons/ali-abbasi.jpg" >}}
+CISPA, Germany<br>
 {{< /person >}}
 
 {{< person name="TBD" img="images/persons/tbd.jpg" >}}
