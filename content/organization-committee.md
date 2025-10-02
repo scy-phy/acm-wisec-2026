@@ -71,8 +71,8 @@ EURECOM, France<br>
 
 {{< person-list >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Martin Strohmeier" img="images/persons/martin-strohmeier.jpg" >}}
+Armasuisse, Switzerland<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -82,8 +82,12 @@ TBD<br>
 
 {{< person-list >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Ildi Alla" img="images/persons/ildi-alla.jpg" >}}
+INRIA, France<br>
+{{< /person >}}
+
+{{< person name="Eric Wagner" img="images/persons/eric-wagner.jpg" >}}
+RWTH Aachen, Germany<br>
 {{< /person >}}
 
 {{< /person-list >}}
@@ -102,8 +106,8 @@ CISPA, Germany<br>
 
 {{< person-list >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Sebastian Köhler" img="images/persons/sebastian-koehler.jpg" >}}
+University of Manchester, United Kingdom<br>
 {{< /person >}}
 
 {{< /person-list >}}
