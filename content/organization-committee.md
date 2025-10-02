@@ -29,7 +29,7 @@ CISPA, Germany<br>
 
 ### Program Chairs
 
-<!-- {{< mailto "wisec2022pcchairs@kaist.ac.kr" />}} -->
+{{< mailto "wisec26-tpc-chairs@googlegroups.com" />}}
 
 {{< person-list >}}
 
@@ -138,7 +138,7 @@ KIT, Germany<br>
 {{< person name="Sabrina Ute Klein" img="images/persons/sabrina-ute-klein.jpg" >}}
 CISPA, Germany<br>
 {{< /person >}}
-
+    
 {{< /person-list >}}
 
 
