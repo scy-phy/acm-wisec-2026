@@ -67,7 +67,7 @@ Please note: WiSec will have two rounds of submissions. In previous years, WiSec
 
 All papers for ACM WiSec 2026 must be submitted electronically through the HotCRP conference management system.
 
-  *   First Cycle:  TBA
+  *   First Cycle:  https://wisec26.hotcrp.com/
   <!-- [HotCRP submission site for Cycle 1](TBA) -->
   *   Second Cycle: TBA
   <!-- [HotCRP submission site for Cycle 2](TBA) -->
