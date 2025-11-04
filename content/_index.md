@@ -19,6 +19,13 @@ ACM is the world’s largest educational and scientific computing society. ACM W
 
 Registration for ACM WiSec 2026 is not yet open. 
 
+# Call for Papers
+
+The call for papers is <a href="call-for-papers/">released</a>, please check the section about the
+  <a href="call-for-papers/#important-update-on-acms-new-open-access-publishing-model-for-2026-acm-conferences" style="color:red;">
+    Important update on ACM’s new open access publishing model for 2026 ACM Conferences
+  </a>
+
 ## Past conferences
 - {{< link title="WiSec 2025" target="_blank" href="https://wisec2025.gmu.edu/" />}} / {{< link title="WiseML 2025" target="_blank" href="https://wisec2025.gmu.edu/wiseml2025/" />}}
 - {{< link title="WiSec 2024" target="_blank" href="https://wisec2024.kaist.ac.kr/" />}} / {{< link title="WiseML 2024" target="_blank" href="https://wisec2024.kaist.ac.kr/wiseml2024/" />}}

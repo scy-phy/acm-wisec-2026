@@ -5,6 +5,14 @@ hidden = false
     parent = "Call for"
     weight = 2011
 +++
+
+<div style="background-color:#ffdddd; border-left:4px solid red; padding:10px;">
+  <strong>📢</strong>
+  <a href="#important-update-on-acms-new-open-access-publishing-model-for-2026-acm-conferences" style="color:red;">
+    Important update on ACM’s new open access publishing model for 2026 ACM Conferences
+  </a>
+</div>
+
 # Call for Papers
 
 <!-- <b>Contact email:</b> [wisec24-tpc-chairs@googlegroups.com](mailto:wisec24-tpc-chairs@googlegroups.com) -->
@@ -104,6 +112,37 @@ It is a policy of the ACM to disallow double/simultaneous submissions, where the
 ## Workshops and Tutorial
 
 ACM WiSec will host workshops/tutorials that are co-organized with the main conference. Details will be made available on the website.
+
+## Important update on ACMs new open access publishing model for 2026 ACM Conferences
+
+Starting January 1, 2026, ACM will fully transition to Open Access.
+All ACM publications, including those from ACM-sponsored conferences,
+will be 100% Open Access. Authors will have two primary options for
+publishing Open Access articles with ACM: the ACM Open institutional
+model or by paying Article Processing Charges (APCs). With over 2,600
+institutions already part of ACM Open, the majority of ACM-sponsored
+conference papers will not require APCs from authors or conferences
+(currently, around 76%).
+Authors from institutions not participating in ACM Open will need to
+pay an APC to publish their papers, unless they qualify for a
+financial waiver. To find out whether an APC applies to your article,
+please consult the list of participating institutions in ACM Open and
+review the https://www.acm.org/publications/policies/policy-on-discretionary-open-access-apc-waivers.
+Keep in mind that waivers are rare and are granted based on specific
+criteria set by ACM.
+Understanding that this change could present financial challenges, ACM
+has approved a temporary subsidy for 2026 to ease the transition and
+allow more time for institutions to join ACM Open. The subsidy will
+offer:
+
+- $250 APC for ACM/SIG members
+- $350 for non-members
+
+This represents a 65% discount, funded directly by ACM. Authors are
+encouraged to help advocate for their institutions to join ACM Open
+during this transition period.
+This temporary subsidized pricing will apply to all conferences
+scheduled for 2026.
 
 ## Research Ethics 
 
