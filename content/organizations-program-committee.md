@@ -38,6 +38,7 @@ hidden = false
 - Roger Piqueras Jover, *Meta, USA*
 - Sebastian Köhler, *University of Manchester, United Kingdom*
 - Srdjan Čapkun, *ETH Zurich, Switzerland*
+- Stefan Gvozdenovic, *Silicon Laboratories, USA*
 - Stjepan Picek, *University of Zagreb / Radboud University, Netherlands*
 - Syed Rafiul Hussain, *Pennsylvania State University, USA*
 - Weitao Xu, *City University of Hong Kong, Hong Kong China*
