@@ -22,4 +22,4 @@ title = "Sidebar: Important Dates"
 * **Author registration**
   * May TBA, 2026 (Firm)
 * **Conference dates**
-  * June 30 to July 3, 2026 (TBC)
+  * June 30 to July 3, 2026

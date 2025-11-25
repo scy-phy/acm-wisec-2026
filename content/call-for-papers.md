@@ -19,7 +19,7 @@ hidden = false
 
 <!-- <b>Submission site:</b> [https://wisec24-spring.hotcrp.com](https://wisec24-spring.hotcrp.com) -->
 
-The 19<sup>th</sup> ACM Conference on Security and Privacy in Wireless and Mobile Networks (ACM WiSec 2026) will be held in person from June 30 to July 3, 2026 (TBC), in Saarbrücken, Germany.
+The 19<sup>th</sup> ACM Conference on Security and Privacy in Wireless and Mobile Networks (ACM WiSec 2026) will be held in person from June 30 to July 3, 2026, in Saarbrücken, Germany.
 <!--**First submission deadline** is approaching fast, on **November 21, 2024**.
 Then **Second submission deadline** is, on **March 12, 2025**. -->
 
@@ -68,7 +68,7 @@ Please note: WiSec will have two rounds of submissions. In previous years, WiSec
   * Camera-ready: May 5, 2026
 
 * **Conference dates**
-  * June 30 to July 3, 2026 (TBC)
+  * June 30 to July 3, 2026
 
 
 ## Submission Guidelines
