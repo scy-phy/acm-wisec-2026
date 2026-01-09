@@ -47,12 +47,12 @@ City University of Hong Kong<br>
 
 {{< person-list >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Loukas Lazos" img="images/persons/loukas-lazos.jpg" >}}
+University of Arizona, USA<br>
 {{< /person >}}
 
-{{< person name="TBD" img="images/persons/tbd.jpg" >}}
-TBD<br>
+{{< person name="Ryan M. Gerdes" img="images/persons/ryan-gerdes.jpg" >}}
+Virginia Tech, USA<br>
 {{< /person >}}
 
 {{< /person-list >}}
