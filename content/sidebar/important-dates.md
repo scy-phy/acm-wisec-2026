@@ -15,6 +15,12 @@ title = "Sidebar: Important Dates"
   * Submission: March 3, 2026 (AOE)
   * Notification: April 14, 2026
   * Camera-ready: May 5, 2026
+* **Call for Workshops Proposals**
+  * Submission: February 9, 2026
+  * Notification: February 13, 2026
+* **Workshop Paper Submission**
+  * Submission: TBD
+  * Notification: TBD
 * **Posters/Demo deadlines**
   * Submission: April 7, 2026 (AOE)
   * Notification: April 21, 2026
