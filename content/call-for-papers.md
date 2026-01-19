@@ -103,7 +103,7 @@ WiSec will solicit the submission of posters and demos. The instructions to subm
 
 In the spirit of open science, WiSec encourages authors of accepted papers to make software and data artifacts publicly available to the community.
 
-Such artifacts will be evaluated by the artifact evaluation committee and corresponding papers will be granted an artifact evaluation label. While artifacts are optional, their availability will be positively considered during paper evaluation. Should the authors choose to submit their artifacts for evaluation, they should indicate their decision upon paper submission and follow the artifact submission guidelines in order to submit them upon paper acceptance. The detailed guidelines will be made available on the WiSec 2026 website.
+Such artifacts will be evaluated by the artifact evaluation committee and corresponding papers will be granted an artifact evaluation label. While artifacts are optional, their availability will be positively considered during paper evaluation. Should the authors choose to submit their artifacts for evaluation, they should indicate their decision upon paper submission and follow the artifact submission guidelines in order to submit them upon paper acceptance. The detailed guidelines are available in the [ACM WiSec 2026 Call for Artifacts](/call-for-artifacts).
 
 ## Double submissions 
 
