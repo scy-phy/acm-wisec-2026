@@ -16,11 +16,11 @@ Authors of accepted papers can participate in this voluntary process by submitti
 The authors upload a VM containing all the necessary data and code required to replicate the results. At least two reviewers are asked to replicate the results for each submission. Authors ensure that submitted VMs are self-contained to the maximum extent possible to eliminate any future version deprecation and backward compatibility issues. The reviewers clarify any issues directly with the authors (and may request updates to the original VM and code).
 
 The submission deadlines for replicability applications are:
-- First Cycle: February 2, 2026 (23:59 AoE)
+- First Cycle: February 9, 2026 (23:59 AoE)
 - Second Cycle: April 21, 2026 (23:59 AoE)
 
 Authors will be notified if their work was replicated by:
-- First Cycle: February 23, 2026
+- First Cycle: March 2, 2026
 - Second Cycle: May 5, 2026
 
 The committee awards up to three badges for the public availability of the artifacts, the functionality of the artifacts, and the reproducibility of the results of the publication.

@@ -12,8 +12,8 @@ title = "Sidebar: Important Dates"
   * Notification: January 13, 2026
   * Camera-ready: February 3, 2026
   * Artifacts:
-    * Submission: February 2, 2026 (AoE)
-    * Notification: February 23, 2026
+    * Submission: February 9, 2026 (AoE)
+    * Notification: March 2, 2026
 * **Second Cycle deadlines**
   * Submission: March 3, 2026 (AOE)
   * Notification: April 14, 2026
