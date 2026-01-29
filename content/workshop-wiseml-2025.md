@@ -1,6 +1,6 @@
 +++
 title = "Workshop Overview"
-hidden = true
+hidden = false
 slug = "wiseml2026-workshops"
 aliases = [ "wiseml", "workshop-wiseml-2026" ]
 [menu.main]
@@ -10,17 +10,18 @@ aliases = [ "wiseml", "workshop-wiseml-2026" ]
 +++
 
 
-# ACM Workshop on Wireless Security and Machine Learning (WiseML 2025)
+# ACM Workshop on Wireless Security and Machine Learning (WiseML) 2026
 
-The ACM Workshop on Wireless Security and Machine Learning (WiseML) 2025 will be held in conjunction with the ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec) 2025. Accepted, registered, and presented papers will appear in the conference proceedings and the ACM digital library.
+
+The ACM Workshop on Wireless Security and Machine Learning (WiseML) 2026 will be held in conjunction with the ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec) 2026. Accepted, registered, and presented papers will appear in the ACM digital library.  
 
 ## Scope and background
 
-Machine learning (ML) has become a powerful tool for analyzing spectrum data and developing efficient and secure solutions for IoT, CPS, 5G, NextG, and other emerging communication systems. However, recent research highlights how adversarial ML (AML) techniques can compromise the performance of ML-based wireless systems, underscoring the urgent need to understand and mitigate AML's impact on wireless technologies.
+Machine learning (ML) has emerged as a powerful tool for analyzing spectrum data and for developing efficient and secure solutions for the IoT, CPS, 5G, NextG, SatCom, and other emerging wireless systems. On the other hand, adversarial machine learning techniques can severely compromise the performance of ML-enabled wireless systems, highlighting an urgent need to better understand and mitigate the impact of adversarial machine learning on wireless technologies.
 
-Developing efficient and robust ML algorithms for wireless security is essential, particularly in environments constrained by power and computational resources. Such advancements are critical to ensuring the integrity and reliability of wireless communications. There is an increasing demand to explore the intersection of ML with wireless security, privacy, and robustness to address these challenges effectively.
+Developing efficient, robust, and resilient ML algorithms for wireless security is therefore essential, particularly in environments constrained by limited power and computational resources. Such advances are critical to ensuring the integrity, reliability, and trustworthiness of wireless communications. As a result, there is a growing demand for research at the intersection of ML, wireless security, privacy, and robustness to effectively address these challenges.
 
-To advance this field, our workshop aims to unite researchers and practitioners from the ML, privacy, security, wireless communications, and networking communities worldwide. The workshop provides a collaborative platform for sharing cutting-edge research, exchanging ideas, and fostering partnerships to push the boundaries of knowledge in these vital and rapidly evolving domains.
+WiseML aims to bring together researchers and practitioners from the ML, security, privacy, wireless communications, and networking communities worldwide. The workshop will serve as a collaborative forum for presenting cutting-edge research, exchanging ideas, and fostering interdisciplinary partnerships to push the boundaries of knowledge in these important and rapidly evolving areas.
 
 
 ## Topics of Interest (but not limited to)
@@ -44,9 +45,10 @@ To advance this field, our workshop aims to unite researchers and practitioners 
 
 **Privacy & Security Issues of ML Solutions**
 
+- Anonymity
 - Differential privacy and alternative privacy models
 - Generative AI (GenAI) security
-- Information-theoretic privacy
+- Information-theoretic security and privacy
 - Large language models (LLM) security 
 - Membership inference attacks
 - Model inversion
@@ -64,8 +66,7 @@ To advance this field, our workshop aims to unite researchers and practitioners 
 
 - 5G/NextG/cloud security
 - Access control
-- Anonymity
-- Cognitive radio 
+- Agentic AI
 - Covert communications
 - Device identification/ RF fingerprinting
 - Digital twin security
@@ -85,12 +86,12 @@ To advance this field, our workshop aims to unite researchers and practitioners 
 {{%column 2 "sm" %}}
 
 **Strengthening ML Solutions**
+
 - Authentication
 - Certified defense
 - Correcting for model or data drift
 - Cyber-physical systems/IoT 
 - Data augmentation 
-- Datasets 
 - Efficient and edge deployable solutions
 - Embedded computing
 - Experiments and testbeds
@@ -99,6 +100,7 @@ To advance this field, our workshop aims to unite researchers and practitioners 
 - Information discovery
 - Lifelong learning
 - Uncertainty quantification
+- Wireless datasets
 
 {{%/column%}}
 {{%/row%}}
@@ -108,9 +110,8 @@ To advance this field, our workshop aims to unite researchers and practitioners 
 
 {{< person-list >}}
 
-{{< person name="Danda B. Rawat" img="images/persons/danda-rawat.jpeg" >}}
-Howard University, USA<br>
-Washington D.C, USA<br>
+{{< person name="Onur Günlü" img="images/persons/onur-gunlu.jpg" >}}
+TU Dortmund, Germany<br>
 {{< /person >}}
 
 {{< person name="Yalin Sagduyu" img="images/persons/yalin-sagduyu.jpg" >}}
@@ -123,16 +124,12 @@ Virginia Tech<br>
 Arlington, VA, USA<br>
 {{< /person >}}
 
-{{< person name="Xuyu Wang" img="images/persons/xuyu-wang.jpeg" >}}
-Florida International University<br>
-Miami, FL, USA<br>
+{{< person name="Junqing Zhang" img="images/persons/junqing-zhang.jpg" >}}
+University of Liverpool, UK<br>
 {{< /person >}}
 
 {{< /person-list >}}
 
-## Information Systems (HotCRP) Chair
-
-- Shanghao Shi, *Virginia Tech, VA, USA*
 
 
 ## Steering Committee
@@ -142,7 +139,7 @@ Miami, FL, USA<br>
 - Dr. K.P. (Suba) Subbalakshmi, *Stevens Institute of Technology, NJ, USA*
 - Dr. Aylin Yener, *The Ohio State University, OH, USA*
 
-## Technical Program Committee (TPC) Members:
+<!-- ## Technical Program Committee (TPC) Members:
 
 - Eyuphan Bulut, Virginia Commonwealth University, USA
 - M. Cenk Gursoy, Syracuse University, USA
@@ -160,22 +157,19 @@ Miami, FL, USA<br>
 - Ning Wang, University of South Florida, USA
 - Diana-Alexandra Vasile, Nokia Bell Labs Cambridge, UK
 - Feng Ye, University of Wisconcin-Madison
-- Junqing Zhang, University of Liverpool, UK
+- Junqing Zhang, University of Liverpool, UK -->
 
 ## Submission Guidelines
 
-*Submission site*: {{<link title="https://wiseml25.hotcrp.com/" target="_blank" href="https://wiseml25.hotcrp.com/"/>}}.
+*Submission site*: {{<link title="https://wiseml26.hotcrp.com/" target="_blank" href="https://wiseml26.hotcrp.com/"/>}}.
 
-Workshop papers must be written in English, must be formatted in the standard ACM conference style, and are not to exceed six pages. Accepted papers will appear in the conference proceedings and the ACM digital library.
-
+Workshop papers should be written in English, must be formatted in the standard ACM conference style, and are not to exceed six pages. Accepted papers will appear in the ACM digital library.
+ 
 Only PDF files will be accepted for the review process. All papers must be thoroughly anonymized for double-blind reviewing.
-
-- The ACM proceedings template for LaTeX can be found at [Association for Computing Machinery (ACM) - SIG Proceedings Template](https://www.overleaf.com/latex/templates/association-for-computing-machinery-acm-sig-proceedings-template/bmvfhcdnxfty).
-- Please look at [ACM Primary Article Template](https://www.acm.org/publications/proceedings-template) for further information on ACM proceedings templates.
 
 ## Important Dates:
 
-- Paper Submission Deadline: March 28, 2025
-- Acceptance Notification: April 25, 2025
-- Camera-Ready Paper Submission: May 12, 2025
-- Workshop Event: July 3, 2025
+- Paper Submission Deadline: March 15, 2026
+- Acceptance Notification: April 9, 2026
+- Camera-Ready Paper Submission: April 30, 2026
+- Workshop Event: July 3, 2026
