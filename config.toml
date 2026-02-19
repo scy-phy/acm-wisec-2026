@@ -27,7 +27,7 @@ enableGitInfo = false
     name = "Program"
     identifier = "menu_program"
 ##    url = "/program-at-a-glance/"
-    weight = 2000
+  weight = 2000
 
 #[[menu.main]]
 #  name = "Proceedings"
@@ -36,16 +36,16 @@ enableGitInfo = false
 #  url = "https://wisec26.events.cispa.de/proceedings/acm-wisec-2026-toc.html"
 #  weight = 6000
 
-##[[menu.main]]
-##    name = "Call for"
-##    url = "/call-for-papers/"
-##    weight = 3000
+[[menu.main]]
+    name = "Call for"
+    url = "/call-for-papers/"
+    weight = 3000
 
   [[menu.main]]
   name = "wiseml2026"
   title = "WiseML 2026"
   weight = 4000
-##  url = "/wiseml2026-workshops/"
+  url = "/wiseml2026-workshops/"
 
 #  [[menu.main]]
 #    name = "Proceedings"
@@ -54,11 +54,11 @@ enableGitInfo = false
 #    url = "https://wisec26.events.cispa.de/proceedings/acm-wiseml-2026-toc.html"
 #    weight = 4000
 
-##  [[menu.main]]
-##  name = "Organization"
-##  identifier = "Organization"
-##  url = "/organization-committee/"
-##  weight = 6000
+  [[menu.main]]
+  name = "Organization"
+  identifier = "Organization"
+  url = "/organization-committee/"
+  weight = 6000
 
 #  [[menu.main]]
 #  name = "Attending"
