@@ -1,6 +1,6 @@
 +++
 title = "Sponsorships"
-hidden = true
+hidden = false
 [menu.main]
     weight = 5000
 +++
@@ -68,7 +68,7 @@ hidden = true
 <div class="sponsor-static-block">
 <a href="https://www.newpush.com/" target="_blank" rel="noopener">
     <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/corporate/newpush.png">
+        <!-- <img class="sponsor-logo-image" src="/images/logos/corporate/newpush.png"> -->
     </div>
 </a>
 </div>
@@ -78,7 +78,7 @@ hidden = true
 <div class="sponsor-static-block">
 <a href="https://fairfaxcountyeda.org/" target="_blank" rel="noopener">
     <div class="sponsor-card-wide">
-        <img class="sponsor-logo-image" src="/images/logos/corporate/fceda.png">
+       <!-- <img class="sponsor-logo-image" src="/images/logos/corporate/fceda.png"> -->
     </div>
 </a>
 </div>
@@ -87,7 +87,7 @@ hidden = true
 
 <div class="sponsor-static-block">
     <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/nsf.png">
+       <!-- <img class="sponsor-logo-image" src="/images/logos/nsf.png"> -->
     </div>
 </div>
 
@@ -96,7 +96,7 @@ hidden = true
 <div class="sponsor-static-block">
  <a href="https://www.gmu.edu/" target="_blank" rel="noopener">
    <div class="sponsor-card-wide">
-        <img class="sponsor-logo-image" src="/images/logos/gmu-logo-large.png">
+      <!--  <img class="sponsor-logo-image" src="/images/logos/gmu-logo-large.png"> -->
     </div>
 </a>
 </div>
@@ -107,7 +107,7 @@ hidden = true
 <div class="sponsor-static-block">
 
 <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/vtech-logo.png">
+       <!-- <img class="sponsor-logo-image" src="/images/logos/vtech-logo.png"> -->
     </div>
 
 
@@ -116,7 +116,7 @@ hidden = true
     </div>
 <a href="https://www.arlingtoneconomicdevelopment.com/" target="_blank" rel="noopener">
     <div class="sponsor-card-wide">
-        <img class="sponsor-logo-image" src="/images/logos/corporate/arlington.jpeg">
+      <!--  <img class="sponsor-logo-image" src="/images/logos/corporate/arlington.jpeg"> -->
     </div>
 </a>
 </div>
@@ -132,14 +132,14 @@ function CreateEmailLink (Username,Domain) {
 }
 
 function CreateGmuEmailLink () {
-	CreateEmailLink('malbanes','gmu.edu');
+	CreateEmailLink('wisec26-general-chairs','googlegroups.com');
 }
 
 </script>
 
 ## Sponsorship Levels and Benefits
 
-If interested in sponsoring the conference, please see the membership levels below and contact General Chair Massimiliano Albanese at <span> 
+If interested in sponsoring the conference, please see the membership levels below and contact the General Chairs at <span> 
     <script type="text/javascript">
         CreateGmuEmailLink();
     </script>
@@ -194,10 +194,10 @@ If interested in sponsoring the conference, please see the membership levels bel
   <thead>
     <tr>
       <th class="benefit-col" style="background-color: #e0e0e0">Benefits</th>
-      <th class="platinum">Platinum<br>$5,000</th>
-      <th class="gold">Gold<br>$3,000</th>
-      <th class="silver">Silver<br>$2,000</th>
-      <th class="bronze">Bronze<br>$1,000</th>
+      <th class="platinum">Platinum<br>5000 EUR</th>
+      <th class="gold">Gold<br>3000 EUR</th>
+      <th class="silver">Silver<br>2000 EUR</th>
+      <th class="bronze">Bronze<br>1000 EUR</th>
     </tr>
   </thead>
   <tbody>
@@ -235,14 +235,7 @@ If interested in sponsoring the conference, please see the membership levels bel
       <td style="text-align: center;">✔</td>
       <td style="text-align: center;">-</td>
       <td style="text-align: center;">-</td>
-    </tr>
-    <tr>
-      <td class="benefit-col">Lunch table designation</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">-</td>
-      <td style="text-align: center;">-</td>
-      <td style="text-align: center;">-</td>
-    </tr>
+	</tr>
     <tr>
       <td class="benefit-col">Advertisement in conference program</td>
       <td style="text-align: center;">Full page</td>
@@ -250,84 +243,5 @@ If interested in sponsoring the conference, please see the membership levels bel
       <td style="text-align: center;">1/4 Page</td>
       <td style="text-align: center;">-</td>
     </tr>
-    <tr>
-      <td class="benefit-col">Event naming opportunity (e.g., luncheon)</td>
-      <td style="text-align: center;">✔</td>
-      <td style="text-align: center;">-</td>
-      <td style="text-align: center;">-</td>
-      <td style="text-align: center;">-</td>
-    </tr>
   </tbody>
 </table>
-
-
-
-<!--
-
-## Corporate, Institutional, Governmental Sponsor
-
-### Platinum Sponsor
-
-<br>
-
-<div class="sponsor-static-block">
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/huawei.jpg">
-    </div>
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/korea-tourism-organization.png">
-    </div>
-    <div class="sponsor-card">
-
-        <img class="sponsor-logo-image" src="/images/logos/NSF.png">
-    </div>
-</div>
-
-### Silver Sponsor
-
-<br>
-
-<div class="sponsor-static-block">
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/hyundai.png">
-    </div>
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/microsoft.png">
-    </div>
-</div>
-
-<div class="sponsor-static-block">
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/topsec.png">
-    </div>
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/seoul-tourism-organization.png">
-    </div>
-</div>
-
-
-### Bronze Sponsor
-
-<br>
-
-<div class="sponsor-static-block">
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/qualcomm.png">
-    </div>
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/theori.png">
-    </div>
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/postech.png">
-    </div>
-</div>
-
-<div class="sponsor-static-block">
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/kaist.png">
-    </div>
-    <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/kiisc_logo.png">
-    </div>
-</div>
--->
