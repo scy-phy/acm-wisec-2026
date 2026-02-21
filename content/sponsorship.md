@@ -65,61 +65,61 @@ hidden = false
 
 ### Gold Sponsor
 
-<div class="sponsor-static-block">
-<a href="https://www.newpush.com/" target="_blank" rel="noopener">
+<!--<div class="sponsor-static-block">
+ <a href="https://www.newpush.com/" target="_blank" rel="noopener">
     <div class="sponsor-card">
-        <!-- <img class="sponsor-logo-image" src="/images/logos/corporate/newpush.png"> -->
+         <img class="sponsor-logo-image" src="/images/logos/corporate/newpush.png"> 
     </div>
-</a>
-</div>
+</a> 
+</div>-->
 
 ### Bronze Sponsor
 
-<div class="sponsor-static-block">
-<a href="https://fairfaxcountyeda.org/" target="_blank" rel="noopener">
+<!--<div class="sponsor-static-block">
+ <a href="https://fairfaxcountyeda.org/" target="_blank" rel="noopener">
     <div class="sponsor-card-wide">
-       <!-- <img class="sponsor-logo-image" src="/images/logos/corporate/fceda.png"> -->
+        <img class="sponsor-logo-image" src="/images/logos/corporate/fceda.png">
     </div>
-</a>
-</div>
+</a> 
+</div>-->
 
 ## Travel Grants Sponsor
 
-<div class="sponsor-static-block">
+<!--<div class="sponsor-static-block">
     <div class="sponsor-card">
-       <!-- <img class="sponsor-logo-image" src="/images/logos/nsf.png"> -->
+        <img class="sponsor-logo-image" src="/images/logos/nsf.png"> 
     </div>
-</div>
+</div>-->
 
 ## Conference Host
 
-<div class="sponsor-static-block">
+<!--<div class="sponsor-static-block">
  <a href="https://www.gmu.edu/" target="_blank" rel="noopener">
    <div class="sponsor-card-wide">
-      <!--  <img class="sponsor-logo-image" src="/images/logos/gmu-logo-large.png"> -->
+        <img class="sponsor-logo-image" src="/images/logos/gmu-logo-large.png"> 
     </div>
 </a>
-</div>
+</div>-->
 
 
 ## Partners
 
 <div class="sponsor-static-block">
 
-<div class="sponsor-card">
-       <!-- <img class="sponsor-logo-image" src="/images/logos/vtech-logo.png"> -->
-    </div>
+<!--<div class="sponsor-card">
+        <img class="sponsor-logo-image" src="/images/logos/vtech-logo.png"> 
+    </div>-->
 
 
-<div class="sponsor-card-wide">
+<!--<div class="sponsor-card-wide">
         <img class="sponsor-logo-image" src="/images/logos/cci-logo.png">
     </div>
 <a href="https://www.arlingtoneconomicdevelopment.com/" target="_blank" rel="noopener">
     <div class="sponsor-card-wide">
-      <!--  <img class="sponsor-logo-image" src="/images/logos/corporate/arlington.jpeg"> -->
+        <img class="sponsor-logo-image" src="/images/logos/corporate/arlington.jpeg"> 
     </div>
 </a>
-</div>
+</div>-->
 
 
 
