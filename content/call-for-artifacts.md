@@ -43,7 +43,7 @@ If you have any questions about the submission process or preparing your work fo
 
 Thanks for your interest! We are currently looking for volunteers.
 
-Artifact evaluation volunteers are typically graduate student researchers, but interested undergraduates or other interested parties are welcome to apply. The main requirements are: 1) the ability to receive a package of software and follow the directions to build and run it; 2) some ability with debugging software you didn’t write; and 3) availability during the two reviewing periods. WiSec 26 accepted paper authors are welcome to participate in this process, though they will not be able to participate in the review of their own submissions. -->
+Artifact evaluation volunteers are typically graduate student researchers, but interested undergraduates or other interested parties are welcome to apply. The main requirements are: 1) the ability to receive a package of software and follow the directions to build and run it; 2) some ability with debugging software you didn’t write; and 3) availability during the two reviewing periods. WiSec 26 accepted paper authors are welcome to participate in this process, though they will not be able to participate in the review of their own submissions. 
 
 **Benefits of reviewing submissions include:**
 
@@ -51,7 +51,7 @@ Artifact evaluation volunteers are typically graduate student researchers, but i
 - Recognition for service on this website (also suitable for mention on a CV/resume – impress your friends!)
 - A look “behind the scenes” of the replication process to help you learn what is expected in a replication package and how to improve your own future replication submissions.
 
-*Please send your application to wisec26-rep-chairs@googlegroups.com*
+*Please send your application to wisec26-rep-chairs@googlegroups.com*-->
 
 
 ### Artifact Evaluation Committee
