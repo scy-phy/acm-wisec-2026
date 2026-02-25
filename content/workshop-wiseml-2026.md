@@ -139,25 +139,31 @@ University of Liverpool, UK<br>
 - Dr. K.P. (Suba) Subbalakshmi, *Stevens Institute of Technology, NJ, USA*
 - Dr. Aylin Yener, *The Ohio State University, OH, USA*
 
-<!-- ## Technical Program Committee (TPC) Members:
+## Technical Program Committee (TPC) Members:
 
-- Eyuphan Bulut, Virginia Commonwealth University, USA
-- M. Cenk Gursoy, Syracuse University, USA
-- Jacek Kibilda, Virginia Tech, USA
-- Silvija Kokalj-Filipovic, Rowan University, USA
-- Marwan Krunz, Univeristy of Arizona, USA
-- Zhuo Lu, University of South Florida, USA
-- Javier Parra-Arnau, Universitat Politècnica de Catalunya, Spain
-- Heejun Roh, Inha University, Korea
-- Dola Saha, SUNY Albany, USA
-- Sachin Shetty, Old DOminion University, USA
-- Lei Shi, Hefei University of Technology, China
-- Haijian Sun, University of Georgia, USA
-- Ayse Ünsal, EURECOM, France
-- Ning Wang, University of South Florida, USA
-- Diana-Alexandra Vasile, Nokia Bell Labs Cambridge, UK
-- Feng Ye, University of Wisconcin-Madison
-- Junqing Zhang, University of Liverpool, UK -->
+- Marco Baldi (Universita Politecnica delle Marche, Italy)
+- Eyuphan Bulut (Virginia Commonwealth University, USA)
+- Asaf Cohen (Ben-Gurion University, Israel)
+- M. Cenk Gursoy (Syracuse University, USA)
+- Jacek Kibilda (Virginia Tech, USA)
+- Burak Kantarci (University of Ottawa, Canada)
+- Zhuo Lu (University of South Florida, USA)
+- Javier Parra-Arnau (Universitat Politècnica de Catalunya, Spain)
+- Stjepan Picek (Radboud University, Netherlands)
+- Danda B. Rawat (Howard University, Washington D.C, USA)
+- Heejun Roh (Inha University, Korea)
+- Rafael Schaefer (TU Dresden, Germany)
+- Savio Sciancalepore (Eindhoven University of Technology (TU/e))
+- Guanxiong Shen (Southeast University, China)
+- Sachin Shetty (Old Dominion University, USA)
+- Maciej Skorski (Czech Technical University in Prague, Czech Republic)
+- Ayse Ünsal (EURECOM, France)
+- Ning Wang (University of South Florida, USA)
+- Xuyu Wang (Florida International University, Miami, FL, USA)
+- Youlong Wu (ShanghaiTech, China)
+- Ning Xie (Shenzhen University, China)
+- Feng Ye (University of Wisconsin-Madison, USA)
+- Kai Zeng (George Mason University, USA)
 
 ## Submission Guidelines
 

@@ -39,11 +39,11 @@ In contrast to last year, we will not automatically make the artifacts available
 
 If you have any questions about the submission process or preparing your work for evaluation, feel free to email the artifact evaluation co-chairs at *wisec26-rep-chairs@googlegroups.com*. We are happy to take these questions and want authors to feel confident that the package they submit is what is needed for a successful evaluation.
 
-### Volunteer to Review Submissions
+<!-- ### Volunteer to Review Submissions
 
 Thanks for your interest! We are currently looking for volunteers.
 
-Artifact evaluation volunteers are typically graduate student researchers, but interested undergraduates or other interested parties are welcome to apply. The main requirements are: 1) the ability to receive a package of software and follow the directions to build and run it; 2) some ability with debugging software you didn’t write; and 3) availability during the two reviewing periods. WiSec 26 accepted paper authors are welcome to participate in this process, though they will not be able to participate in the review of their own submissions.
+Artifact evaluation volunteers are typically graduate student researchers, but interested undergraduates or other interested parties are welcome to apply. The main requirements are: 1) the ability to receive a package of software and follow the directions to build and run it; 2) some ability with debugging software you didn’t write; and 3) availability during the two reviewing periods. WiSec 26 accepted paper authors are welcome to participate in this process, though they will not be able to participate in the review of their own submissions. -->
 
 **Benefits of reviewing submissions include:**
 
@@ -59,9 +59,10 @@ Artifact evaluation volunteers are typically graduate student researchers, but i
 Ildi Alla, University of Luxembourg, Luxembourg  (Co-Chair) \
 Eric Wagner, University of Luxembourg, Luxembourg (Co-Chair)\
 Selma Yahia, University of Luxembourg, Luxembourg \
-Lennart Bader, Fraunhofer FKIE, Germany \
 Sotiris Michaelides, RWTH Aachen University, Germany \
 Aymen Bouferroum, INRIA Lille - Nord Europe, France \
 Lucien Dikla Ngueleo, INRIA Lille - Nord Europe, France \
 Luisa Lux, RWTH Aachen University, Germany \
-David Heye, RWTH Aachen University, Germany 
+David Heye, RWTH Aachen University, Germany \
+Nahom Birhan, Old Dominion University, USA \
+Jin Ouyang, Rochester Institute of Technology, USA 
