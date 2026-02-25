@@ -77,7 +77,7 @@ All papers for ACM WiSec 2026 must be submitted electronically through the HotCR
 
   *   First Cycle:  https://wisec26.hotcrp.com/
   <!-- [HotCRP submission site for Cycle 1](TBA) -->
-  *   Second Cycle: TBA
+  *   Second Cycle: https://wisec26-cycle2.hotcrp.com/
   <!-- [HotCRP submission site for Cycle 2](TBA) -->
 
 Only PDF files will be accepted. Submissions must be prepared using the following ACM proceedings template and must use US Letter page size (215.9 x 279.4 mm / 8.5 x 11 inches):
