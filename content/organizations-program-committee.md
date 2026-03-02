@@ -23,6 +23,7 @@ hidden = false
 - Jens Schmitt, *RPTU Kaiserslautern-Landau, Germany*
 - Jiska Classen, *Hasso Plattner Institute, University of Potsdam, Germany*
 - Jun Han, *KAIST, Korea*
+- Junqing Zhang, *University of Liverpool, UK*
 - Kasper Rasmussen, *University of Oxford, United Kingdom*
 - Katharina Kohls, *Ruhr University Bochum, Germany*
 - Loukas Lazos, *University of Arizona, USA*
