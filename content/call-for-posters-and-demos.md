@@ -29,7 +29,7 @@ Camera-ready: May 5, 2026
 
 ## Submission
 
-All posters and demos for ACM WiSec 2024 must be submitted electronically via **TBD**
+All posters and demos for ACM WiSec 2026 must be submitted electronically via **TBD**
 
 All poster titles must be prefixed with **POSTER:** and all demo titles with **DEMO:**. 
 
