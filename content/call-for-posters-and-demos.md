@@ -1,6 +1,6 @@
 +++
 title = "Call for Posters and Demos"
-hidden = true
+hidden = false
 [menu.main]
     parent = "Call for"
     weight = 2012
@@ -8,25 +8,31 @@ hidden = true
 
 # Call for Posters and Demos
 
-Ciao! ACM WiSec 2025 solicits the submission of posters and demos. The poster and demo session will be part of the WiSec conference, held in person from June 30 to July 3, 2025, in Arlington, Virginia, USA. We especially welcome posters and demos related to the WiSec’25 call for paper topics listed at https://wisec2025.gmu.edu/. 
-Posters allow submissions of ideas and preliminary results about ongoing research. Authors should submit up to a 2-page extended abstract that provides sufficient technical details so that the evaluation committee can assess the technical merit of the work. The abstract does not need to present a completed project. Still, it should provide enough concrete evidence to support the proposed ideas’ potential and validity, emphasizing their relevance to wireless security and privacy.
-Demos show implementations of the proposed prototypes. Authors should submit a 2-page extended abstract describing their technology, its relevance to wireless security and privacy, and highlighting the prototype’s novelty. The abstract should briefly explain what conference participants can see or do during the demonstration. Demos should have a research component and, in particular, should not push a commercial agenda.
-The poster and demo abstracts should follow the ACM WiSec 2025 formatting guidelines (with a 2-page limit), and the authors should refer to the paper submission instructions for information related to formatting. Detailed submission instructions can be found on the submission guidelines page.
+Ciao! ACM WiSec 2026 solicits Poster and Demo submissions! The poster and demo session will be part of the WiSec conference, held in person **June 30 - July 3, 2026, in Saarbrücken, Germany**. We especially welcome posters and demos related to the WiSec’26 call for paper topics listed at https://wisec26.events.cispa.de/call-for-papers/
+
+**Posters** allow the submission of ideas and preliminary results on ongoing research. Authors should submit up to a **2-page extended abstract** that provides sufficient technical details so that the TPC can assess the technical merit of the work. The abstract does not need to present a completed project. Still, it should provide enough concrete evidence to support the proposed ideas' potential and validity, emphasizing their relevance to wireless security and privacy.
+
+**Demos** show implementations of the proposed prototypes. Authors should submit a **2-page extended abstract** describing their technology, its relevance to wireless security and privacy, and highlighting the prototype's novelty. The abstract should briefly explain what conference participants can see or do during the demonstration. Demos should have a research component and, in particular, should not push a commercial agenda.
+
+The poster and demo abstracts should follow the ACM WiSec 2026 formatting guidelines (with a 2-page limit), and the authors should refer to the paper submission instructions for information related to formatting. Detailed submission instructions can be found on the Submission Guidelines in the CfP page.
 
 ## Registration
 
-At least one author per submission must be registered as a poster/demo author by the author registration deadline and present the poster/demo at the conference in person.
+At least **one author per submission** must be registered (either as a student or as a full) as a poster/demo author by the author registration deadline and present the poster/demo in person at the conference.
 
-## Important dates
-- Submission deadline: <span style="color:red">~~Apr 28, 2025~~</span> Apr 30, 2025 (AOE)
-- Acceptance notification: <span style="color:red">~~May 8, 2025~~</span> May 9, 2025
-- Camera-Ready: May 12, 2025
+## Deadlines
+
+Submission: April 7, 2026 (AOE)
+Notification: April 21, 2026
+Camera-ready: May 5, 2026
 
 
 ## Submission
 
-All posters and demos must be submitted electronically via [WiSec 2025 Posters portal](https://wisec25posters.hotcrp.com/)
+All posters and demos for ACM WiSec 2024 must be submitted electronically via **TBD**
 
-All poster titles must be prefixed with **POSTER:** and all demo titles with **DEMO:**. A submission does not need to be anonymous. You may submit a URL pointing to a preview of the demo or poster.
+All poster titles must be prefixed with **POSTER:** and all demo titles with **DEMO:**. 
 
-Accepted posters and demos will be included in the conference proceedings.
+A submission does not need to be anonymous. You may submit a URL pointing to a preview of the demo or poster.
+
+Accepted posters and demos will not be included in the WiSec conference proceedings.
