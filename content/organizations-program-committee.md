@@ -13,6 +13,7 @@ hidden = false
 
 - Aanjhan Ranganathan, *Northeastern University, USA*
 - Adrian Dabrowski, *University of Applied Sciences Campus Wien, Austria*
+- Alessio Merlo, *CASD - University School of Advanced Defense Studies, Italy*
 - Brad Reaves, *North Carolina State University, USA*
 - Christina Pöpper, *NYU Abu Dhabi, UAE*
 - Dave Singelee, *KU Leuven, Belgium*
@@ -42,6 +43,8 @@ hidden = false
 - Stefan Gvozdenovic, *Silicon Laboratories, USA*
 - Stjepan Picek, *University of Zagreb / Radboud University, Netherlands*
 - Syed Rafiul Hussain, *Pennsylvania State University, USA*
+- Valeria Loscri, *Inria Lille - Nord Europe, France*
+- Vijay Shah, *North Carolina State University, USA*
 - Weitao Xu, *City University of Hong Kong, Hong Kong China*
 - Wenjing Lou, *Virginia Tech, USA*
 - Xiang Li, *Nankai University, China*
