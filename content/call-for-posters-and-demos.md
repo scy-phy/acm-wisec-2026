@@ -35,4 +35,4 @@ All poster titles must be prefixed with **POSTER:** and all demo titles with **D
 
 A submission does not need to be anonymous. You may submit a URL pointing to a preview of the demo or poster.
 
-Accepted posters and demos will not be included in the WiSec conference proceedings.
+Accepted posters and demos will be included in the WiSec conference proceedings.
