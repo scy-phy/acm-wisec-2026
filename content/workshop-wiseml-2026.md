@@ -174,8 +174,9 @@ Workshop papers should be written in English, must be formatted in the standard 
 Only PDF files will be accepted for the review process. All papers must be thoroughly anonymized for double-blind reviewing.
 
 ## Important Dates:
+<span style="color:red"> *News: Extended deadline* </span>
 
-- Paper Submission Deadline: March 15, 2026
-- Acceptance Notification: April 9, 2026
-- Camera-Ready Paper Submission: April 30, 2026
+- Paper Submission Deadline: <del> March 15, 2026</del>  April 5, 2026
+- Acceptance Notification:<del> April 9, 2026</del>> April 21, 2026
+- Camera-Ready Paper Submission: <del>April 30, 2026</del> May 5, 2026
 - Workshop Event: July 3, 2026

@@ -27,6 +27,9 @@ title = "Sidebar: Important Dates"
 * **Workshop Paper Submission**
   * Submission: March 15, 2026
   * Notification: April 9, 2026
+* **WiseML Paper Submission**
+  * Submission: April 5, 2026
+  * Notification: April 21, 2026
 * **Posters/Demo deadlines**
   * Submission: April 7, 2026 (AOE)
   * Notification: April 21, 2026
