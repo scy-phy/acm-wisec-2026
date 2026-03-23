@@ -13,8 +13,8 @@ ACM WiSec 2026 will be held at the [Saarbrücken Congress Center](https://www.cc
 
 ## How to get to the conference venue in Saarbrücken
 
-### From Frankfurt Airport (FRA): You can use public transportation
-(~2h 40min) or rent a car at the Frankfurt airport. The train station
+### From Frankfurt Airport (FRA): 
+You can use public transportation (~2h 40min) or rent a car at the Frankfurt airport. The train station
 is co-located with FRA airport.  A direct (local) train (RE3) is going
 roughly every hour. Alternatively, you can take a national train to
 Mannheim, and change there into another train to Saarbrücken (usually
