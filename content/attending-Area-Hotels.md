@@ -1,47 +1,32 @@
 +++
-title = "Area Hotels"
-hidden = true
+title = "Hotels"
+hidden = false
 [menu.main]
     parent = "Attending"
     weight = 1000
 +++
 
-# Hotels in Arlington
+# Hotels in Saarbrücken
 
-The conference will be held at the Arlington campus of George Mason University.
+The conference will be held at the [Saarbrücken Congress Center](https://www.ccsaar.de/en/)
 
-Below is a list of recommended hotels close to the conference venue:
+Below is a list of recommended hotels, all extremely close to the
+conference venue. Please note that the owner Revo of the nearby H2
+Hotel is currently filing for insolvency, and we would suggest to use
+our recommended hotels instead.
 
-###### The Westin Arlington (⭐️⭐️⭐️⭐️)
-801 N Glebe Rd, Arlington, VA 22203<br>
-+1-703-717-6200<br>
-[Website for reservation](https://www.marriott.com/en-us/hotels/wasag-the-westin-arlington/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0)<br>
-[Direction](https://www.google.com/maps/place/The+Westin+Arlington/data=!4m2!3m1!1s0x0:0xddb854139e45e958?sa=X&ved=1t:2428&ictx=111) (Approx. 5 mins drive, 17 mins public transportation, 23 mins walk)
+###### IntercityHotel Saarbrücken (⭐️⭐️⭐️⭐)
+Hafenstrasse 25, 66111 Saarbrücken<br>
++49 681 95 070 000<br>
+[Website for reservation](https://hrewards.com/en/intercityhotel-saarbruecken)<br>
 
-###### Hilton Arlington (⭐️⭐️⭐️)
-950 N Stafford St, Arlington, VA, 22203<br>
-Tell: +1-703-528-6000<br>
-[Website for Reservation](https://www.hilton.com/en/hotels/dcavahf-hilton-arlington/hotel-location/)<br>
-[Direction](https://www.google.com/maps/place/Hilton+Arlington/@38.8815374,-77.111159,853m/data=!3m2!1e3!4b1!4m9!3m8!1s0x89b7b425af682db1:0x7015bfdcd32f522!5m2!4m1!1i2!8m2!3d38.8815374!4d-77.111159!16s%2Fg%2F1tfmp8gp?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D) (Approx. 4 mins drive, 11 mins public transportation, 19 mins walk)
+###### Premier Inn Saarbrücken (⭐️⭐️⭐️)
+Faktoreistraße 2, 66111 Saarbrücken<br>
+[Website for Reservation](https://www.premierinn.com/gb/en/hotels/germany/saarland/saarbrucken/saarbrucken-city-centre.html)<br>
 
-###### Residence Inn Arlington Ballston (⭐️⭐️⭐️)
-650 N Quincy St, Arlington, VA 22203<br>
-+1-703-310-1999<br>
-[Website for Reservation](https://www.marriott.com/en-us/hotels/wasin-residence-inn-arlington-ballston/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0)<br>
-[Direction](https://www.google.com/maps/place/650+N+Quincy+St,+Arlington,+VA+22203/data=!4m2!3m1!1s0x89b7b426abe7e20d:0x113c951dfd0aab44?sa=X&ved=1t:242&ictx=111) (Approx. 5 mins drive, 11 mins public transportation, 18 mins walk)
-
-###### Hyatt Place Arlington/Courthouse Plaza (⭐️⭐️⭐️)
-2401 Wilson Blvd, Arlington, VA 22201<br>
-+1-703-243-2494<br>
-[Website for Reservation](https://www.hyatt.com/hyatt-place/en-US/wasza-hyatt-place-arlington-courthouse-plaza?src=corp_lclb_google_seo_wasza&%3Futm_source=google&utm_medium=organic&utm_campaign=lmr)<br>
-[Direction](https://www.google.com/maps/place/2401+Wilson+Blvd,+Arlington,+VA+22201/data=!4m2!3m1!1s0x89b7b689d0fa43dd:0xdea0261595ad0a24?sa=X&ved=1t:242&ictx=111) (Approx. 6 mins drive, 10 mins public transportation, 21 mins walk)
-
-###### Holiday Inn Arlington at Ballston, an IHG Hotel (⭐️⭐️⭐️)
-4610 Fairfax Dr, Arlington, VA 22203<br>
-+1-703-243-9800<br>
-[Website for Reservaton](https://www.ihg.com/holidayinn/hotels/us/en/arlington/wasfx/hoteldetail?cm_mmc=GoogleMaps-_-HI-_-US-_-WASFX)<br>
-[Direction](https://www.google.com/maps/place/4610+Fairfax+Dr,+Arlington,+VA+22203/@38.8816405,-77.1175238,1705m/data=!3m2!1e3!4b1!4m6!3m5!1s0x89b7b43bae7297ad:0x1dac4150648635b5!8m2!3d38.8816405!4d-77.1175238!16s%2Fg%2F11b8v6mjzb?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D) (Approx. 6 mins drive, 15 mins public transportation, 25 mins walk)
-
+###### Mercure Hotel (⭐️⭐️⭐️⭐️)
+Hafenstr. 8, 66111 Saarbrücken, Germany<br>
+[Website for Reservation](https://all.accor.com/hotel/1307/index.en.shtml)<br>
 
 
 
@@ -53,7 +38,7 @@ Tell: +1-703-528-6000<br>
 <p style="text-align: center;">
 {{< image src="images/top-jku-sign.jpg" title="" alt="" width="400" style="width: 49%; max-width: 400px;" >}}
 {{< image src="images/top-jku-teich.jpg" title="" alt="" width="400" style="width: 49%; max-width: 400px;" >}}
-</p>
+</p> 
 
 
 ## Directions

@@ -1,6 +1,6 @@
 +++
 title = "Conference Venue"
-hidden = true
+hidden = false
 [menu.main]
     parent = "Attending"
     weight = 3000
@@ -9,17 +9,26 @@ hidden = true
 
 # Conference Venue
 
-ACM WiSec 2025 will be held in the {{< link title="Fuse Building" target="_blank" href="https://masonsquare.gmu.edu/fuse" />}}, on the Arlington campus of George Mason University. The conference is single-track and all sessions will be held in the main conference space (Room 1311) of the Fuse Building. 
+ACM WiSec 2026 will be held at the [Saarbrücken Congress Center](https://www.ccsaar.de/en/). The conference is single-track and all sessions will be held in the main conference space (Saal Ost). WiseML will use the Conference Room III.
 
-## How to get to the conference venue in Arlington
+## How to get to the conference venue in Saarbrücken
 
-### From Washington Dulles International Airport (IAD):
-You can use public transportation (~50min) or use taxi/ride-sharing services (~30min). In order to reach the conference venue by public transport, you can take the eastbound Silver Line Metro from the Washington Dulles International Airport Metro station towards Largo Downtown to the Virginia Square-GMU Metro station. For taxi/ride-sharing, please follow the airport's signage to find the appropriate pickup spots.
+### From Frankfurt Airport (FRA): You can use public transportation
+(~2h 40min) or rent a car at the Frankfurt airport. The train station
+is co-located with FRA airport.  A direct (local) train (RE3) is going
+roughly every hour. Alternatively, you can take a national train to
+Mannheim, and change there into another train to Saarbrücken (usually
+RE1).  See more general advice on trains below.
 
-### From Ronald Reagan Washington National Airport (DCA):
-You can use public transportation (~20min) or use taxi/ride-sharing services (~10min). In order to reach the conference venue by public transport, you can take the eastbound Blue Line Metro from the Ronald Reagan Washington National Airport metro station towards Largo Downtown to the Rosslyn metro station, then go to the lower platform switch to either the westbound Orange or Silver metro lines to the Virginia Square-GMU Metro station. For taxi/ride-sharing, please follow the airport's signage to find the appropriate pickup spots.
+### From Saarbrücken Airport (SCN)
+Saarbrücken airport is only served from few destinations. If you manage to fly into Saarbrücken, we usually recommend to take a Taxi into the city. There are bus connecitons as well, but they do not go very often. You can rent a car at the Airport as well. The ride to the venue is about 15 minutes by car.
 
-### From Union Station in Washington DC (WAS):
-You can use public transportation (~25min) or use taxi/ride-sharing services (~15min). In order to reach the conference venue by public transport, you can take the westbound Red Line metro towards Shady Grove to the Metro Center station, then go to the lower platform switch to either the westbound Orange or Silver metro lines to the Virginia Square-GMU Metro station. For taxi/ride-sharing, please follow the train station's signage to find the appropriate pickup spots.
 
-You can purchase metro tickets and passes at any metro station by card or cash, or you can create an account with [WMATA](https://www.wmata.com/) and purchase them online. For ride-sharing, both Uber and Lyft apps are commonly used in the greater Washington DC region.
+### Arriving by Public Transport:
+Saarbrücken is well connected to Paris via TGV/ICE. A direct bus is connecting to Luxembourg. Within Germany, the next major train stops are usually Kaiserslautern and Mannheim. Direct trains to Munich and Berlin are available.
+
+General advice on trains: In order to reach Saarbrücken by public transport, use [DB](https://int.bahn.de/en?) to find suitable connections and buy a ticket in advance.  
+There are savers tickets that you can buy well in advance, but those are usually restricted to the exact booked connection. Alternatively, Flex tickets allow you to take later or earlier trains that day. 
+Please be aware that trains might have delays, and it is possible to miss connections. In case of a missed connections, you should be able to take a later train with the same ticket. 
+
+Saarbrücken Main station is 5 minutes by foot from the conference venue and hotels.
