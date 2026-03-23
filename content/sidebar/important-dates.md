@@ -35,6 +35,6 @@ title = "Sidebar: Important Dates"
   * Notification: April 21, 2026
   * Camera-ready: May 5, 2026
 * **Author registration**
-  * May TBA, 2026 (Firm)
+  * May 5, 2026 (Firm)
 * **Conference dates**
   * June 30 to July 3, 2026
