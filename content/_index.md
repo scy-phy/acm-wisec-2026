@@ -17,7 +17,7 @@ ACM is the world’s largest educational and scientific computing society. ACM W
 
 # Registration
 
-Registration for ACM WiSec 2026 is planned to open early April. We have started to add travel information in the Attending section now.  
+Registration for ACM WiSec 2026 is <a href="attending-registration/">now open</a>. We have started to add travel information in the Attending section now.  
 
 <!-- # Travel Grants for Students
 

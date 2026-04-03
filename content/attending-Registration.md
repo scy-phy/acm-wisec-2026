@@ -1,16 +1,16 @@
 +++
 title = "Registration"
-hidden = true
+hidden = false
 [menu.main]
     parent = "Attending"
     weight = 500
 +++
 
-# ACM WiSec 2025 Registration
+# ACM WiSec 2026 Registration
 
-Registration for ACM WiSec 2025 is now open. All authors and attendees should use the **following link** to register for the main conference and the WiseML workshops. Authors of accepted papers must register by May 12, 2025.
+Registration for ACM WiSec 2026 is planned to open in April. All authors and attendees should use the **following link** to register for the main conference and the WiseML workshops. Authors of accepted papers must register by May 5, 2026.
 
-<a href="https://cvent.me/G1M5Bb" target="_blank" style="display:inline-block; background-color:#4CAF50; color:white; padding:10px 20px; text-align:center; text-decoration:none; font-weight:bold; border-radius:5px;">
+<a href="https://cvent.me/w2oRrN" target="_blank" style="display:inline-block; background-color:#4CAF50; color:white; padding:10px 20px; text-align:center; text-decoration:none; font-weight:bold; border-radius:5px;">
   Register Now
 </a>
 
@@ -26,52 +26,40 @@ Registration for ACM WiSec 2025 is now open. All authors and attendees should us
   <tr>
     <td rowspan="4" style="border: 1px solid black;"><strong>Full Conference Access</strong></td>
     <td style="border: 1px solid black;"><strong>Non-Member</strong></td>
-    <td style="text-align: center; border: 1px solid black;">$900</td>
-    <td style="text-align: center; border: 1px solid black;">$950</td>
+    <td style="text-align: center; border: 1px solid black;">€775</td>
+    <td style="text-align: center; border: 1px solid black;">€825</td>
   </tr>
   <tr>
     <td style="border: 1px solid black;"><strong>ACM Member</strong></td>
-    <td style="text-align: center; border: 1px solid black;">$800</td>
-    <td style="text-align: center; border: 1px solid black;">$850</td>
+    <td style="text-align: center; border: 1px solid black;">€700</td>
+    <td style="text-align: center; border: 1px solid black;">€750</td>
   </tr>
   <tr>
     <td style="border: 1px solid black;"><strong>Student Non-Member</strong></td>
-    <td style="text-align: center; border: 1px solid black;">$650</td>
-    <td style="text-align: center; border: 1px solid black;">$675</td>
+    <td style="text-align: center; border: 1px solid black;">€600</td>
+    <td style="text-align: center; border: 1px solid black;">€650</td>
   </tr>
   <tr>
     <td style="border: 1px solid black;"><strong>Student ACM Member</strong></td>
-    <td style="text-align: center; border: 1px solid black;">$625</td>
-    <td style="text-align: center; border: 1px solid black;">$650</td>
+    <td style="text-align: center; border: 1px solid black;">€575</td>
+    <td style="text-align: center; border: 1px solid black;">€625</td>
   </tr>
   <tr>
     <td rowspan="2" style="border: 1px solid black;"><strong>Workshop Only</strong></td>
     <td style="border: 1px solid black;"><strong>Non-Member</strong></td>
-    <td style="text-align: center; border: 1px solid black;">$375</td>
-    <td style="text-align: center; border: 1px solid black;">$400</td>
+    <td style="text-align: center; border: 1px solid black;">€325</td>
+    <td style="text-align: center; border: 1px solid black;">€350</td>
   </tr>
   <tr>
     <td style="border: 1px solid black;"><strong>ACM Member</strong></td>
-    <td style="text-align: center; border: 1px solid black;">$350</td>
-    <td style="text-align: center; border: 1px solid black;">$375</td>
+    <td style="text-align: center; border: 1px solid black;">€300</td>
+    <td style="text-align: center; border: 1px solid black;">€325</td>
   </tr>
   <tr>
     <td rowspan="1" style="border: 1px solid black;"><strong>Additional Banquet Ticket</strong></td>
     <td style="border: 1px solid black;"><strong></strong></td>
-    <td style="text-align: center; border: 1px solid black;">$125</td>
-    <td style="text-align: center; border: 1px solid black;">$135</td>
-  </tr>
-  <tr>
-    <td rowspan="1" style="border: 1px solid black;"><strong>Additional Paper</strong></td>
-    <td style="border: 1px solid black;"><strong></strong></td>
-    <td style="text-align: center; border: 1px solid black;">$700</td>
-    <td style="text-align: center; border: 1px solid black;">$700</td>
-  </tr>
-  <tr>
-    <td rowspan="1" style="border: 1px solid black;"><strong>Addon Poster/Demo</strong></td>
-    <td style="border: 1px solid black;"><strong></strong></td>
-    <td style="text-align: center; border: 1px solid black;">$500</td>
-    <td style="text-align: center; border: 1px solid black;">$500</td>
+    <td style="text-align: center; border: 1px solid black;">€75</td>
+    <td style="text-align: center; border: 1px solid black;">€75</td>
   </tr>
 </table>
 
@@ -79,25 +67,19 @@ Registration for ACM WiSec 2025 is now open. All authors and attendees should us
 
 ## Registration Deadlines
 
-- **Author Registration Deadline**: May 23, 2025 (Firm)
-- **Early Registration Deadline**: May 19, 2025
-- **Late Registration Deadline**: June 29, 2025 (no on-site registration)
+- **Author Registration Deadline**: May 5, 2026 (Firm)
+- **Early Registration Deadline**: May 7, 2026
+<!-- - **Late Registration Deadline**: June 29, 2026 -->
 
 ## Author registration
 
-- At least one author of each accepted submission (including main conference papers, posters, demos, and workshop papers) **MUST** register no later than **May 23, 2025**, in order for their work to be presented at the conference and included in the proceedings.
+- At least one author of each accepted submission (including main conference papers, posters, demos, and workshop papers) **MUST** register no later than **May 5, 2026**, in order for their work to be presented at the conference and included in the proceedings.
 
 - Each author registration is valid for **ONE** accepted submission. 
 
   - <u>Authors of main conference (WiSec) papers (including poster and demo papers)</u> must register for full conference access at the full registration rate (i.e., no student registration).
 
   - <u>Authors of WiseML workshop papers</u> can register just for the workshop.
-
-- Authors of additional accepted submissions will be assessed the following fees. Authors with multiple accepted submissions should register through <a href="https://cvent.me/G1M5Bb" target="_blank">Cvent</a> and contact wisec2025-reg@acm.org to have their registration adjusted to reflect the additional papers and corresponding fees.
-
-  - Additional main conference paper: $700
-
-  - Poster or demo paper: $500
 
 ## Payment Methods
 
@@ -110,4 +92,4 @@ Registrations are processed through Cvent, and the following forms of payment ar
 
 ---
 
-Feel free to reach out at wisec2025-reg@acm.org if you need help with your registration or have any other questions.
+Feel free to reach out at wisec2026-reg@acm.org if you need help with your registration or have any other questions.
