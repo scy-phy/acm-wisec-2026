@@ -21,7 +21,7 @@ Registration for ACM WiSec 2026 is planned to open in April. All authors and att
     <th style="border: 1px solid black;">Access Type</th>
     <th style="border: 1px solid black;">Membership Status</th>
     <th style="border: 1px solid black;">Early Bird Fee</th>
-    <th style="border: 1px solid black;">Late Fee (after May 19, 2025)</th>
+    <th style="border: 1px solid black;">Late Fee (after May 7, 2026)</th>
   </tr>
   <tr>
     <td rowspan="4" style="border: 1px solid black;"><strong>Full Conference Access</strong></td>
