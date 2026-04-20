@@ -92,4 +92,4 @@ Registrations are processed through Cvent, and the following forms of payment ar
 
 ---
 
-Feel free to reach out at wisec2026-reg@acm.org if you need help with your registration or have any other questions.
+Feel free to reach out at wisec-reg@acm.org if you need help with your registration or have any other questions.
