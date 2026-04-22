@@ -19,15 +19,12 @@ ACM is the world’s largest educational and scientific computing society. ACM W
 
 Registration for ACM WiSec 2026 is <a href="attending-registration/">now open</a>. We have started to add travel information in the Attending section now.  
 
-<!-- # Travel Grants for Students
+# Travel Grants for *PhD-Holders*
 
-WiSec'26 is supported by DFG, which allows us to offers a limited number of travel grants for students who have registered and co-authored an accepted paper in the conference. These grants are awarded on a competitive basis and are intended to reimburse travel expenses. Only expenses made after acceptance by the travel grant can be reimbursed.
+WiSec'26 is supported by DFG, which allows us to offers a limited number of travel grants for attendees who have a PhD already (requirement by DFG). In addition, you need to have registered and co-authored an accepted paper in the conference. These grants are awarded on a competitive basis and are intended to reimburse travel expenses. Only expenses made after acceptance by the travel grant can be reimbursed. Full details on the grant is available [here](attending-grants).
 
-- Faculty members, and other senior research personnel are not eligible.
-- Each grant recipient may receive up to €1,000 to cover documented expenses, including registration fees, airfare, and lodging.
-To apply for a travel grant, please complete and submit [this form](https://forms.gle/4exnbQECyVXwRB4YA).
+- To apply for a travel grant, please complete and submit [this form](https://forms.gle/4exnbQECyVXwRB4YA).
 
--->
 
 # Call for Papers
 
