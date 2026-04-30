@@ -8,7 +8,7 @@ hidden = false
 
 # ACM WiSec 2026 Registration
 
-Registration for ACM WiSec 2026 is planned to open in April. All authors and attendees should use the **following link** to register for the main conference and the WiseML workshops. Authors of accepted papers must register by May 5, 2026.
+Registration for ACM WiSec 2026 is planned to open in April. All authors and attendees should use the **following link** to register for the main conference and the WiseML workshops. At lest one author of each accepted paper must register by May 5, 2026 (see `Author registration`).
 
 <a href="https://cvent.me/w2oRrN" target="_blank" style="display:inline-block; background-color:#4CAF50; color:white; padding:10px 20px; text-align:center; text-decoration:none; font-weight:bold; border-radius:5px;">
   Register Now
@@ -75,11 +75,13 @@ Registration for ACM WiSec 2026 is planned to open in April. All authors and att
 
 - At least one author of each accepted submission (including main conference papers, posters, demos, and workshop papers) **MUST** register no later than **May 5, 2026**, in order for their work to be presented at the conference and included in the proceedings.
 
-- Each author registration is valid for **ONE** accepted submission. 
+- This author registration is valid for **ONE** accepted submission. 
 
-  - <u>Authors of main conference (WiSec) papers (including poster and demo papers)</u> must register for full conference access at the full registration rate (i.e., no student registration).
+  - <u>Authors of main conference (WiSec) papers (including poster and demo papers)</u> must register for full conference access at the full registration rate (i.e., no student registration). Please note that the CVENT registration system does not allow ACM-member Full Registration for ACM-member students (you will need to register as non-ACM Full Registration).
 
   - <u>Authors of WiseML workshop papers</u> can register just for the workshop.
+
+- When the author registration requirement is fulfilled by at least one author of the paper, the other authors on that paper are free to register normally as student etc, and at a later point than May 5.
 
 ## Payment Methods
 
