@@ -1,97 +1,125 @@
 +++
 title = "Accepted Papers"
-hidden = true
+hidden = false
 draft = true
 [menu.main]
     parent = "menu_program"
     weight = 103
 +++
 
-# Accepted Papers
+# Accepted Papers 
+
+Tentative list, minor changes are still possible.
 
 ## Full Papers
 
-##### - "Alexa, Is Dynamic Content Safe?" Understanding the risks of Dynamic Content in the Alexa Skill Ecosystem
-Nathan McClaran (Texas A&M University, College Station), Payton Walker (Texas A&M University, College Station), Zihao Zheng (Texas A&M University, College Station), Yangyong Zhang (Texas A&M University, College Station), Nitesh Saxena (Texas A&M University, College Station), Guofei Gu (Texas A&M University, College Station)
+##### - "Beyond Static Signatures: Statistical Analysis of Radio Fingerprint Mutations"
+Gabriele Oligeri, Hamad bin Khalifa University, QA, Savio Sciancalepore, TU Eindhoven (TU/e), NL
 
-##### - AI5GTest: AI-Driven Specification-Aware Automated Testing and Validation of 5G O-RAN Components
-Abiodun Ganiyu (North Carolina State University), Pranshav Gajjar (North Carolina State University), Vijay K Shah (North Carolina State University)
+##### - "TrackAR: AR/VR Device Fingerprinting and User-Device Pairing Detection via Shared Motion Sensor Data"
+Ahmed Tanvir Mahdad, Ohio University, US, Md Shahidur Rahaman, Texas A&M University, College Station, US, Nitesh Saxena, Texas A&M University, US
 
-##### - ARMOUR US: Android Runtime Zero-permission Sensor Usage Monitoring from User Space
-Yan Long (Northeastern University), Jiancong Cui, Yuqing Yang (Ohio State University), Tobias Alam (University of Michigan), Zhiqiang Lin (Ohio State University), Kevin Fu (Northeastern University)
+##### - "The Final Security Frontier: Using Privacy-Preserving Computation to Secure Satellite Rendezvous and Proximity Operations"
+Caroline Fedele, University of Florida, US, Carson Stillman, University of Florida, US, Joel Hirschmann, University of Florida, US, Marina Blanton, University at Buffalo, US, Christopher Petersen, University of Florida, US, Kevin Butler, University of Florida, US, Sara Rampazzi, University of Florida, US
 
-##### - Anti-Tamper Radio meets Reconfigurable Intelligent Surface for System-Level Tamper Detection
-Maryam Shaygan Tabar (Ruhr University Bochum), Johannes Kortz (Max Planck Institute for Security and Privacy (MPI-SP)), Paul Staat (Max Planck Institute for Security and Privacy (MPI-SP)), Harald Elders-Boll (TH Köln, ICCT), Christof Paar (Max Planck Institute for Security and Privacy (MPI-SP)), Christian Zenger (Ruhr University Bochum, PHYSEC GmbH)
+##### - "Are Android Developers Following Privacy Guidelines? A Study on Logging Practices of Personal Data"
+Jin Ouyang, Rochester Institute of Technology, US, Tiash Roy, Rochester Institute of Technology, Daqing Hou, Rochester Institute of Technology, US, Yuzhe Tang, Syracuse University, US, Xueling Zhang, Rochester Institute of Technology, US
 
-##### - Cloud Nine Connectivity: Security Analysis of In-Flight Wi-Fi Paywall Systems
-Abdullah Al Ishtiaq (The Pennsylvania State University), Raja Hasnain Anwar (University of Massachusetts Amherst), Yasra Chandio (University of Massachusetts Amherst), Fatima Muhammad Anwar (University of Massachusetts Amherst), Syed Rafiul Hussain (The Pennsylvania State University), Muhammad Taqi Raza (University of Massachusetts Amherst)
+##### - "Finding Phones Fast: Low-Latency and Scalable Monitoring of Cellular Communications in Sensitive Areas"
+Martin Kotuliak, ETH Zurich, CH, Simon Erni, ETH Zurich, CH, Jakub Polak, Unaffiliated, CH, Marc Roeschlin, Unaffiliated, Richard Baker, University of Oxford, GB, Ivan Martinovic, University of Oxford, GB, Srdjan Čapkun, ETH Zurich, CH
 
-##### - Distributed Multi-Antenna GPS Spoofing Attack using Off-the-shelf Devices
-Xiang Cheng (Virginia Tech), Hanchao Yang (Virginia Tech), Shinan Liu (University of Chicago), Yaling Yang (Virginia Tech)
+##### - "iOSZoo: A Large-Scale Study of Third-Party iOS App Markets"
+Luis A. Saavedra, University of Cambridge, GB, Hridoy S. Dutta, Deakin University, IN, Alastair Beresford, University of Cambridge, GB, Alice Hutchings, University of Cambridge, GB
 
-##### - FlashCatch: Minimizing Disruption in IMSI Catcher Operations
-Andrea Paci (National Inter-University Consortium for Telecommunications / University of Rome Tor Vergata), Gabriele Bologna (National Inter-University Consortium for Telecommunications / University of Rome Tor Vergata), Ivan Palamé (National Inter-University Consortium for Telecommunications), Giuseppe Bianchi (National Inter-University Consortium for Telecommunications / University of Rome Tor Vergata)
+##### - "ORANClaw: Shredding E2 Nodes in O-RAN via Structure-aware MiTM Fuzzing"
+Geovani Benita, Singapore University of Technology and Design, SG, Matheus E. Garbelini, Temasek Laboratories, Nanyang Technological University, Singapore, SG, Sudipta Chattopadhyay, University of Missouri, Kansas City (UMKC), US, Jianying Zhou, Singapore University of Technology and Design, SG
 
-##### - Guardian Positioning System (GPS) for Location Based Services
-Wenjie Liu (KTH Royal Institute of Technology), Panos Papadimitratos (KTH Royal Institute of Technology)
+##### - "StormShield: Fingerprint-Based Detection and Mitigation of RRC Signaling Storms in O-RAN 5G RANs"
+Noemi Giustini, Northeastern University, US, Andrea Lacava, Northeastern University, US, Leonardo Bonati, Northeastern University, US, Stefano Maxenti, Northeastern University, Michele Polese, Northeastern University, US, Tommaso Melodia, Northeastern University, US, Francesca Cuomo, Sapienza University of Rome, IT
 
-##### - On the Performance and Consistency Trade-off of the eSIM M2M Remote Provisioning Protocol
-Mitziu Echeverria (VeriSafe Security), Aliakbar Sadeghi (Stony Brook University), G M Tasnim Alam (Stony Brook University), Omar Chowdhury (Stony Brook University / VeriSafe Security)
+##### - "The Worm Is in the Root: On the Security of IoT Provisioning Protocols and PMF in Wi-Fi Devices"
+Lucien Dikla Ngueleo, Inria Lille - Nord Europe, FR, Kevin Jiokeng, École Polytechnique, Paris, France, Valeria Loscri, Inria Lille - Nord Europe, FR
 
-##### - Practical Inner Product Encryption for Privacy-Preserved Internet-of-Things Applications
-Tran Viet Xuan Phuong (University of Arkansas at Little Rock), Dat Tran (University of Arkansas at Little Rock), Hongyi Wu (University of Arizona)
+##### - "MUTUALISM: Low-Footprint and High-Throughput Software Implementation of HQC for Resource-Constrained Devices"
+Cong Liu, Panasonic Corporation, JP, Akira Maruko, Panasonic Corporation, Yasushi Takahashi, Panasonic Holdings Corporation, JP, Naoto Yanai, Panasonic Holdings Corporation, JP
 
-##### - RFinger: Environmental Fingerprint Embedding for Harmless mmWave Dataset Ownership Verification
-Zixin Shang (University of Science and Technology of China), Zhi Wu (University of Science and Technology of China), Jiamu Li (University of Science and Technology of China), Yang Hu (University of Science and Technology of China), Yan Chen (University of Science and Technology of China)
+##### - "BlueBrothers: Three New Protocols to Secure Bluetooth"
+Tommaso Sacchetti, EURECOM, FR, Kasper Rasmussen, University of Oxford, GB, Daniele Antonioli, EURECOM, FR
 
-##### - RIPPLE: Software-Only Detection of Signal Injection Attacks in Drone Temperature Sensors
-Milad Rezaee (University of Oxford), Sebastian Köhler (University of Oxford), Kasper Rasmussen (University of Oxford)
+##### - "AttestLens: A Large-Scale Measurement of Play Integrity Adoption in Android Apps"
+Collin MacDonald, William & Mary, US, Stephen Herwig, William & Mary, US
 
-##### - Run-time Attestation and Auditing: the Verifier's Perspective
-Adam Caulfield (University of Waterloo), Norrathep Rattanavipanon (Prince of Songkla University, Phuket Campus Thailand), Ivan De Oliveira Nunes (University of Zurich)
+##### - "A Deep Dive into Wormhole Attacks in Underwater Acoustic Communication: From Theory to Practice"
+Luisa Lux, Fraunhofer FKIE & RWTH Aachen University, Jan Bauer, Fraunhofer FKIE, Eric Wagner, University of Luxembourg, LU, Konrad Wolsing, Fraunhofer FKIE & RWTH Aachen University, DE, Ulrike Meyer, RWTH Aachen University, DE
 
-##### - SoK: Evaluating 5G-Advanced Protocols Against Legacy and Emerging Privacy and Security Attacks
-Stavros Eleftherakis (Imdea Networks Institute, Universidad Carlos III de Madrid), Domenico Giustiniano (Imdea Networks Institute), Nicolas Kourtellis (Keysight)
+##### - "V-PASS: Sybil-Resistant Pseudonym Self-Provisioning for V2X"
+Hexuan Yu, Virginia Tech, US, Md Mohaimin Barat, Virginia Tech, US, Shaoyu Li, Virginia Tech, Md Hasan Shahriar, Virginia Tech, US, Yang Xiao, University of Kentucky, US, Panos Papadimitratos, KTH Royal Institute of Technology, SE, Y. Thomas Hou, Virginia Tech, Wenjing Lou, Virginia Tech, US
 
-##### - SoK: Security in the Inaudible World
-David Inyangson (Johns Hopkins University), Aditya Gaur (Johns Hopkins University), Atheer Almogbil (King AbdulAziz City for Science and Technology), Tushar M. Jois (City College of New York), Aviel D. Rubin (Johns Hopkins University)
+##### - "HardBLE: Hardening BLE Against Software Compromise"
+Tommaso Sacchetti, EURECOM, FR, Daniele Antonioli, EURECOM, FR, Norrathep Rattanavipanon, Prince of Songkla University, Phuket Campus Thailand, TH
 
-##### - SpaceJam: Protocol-aware Jamming Attacks against Space Communications
-Edd Salkield (University of Oxford), Sebastian Köhler, Simon Birnbach, Martin Strohmeier (armasuisse), Ivan Martinovic (University of Oxford)
+##### - "TinyContainer: Container runtime middleware enabling multi-tenant microcontrollers with built-in security"
+Bastien Buil, Orange and Cnam, FR, Chrystel Gaber, Orange, FR, Samuel Legouix, Orange, Emmanuel Baccelli, Inria, FR, Samia Bouzefrane, Cnam
 
-##### - Unveiling Privacy Risks in WebGPU through Hardware-based Device Fingerprinting
-Konrad Hohentanner (Fraunhofer AISEC), Nils Kemmerzell (Friedrich-Alexander-Universität Erlangen-Nürnberg), Steffen Florschütz (Rubean AG)
+##### - "ArchSnoop: LLM Architecture Snooping via Electromagnetic Side-Channel on Edge Devices"
+Haozhe Weng, Zhejiang University, CN, Ruochen Zhou, Hong Kong University of Science and Technology, CN, Yubo Qu, Zhejiang University, Xiaoyu Ji, Zhejiang University, CN, Wenyuan Xu, Zhejiang University, CN
 
-##### - Wireless-Tap: Automatic Transcription of Phone Calls Using Millimeter-Wave Radar Sensing
-Suryoday Basak (Penn State University), Mahanth Gowda (Pennsylvania State University)
+##### - "Unlocking Apple's Private Cloud Compute: An Analysis of Privacy-Preserving Artificial Intelligence"
+Yannik Dittmar, Hasso Plattner Institute, University of Potsdam, Marvin Jerome Stephan, Hasso Plattner Institute, University of Potsdam, Thomas Völkl, TU Darmstadt, Matthias Hollick, TU Darmstadt, DE, Jiska Classen, Hasso Plattner Institute, University of Potsdam, DE
+
+##### - "Timestamps Unchained: Secure Distance-Bounding on Commodity Wi-Fi Hardware"
+Maximilian von Tschirschnitz, Technical University of Munich, DE, Daniel von Kirschten, Technical University of Munich, Viktor Boskovski, Technical University of Munich, Simon Neuenhausen, RWTH Aachen, Jens Großklags, Technical University of Munich, DE
+
+##### - "Pair-Fi: Integrity Code Protected Secure Device Pairing via SDR-Enabled Wi-Fi Chips on Smartphones"
+Jakob Link, TU Darmstadt, DE, Florentin Putz, TU Darmstadt, DE, Matthias Hollick, TU Darmstadt, DE
+
+##### - "The Cost of Zero Trust: A Comparative Analysis of MACsec and IPsec Architectures for Secure Open Fronthaul"
+M. Mahesha Viduranga, Virginia Tech, US, Atif Ahmed, Virginia Tech, Madhura Adeppady, Virginia Tech, Aloizio Da Silva, Virginia Tech Commonwealth Cyber Initiative, US
+
+##### - "Security Analysis of Time-of-Arrival Estimation via Cross-Correlation under Narrow-Band Conditions"
+Claudio Anliker, ETH Zurich, Switzerland, CH, Daniele Coppola, ETH Zurich, Switzerland, Giovanni Camurati, ETH Zurich, Switzerland, CH, Srdjan Čapkun, ETH Zurich, Switzerland, CH
+
+##### - "RAN-GUARD: A Hybrid Multi-Model Approach for Early Detection of IP-based DDoS Attacks in O-RAN"
+Yousef Khalil, Concordia University, CA, Hyame Assem Alameddine, Ericsson, CA, Chadi Assi, Concordia University, CA
+
+##### - "SideDish: Low-Cost Anti-Spoofing Countermeasure for Satellite Data Communications"
+Edd Salkield, University of Oxford, GB, Louis-Emile Ploix, University of Oxford, Martin Strohmeier, Cyber-Defence Campus, armasuisse Science + Technology, CH, Sebastian Kohler, University of Oxford, GB, Simon Birnbach, University of Oxford, Ivan Martinovic, University of Oxford, GB
+
 
 ## Short Papers
-##### - Assessing the Latency of Network Layer Security in 5G Networks
-Sotiris Michaelides (RWTH Aachen University), Jonathan Mucke (RWTH Aachen University), Martin Henze (RWTH Aachen University & Fraunhofer FKIE)
+##### - "Black-Box RF Fingerprint Spoofing via Surrogate-Guided Generative Perturbations"
+Zhaoyi Lu, Shanghai Jiao Tong University, CN, Wenchao Xu, Hong Kong University of Science and Technology, HK, Yuhan Zhang, Shanghai Jiao Tong University, CN, Cunqing Hua, Shanghai Jiao Tong University
 
-##### - Augmenting BLE Fingerprinting Using Instantaneous Frequency
-George-Alexandru Stoian (Uppsala University), Thiemo Voigt (Uppsala University), Christian Rohner (Uppsala University)
+##### - "Evaluation of Security-Induced Latency on 5G RAN Interfaces and User Plane Communication"
+Sotiris Michaelides, RWTH Aachen University, DE, Jakub Lapawa, RWTH Aachen University, DE, Daniel Eguiguren Chavez, RWTH Aachen University, DE, Martin Henze, RWTH Aachen University & Fraunhofer FKIE, DE
 
-##### - BlindSpot: Efficient Single-Node Selective Jamming for LoRaWAN
-Vincenz Mechler (TU Darmstadt, Germany), Frank Hessel (TU Darmstadt, Germany), Matthias Hollick (TU Darmstadt, Germany), Bastian Bloessl (TU Darmstadt, Germany)
+##### - "StateFi : Effectively Identifying Wi-Fi Devices through State Transitions"
+Abhishek kumar Mishra, Inria, FR, Mathieu Cunche, INSA-Lyon / Inria, FR
 
-##### - Evaluating Time-Bounded Defense Against RRC Relay in 5G Broadcast Messages
-Yilu Dong (The Pennsylvania State University), Tao Wan (CableLabs & Carleton University), Tianwei Wu (The Pennsylvania State University), Syed Rafiul Hussain (The Pennsylvania State University)
+##### - "PrivacyAssist: A User-Centric Agent Framework for Detecting Privacy Inconsistencies in Android Apps"
+Tran Thanh Lam Nguyen, University of Insubria, IT, Edoardo Di Tullio, University of Insubria, Barbara Carminati, University of Insubria, IT, Elena Ferrari, University of Insubria, IT
 
-##### - FirmState: Bringing Cellular Protocol States to Shannon Baseband Emulation
-Suhwan Jeong (ENKI WhiteHat), Beomseok Oh (KAIST), Kwangmin Kim (KAIST), Insu Yun (KAIST), Yongdae Kim (KAIST), CheolJun Park (Kyung Hee University)
+##### - "Secure Trust On First Use for Enterprise Wi-Fi: Design Guidelines and Linux Implementation"
+Rathan Appana, DistriNet, KU Leuven, Mathy Vanhoef, DistriNet, KU Leuven, BE
 
-##### - Fragile Frames: Wi-Fi's Fraught Fight Against FragAttacks
-Siebe Devroe (DistriNet, KU Leuven), Héloïse Gollier (DistriNet, KU Leuven), Mathy Vanhoef (DistriNet, KU Leuven)
+##### - "Denied by Border: Denial-of-Service Attack Exploiting Location Restrictions in Non-Terrestrial Networks"
+Kwangmin Kim, KAIST, KR, Taekkyung Oh, KAIST, KR, Yongdae Kim, KAIST, KR
 
-##### - Improving Wireless Security Research: Cost-Effective Detection of Wireless Charging Vulnerabilities
-Shannon Beck (US Air Force Academy), Steven Fulton (US Air Force Academy), Manohar Raavi (Kennesaw State University), Jordan Scott (University of Colorado Colorado Springs)
+##### - "Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection"
+Orobosa Ekhator, Portland State University, US, Dylan Conklin, Portland State University, Primal Pappachan, Portland State University, US, Roberto Yus, University of Maryland, Baltimore County, US
 
-##### - Low-Layer Attacks Against 4G/5G Networks
-Norbert Ludant (Northeastern University), Marinos Vomvas (Northeastern University), Stavros Dimou (Northeastern University), Guevara Noubir (Northeastern University)
+## Posters and Demos
+##### - "POSTER: Improving WLAN Firmware Fuzzing for Advanced Analyses of Qualcomm Hexagon WLAN Chips"
+Daniel Bücheler, Daniel Fraunholz, Hartmut König, ZITiS, DE
 
-##### - Standing Firm in 5G: A Single-Round, Dropout-Resilient Secure Aggregation for Federated Learning
-Yiwei Zhang (Purdue University), Rouzbeh Behnia (University of South Florida), Imtiaz Karim (Purdue University), Attila A Yavuz (University of South Florida), Elisa Bertino (Purdue University)
+##### - "DEMO: Recent Advancements in Detecting Cellular Attacks with CellGuard"
+Swantje Lange, HPI, Uni Potsdam, DE, Lukas Arnold, TU Darmstadt, DE, Maximilian Paß, HPI, Matthias Hollick, TU Darmstadt, Jiska Classen, HPI
 
-##### - Universal Spoofing of Real-World Aircraft Multilateration
-Oliver Senn (ETH Zürich), Giorgio Tresoldi (OpenSky Network), Daniel Moser (Cyber-Defence Campus, armasuisse), Vincent Lenders (Cyber-Defence Campus, armasuisse), Martin Strohmeier (Cyber-Defence Campus, armasuisse)
+##### - "POSTER: Link Secrecy in the Near-Field With Antenna Subset Modulation"
+HSIANG-YAO KUO, Chia-Yi Yeh, Graduate Institute of Communication Engineering, National Taiwan University, TW, Chung-Tse Michael Wu, Department of Electrical Engineering, National Taiwan University
+
+##### - "POSTER: Accountable Cross-Operator 5G Charging via TEEs"
+Mijin Shin, Sungshin Women's University, KR, Wooram Park, Kyung Hee University, Sangwook Bae, CheolJun Park, Kyung Hee University, Seongmin Kim Sungshin Women's University
+
+##### - "DEMO: 5G SA Roaming Testbed for Post Quantum IPsec Security Evaluations"
+Oliver Zeidler, TUM, DE, Mert Günes, TUM, Sai Anirudh Madhavapeddi, Nokia, TUM, Wolfgang Kellerer, TUM
