@@ -26,7 +26,7 @@ enableGitInfo = false
 [[menu.main]]
     name = "Program"
     identifier = "menu_program"
-##    url = "/program-at-a-glance/"
+    url = "/program-accepted-papers/"
   weight = 2000
 
 #[[menu.main]]

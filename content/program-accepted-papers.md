@@ -1,7 +1,6 @@
 +++
 title = "Accepted Papers"
 hidden = false
-draft = true
 [menu.main]
     parent = "menu_program"
     weight = 103
