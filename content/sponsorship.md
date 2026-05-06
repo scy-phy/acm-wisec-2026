@@ -63,6 +63,16 @@ hidden = false
 
 ## Corporate Sponsors
 
+### Platinum Sponsor
+
+<div class="sponsor-static-block">
+ <a href="https://www.cispa.de/" target="_blank" rel="noopener">
+    <div class="sponsor-card">
+         <img class="sponsor-logo-image" src="../images/logos/CISPA.png"> 
+    </div>
+</a> 
+</div>
+
 ### Gold Sponsor
 
 <!--<div class="sponsor-static-block">
@@ -85,11 +95,13 @@ hidden = false
 
 ## Travel Grants Sponsor
 
-<!--<div class="sponsor-static-block">
+<div class="sponsor-static-block">
+ <a href="https://www.dfg.de/en" target="_blank" rel="noopener">
     <div class="sponsor-card">
-        <img class="sponsor-logo-image" src="/images/logos/nsf.png"> 
+        <img class="sponsor-logo-image" src="../images/logos/dfg_logo_schriftzug_blau_foerderung_en.png"> 
     </div>
-</div>-->
+</a>
+</div>
 
 ## Conference Host
 
