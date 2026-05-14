@@ -122,3 +122,30 @@ Mijin Shin, Sungshin Women's University, KR, Wooram Park, Kyung Hee University, 
 
 ##### - "DEMO: 5G SA Roaming Testbed for Post Quantum IPsec Security Evaluations"
 Oliver Zeidler, TUM, DE, Mert Günes, TUM, Sai Anirudh Madhavapeddi, Nokia, TUM, Wolfgang Kellerer, TUM
+
+
+## WiseML
+
+##### - "Unified Online Traffic Analyzer and Scheduling Engine in 5G Open-RAN"
+Rilong Qian, Shanghai Jiao Tong University, CN	Cunqing Hua, Shanghai Jiao Tong University 
+
+##### - "WIP: False-Data Injection Against Physics-Constrained Neural Networks for Trajectory Planning in Autonomous Racing"
+ChunTao Yang, Virginia Polytechnic Institute and State University, US	Ryan Gerdes, Virginia Polytechnic Institute and State University, US		
+
+##### - "Feedback Lunch: Learned Feedback Codes for Secure Communications"
+Yingyao Zhou, University of Illinois - Chicago, US	Natasha Devroye, University of Illinois - Chicago, US	Onur Günlü, Technische Universität Dortmund & Linköping University, DE	
+
+##### - "Towards Trust-Aware and Energy-Efficient Symbiotic Blockchain Networks for 6G via Off-Chain Aggregation"
+Tariq Naeem, Marche Polytechnic University, Ancona, IT	Ali Hassan Sodhro, Kristianstad University, Kristianstad, SE	Massimiliano Pirani, Pegaso University, Naples, IT	Luca Spalazzi, Marche Polytechnic University, Ancona
+
+##### - "WP-BFI: Recovering Sensitive Activities from WiFi Beamforming Feedback Information under Label Scarcity"
+Shiqian Guan, School of Cyber Science and Engineering, Southeast University, CN	Zhiming Chu, School of Cyber Science and Engineering, Southeast University	Tianxiang Xie, School of Cyber Science and Engineering, Southeast University, CN	Guyue Li, School of Cyber Science and Engineering, Southeast University, CN
+
+##### - "Adapter-Based Parameter-Efficient Adversarial Training for Enhanced Clean Accuracy"
+Xiaowen Li, University of South Florida	Wenwei Zhao, University of South Florida, US	Zhuo Lu, University of South Florida, US	Yao Liu, University of South Florida
+
+##### - "PAMPOS: Causal Transformer-based Trajectory Prediction for Attack-Agnostic Misbehavior Detection in V2X Networks"
+Konstantinos Kalogiannis, KTH, Royal Institute of Technology	Ahmed Hussain, KTH Royal Institute of Technology, SE	Panos Papadimitratos, KTH Royal Institute of Technology, SE	
+
+##### - "Consistency-Preserving Logit Shaping for Robust Model Stealing Defense with Applications in Wireless Spectrum Security"
+Xiaowen Li, University of South Florida	Wenwei Zhao, University of South Florida, US	Jie Xu, University of Florida, US	Yao Liu, University of South Florida
