@@ -81,21 +81,21 @@ The overall conference schedule is available below. For further details, refer t
 	</tr>
 	<tr class="row_gray">
 		<th>
-            <span>Monday</span>
+            <span>Tuesday</span>
             <br>
             <span style="font-size:14px;font-weight: 400;">(June 30)</span>
         </th>
         <th>
-            <span>Tuesday</span>
+            <span>Wednesday</span>
             <br>
             <span style="font-size:14px;font-weight: 400;">(July 1)</span>
         </th>
         <th>
-            <span>Wednesday</span>
+            <span>Thursday</span>
             <br>
             <span style="font-size:14px;font-weight: 400;">(July 2)</span>
         </th>
-	    <th><span>Thursday</span><br><span style="font-size:14px;font-weight: 400;">(July 3)</span></th>
+	    <th><span>Friday</span><br><span style="font-size:14px;font-weight: 400;">(July 3)</span></th>
 	</tr>
 </thead>
 <tbody>

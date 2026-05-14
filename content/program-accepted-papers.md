@@ -36,9 +36,6 @@ Geovani Benita, Singapore University of Technology and Design, SG, Matheus E. Ga
 ##### - "StormShield: Fingerprint-Based Detection and Mitigation of RRC Signaling Storms in O-RAN 5G RANs"
 Noemi Giustini, Northeastern University, US, Andrea Lacava, Northeastern University, US, Leonardo Bonati, Northeastern University, US, Stefano Maxenti, Northeastern University, Michele Polese, Northeastern University, US, Tommaso Melodia, Northeastern University, US, Francesca Cuomo, Sapienza University of Rome, IT
 
-##### - "The Worm Is in the Root: On the Security of IoT Provisioning Protocols and PMF in Wi-Fi Devices"
-Lucien Dikla Ngueleo, Inria Lille - Nord Europe, FR, Kevin Jiokeng, École Polytechnique, Paris, France, Valeria Loscri, Inria Lille - Nord Europe, FR
-
 ##### - "MUTUALISM: Low-Footprint and High-Throughput Software Implementation of HQC for Resource-Constrained Devices"
 Cong Liu, Panasonic Corporation, JP, Akira Maruko, Panasonic Corporation, Yasushi Takahashi, Panasonic Holdings Corporation, JP, Naoto Yanai, Panasonic Holdings Corporation, JP
 
@@ -107,6 +104,9 @@ Kwangmin Kim, KAIST, KR, Taekkyung Oh, KAIST, KR, Yongdae Kim, KAIST, KR
 ##### - "Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection"
 Orobosa Ekhator, Portland State University, US, Dylan Conklin, Portland State University, Primal Pappachan, Portland State University, US, Roberto Yus, University of Maryland, Baltimore County, US
 
+##### - "The Worm Is in the Root: On the Security of IoT Provisioning Protocols and PMF in Wi-Fi Devices"
+Lucien Dikla Ngueleo, Inria Lille - Nord Europe, FR, Kevin Jiokeng, École Polytechnique, Paris, France, Valeria Loscri, Inria Lille - Nord Europe, FR
+
 ## Posters and Demos
 ##### - "POSTER: Improving WLAN Firmware Fuzzing for Advanced Analyses of Qualcomm Hexagon WLAN Chips"
 Daniel Bücheler, Daniel Fraunholz, Hartmut König, ZITiS, DE
@@ -122,7 +122,6 @@ Mijin Shin, Sungshin Women's University, KR, Wooram Park, Kyung Hee University, 
 
 ##### - "DEMO: 5G SA Roaming Testbed for Post Quantum IPsec Security Evaluations"
 Oliver Zeidler, TUM, DE, Mert Günes, TUM, Sai Anirudh Madhavapeddi, Nokia, TUM, Wolfgang Kellerer, TUM
-
 
 ## WiseML
 
