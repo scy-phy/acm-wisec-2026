@@ -1,7 +1,7 @@
 +++
 title = "Detailed Program"
 hidden = true
-draft = false
+draft = true
 [menu.main]
     parent = "menu_program"
     weight = 2000
