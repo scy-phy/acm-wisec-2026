@@ -132,7 +132,7 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
         <td class="time">09:00</td>
         <td>
 	    <b>Keynote 2: OpenSky: How a Security Project Became Global Infrastructure<br>
-            Dr. Ivan Martinovic and Martin Strohmeier</b>
+            Dr. Ivan Martinovic and Dr. Martin Strohmeier</b>
             <th columnspan=2></th>
 	    </td>
         <td></td>
