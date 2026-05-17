@@ -55,7 +55,7 @@ WiseML 2026 will take place on July 3. All times are shown in Central European T
 </tr>
     <tr class="dark">
         <td class="time">12:00</td>
-        <td><b>Working Lunch (60 min)</b></td>
+        <td><b>Lunch (60 min)</b></td>
     </tr>
     <tr class="keynote">
         <td class="time">13:00</td>
