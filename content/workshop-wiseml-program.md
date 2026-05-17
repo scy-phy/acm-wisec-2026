@@ -69,7 +69,7 @@ WiseML 2026 will take place on July 3. All times are shown in Central European T
         <td><b>Break (30 min)</b></td>
     </tr>
     <tr class="section" id="session2">
-        <td class="time">14:00</td>
+        <td class="time">14:30</td>
         <td class="section-head"><b>Session 2 (Chair: TBD)</b><br>
                 <b>ML Security, Adversarial Learning, and V2X Systems</b><br>
         </td>
