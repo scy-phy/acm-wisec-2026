@@ -1,7 +1,7 @@
 +++
 title = "Detailed Program"
 hidden = true
-draft = true
+draft = false
 [menu.main]
     parent = "menu_program"
     weight = 2000
@@ -9,15 +9,14 @@ draft = true
 
 # Conference Program
 
-The technical sessions of WiSec 2025 will take place over 3 days, from June 3 to July 2. All times are shown in Eastern Daylight Time (EDT). The conference is single-track, and all sessions will be held in the main conference space (Room 1311) of the {{< link title="Fuse Building" target="_blank" href="https://masonsquare.gmu.edu/fuse" />}}. Presentation slots are 25 minutes for full papers, including Q&A, and 15 minutes for short papers, including Q&A.
+The technical sessions of WiSec 2026 will take place over 3 days, from June 30 to July 2. All times are shown in Central European Time (CET). The conference is single-track, and all conference sessions will be held in the main conference space (Saal Ost) of the {{< link title="Congres Center" target="_blank" href="https://www.ccsaar.de/en/" />}}. Presentation slots are 20 minutes for full papers, including Q&A, and 10 minutes for short papers, including Q&A.
 
-
-## <a id="day1"></a> Monday 30 June
+## <a id="day1"></a> Tuesday 30 June
 
 <table class="program">
 <thead>
     <tr>
-        <th class="time">EDT</th>
+        <th class="time">CET</th>
         <th></th>
         <th>Session&nbsp;Chair</th>
     </tr>
@@ -32,8 +31,8 @@ The technical sessions of WiSec 2025 will take place over 3 days, from June 3 to
     <tr class="keynote">
         <td class="time">09:30</td>
         <td>
-            <b>Keynote: Exploring Unanticipated Functionality in Cellular Devices and Networks</b><br>
-            <b>Dr. Kevin Butler</b>
+            <b>Keynote: The Zen of Bluetooth Security<br>
+            <b>Dr. Daniele Antonioli</b>
             <th columnspan=2></th>
         </td>
         <td></td>
@@ -46,72 +45,69 @@ The technical sessions of WiSec 2025 will take place over 3 days, from June 3 to
     </tr>
     <tr class="section" id="session1">
         <td class="time" style="vertical-align: middle">11:00</td>
-        <td class="section-head"><b>Session 1:</b> Location, Location, Location</td>
-        <td class="time">Aanjhan Ranganathan</td>
+        <td class="section-head"><b>Session 1:</b>Securing Wireless Infrastructure: From Satellite to Ground Segment</td>
+        <td class="time">TBD</td>
         <td></td>
     </tr>
-    <tr class="section-row">
-        <td colspan="3" class="section-content">
-        <ul>
-            <li><b>Distributed Multi-Antenna GPS Spoofing Attack using Off-the-shelf Devices</b> (Full)</li>
-            <li><b>Universal Spoofing of Real-World Aircraft Multilateration</b> (Short)</li>
-            <li><b>Guardian Positioning System (GPS) for Location Based Services</b> (Full)</li>
-        </ul>
-        <th columnspan=2></th>
-        </td>
-    </tr>
+<tr class="section-row">
+    <td colspan="3" class="section-content">
+    <ul>
+        <li><b>The Final Security Frontier: Using Privacy-Preserving Computation to Secure Satellite Rendezvous and Proximity Operations</b> (Full)</li>
+        <li><b>Denied by Border: Denial-of-Service Attack Exploiting Location Restrictions in Non-Terrestrial Networks</b> (Short)</li>
+        <li><b>SideDish: Low-Cost Anti-Spoofing Countermeasure for Satellite Data Communications</b> (Full)</li>
+        <li><b>The Worm is in the Root: On the Security of IoT Provisioning Protocols and PMF in Wi-Fi Devices</b> (Short)</li>
+    </ul>
+    <th columnspan=2></th>
+    </td>
+</tr>
     <tr class="dark">
-        <td class="time">12:05</td>
-        <td><b>Lunch Break (85 min)</b></td>
+        <td class="time">12:00</td>
+        <td><b>Lunch Break (60 min)</b></td>
         <td></td>
         <th columnspan=2></th>
     </tr>
     <tr class="section" id="session2">
-        <td class="time" style="vertical-align: middle">13:30</td>
-        <td class="section-head"><b>Session 2:</b> Jamming and Interference</td>
-        <td></td>
+        <td class="time" style="vertical-align: middle">13:00</td>
+        <td class="section-head"><b>Session 2:</b> Security Analysis of Modern Computing Architectures</td>
+        <td class="time">TBD</td>
         <th columnspan=2></th>
     </tr>
-    <tr class="section-row">
-        <td colspan="3" class="section-content">
-        <ul>
-            <li><b>SpaceJam: Protocol-aware Jamming Attacks against Space Communications</b> (Full)</li>
-            <li><b>BlindSpot: Efficient Single-Node Selective Jamming for LoRaWAN</b> (Short)</li>
-            <li><b>RIPPLE: Software-Only Detection of Signal Injection Attacks in Drone Temperature Sensors</b> (Full)</li>
-        </ul>
-        <th columnspan=2></th>
-        </td>
-    </tr>
+<tr class="section-row">
+    <td colspan="3" class="section-content">
+    <ul>
+        <li><b>The Cost of Zero Trust: A Comparative Analysis of MACsec and IPsec Architectures for Secure Open Fronthaul</b> (Full)</li>
+        <li><b>ArchSnoop: LLM Architecture Snooping via Electromagnetic Side-Channel on Edge Devices</b> (Full)</li>
+        <li><b>Unlocking Apple's Private Cloud Compute: An Analysis of Privacy-Preserving Artificial Intelligence</b> (Full)</li>
+    </ul>
+    <th columnspan=2></th>
+    </td>
+</tr>
     <tr class="dark">
-        <td class="time">14:35</td>
-        <td><b>Break (25 min)</b></td>
+        <td class="time">14:00</td>
+        <td><b>Break (30 min)</b></td>
         <td></td>
         <th columnspan=2></th>
     </tr>
-    <tr class="section" id="session3">
-        <td class="time" style="vertical-align: middle">15:00</td>
-        <td class="section-head"><b>Session 3:</b> Wi-Fi and Ultrasound</td>
-        <td class="time">Martin Strohmeier</td>
-        <td></td>
-    </tr>
-    <tr class="section-row">
-        <td colspan="3" class="section-content">
-        <ul>
-            <li><b>SoK: Security in the Inaudible World</b> (Full)</li>
-            <li><b>Cloud Nine Connectivity: Security Analysis of In-Flight Wi-Fi Paywall Systems</b> (Full)</li>
-            <li><b>Fragile Frames: Wi-Fi's Fraught Fight Against FragAttacks</b> (Short)</li>
-        </ul>
-        <th columnspan=2></th>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">16:30</td>
-        <td><b>Posters and Demo</b></td>
+    <tr class="section" id="posters">
+        <td class="time" style="vertical-align: middle">14:30</td>
+        <td class="section-head"><b>Posters and Demos (90 min)</b></td>
         <td></td>
         <th columnspan=2></th>
     </tr>
+<tr class="section-row">
+    <td colspan="3" class="section-content">
+    <ul>
+        <li><b>Improving WLAN Firmware Fuzzing for Advanced Analyses of Qualcomm Hexagon WLAN Chips</b> (Poster)</li>
+        <li><b>Link Secrecy in the Near-Field With Antenna Subset Modulation</b> (Poster)</li>
+        <li><b>Accountable Cross-Operator 5G Charging via TEEs</b> (Poster)</li>
+        <li><b>Recent Advancements in Detecting Cellular Attacks with CellGuard</b> (Demo)</li>
+        <li><b>5G SA Roaming Testbed for Post Quantum IPsec Security Evaluations</b> (Demo)</li>
+    </ul>
+    <th columnspan=2></th>
+    </td>
+</tr>
     <tr class="light">
-        <td class="time">17:30</td>
+        <td class="time">16:00</td>
         <td><b>End of Day 1</b></td>
         <td></td>
         <th columnspan=2></th>
@@ -121,22 +117,25 @@ The technical sessions of WiSec 2025 will take place over 3 days, from June 3 to
 
 ---
 
-## <a id="day2"></a> Tuesday 1 July
+## <a id="day2"></a> Wednesday 1 July
 
 <table class="program">
 <thead>
     <tr>
-        <th class="time">EDT</th>
+        <th class="time">CET</th>
         <th></th>
         <th>Session&nbsp;Chair</th>
     </tr>
 </thead>
 <tbody>
-    <tr class="light">
+    <tr class="keynote">
         <td class="time">09:00</td>
-        <td><b>Keynote 2: Dr. Venki Ramaswamy</b></td>
+        <td>
+	    <b>Keynote 2: OpenSky: How a Security Project Became Global Infrastructure<br>
+            Dr. Ivan Martinovic and Martin Strohmeier</b>
+            <th columnspan=2></th>
+	    </td>
         <td></td>
-        <th columnspan=2></th>
     </tr>
     <tr class="dark">
         <td class="time">10:00</td>
@@ -146,67 +145,77 @@ The technical sessions of WiSec 2025 will take place over 3 days, from June 3 to
     </tr>
     <tr class="section" id="session4">
         <td class="time" style="vertical-align: middle">10:30</td>
-        <td class="section-head"><b>Session 4:</b> Cellular 1</td>
-        <td class="time">Yongdae Kim</td>
+        <td class="section-head"><b>Session 3:</b> Bluetooth & Wi-Fi Security</td>
+        <td class="time">TBD</td>
         <td></td>
     </tr>
-    <tr class="section-row">
-        <td colspan="3" class="section-content">
-        <ul>
-            <li><b>Low-Layer Attacks Against 4G/5G Networks</b> (Short)</li>
-            <li><b>Evaluating Time-Bounded Defense Against RRC Relay in 5G Broadcast Messages</b> (Short)</li>
-            <li><b>Assessing the Latency of Network Layer Security in 5G Networks</b> (Short)</li>
-            <li><b>AI5GTest: AI-Driven Specification-Aware Automated Testing and Validation of 5G O-RAN Components</b> (Full)</li>
-            <li><b>SoK: Evaluating 5G-Advanced Protocols Against Legacy and Emerging Privacy and Security Attacks</b> (Full)</li>
-        </ul>
-        <th columnspan=2></th>
-        </td>
-    </tr>
+<tr class="section-row">
+    <td colspan="3" class="section-content">
+    <ul>
+        <li><b>Pair-Fi: Integrity Code Protected Secure Device Pairing via SDR-Enabled Wi-Fi Chips on Smartphones</b> (Full)</li>
+        <li><b>HardaBLE: Hardening BLE Against Software Compromise</b> (Full)</li>
+        <li><b>Secure Trust On First Use for Enterprise Wi-Fi: Design Guidelines and Linux Implementation</b> (Short)</li>
+        <li><b>BlueBrothers: Three New Protocols to Secure Bluetooth</b> (Full)</li>
+        <li><b>Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection</b> (Short)</li>
+    </ul>
+    <th columnspan=2></th>
+    </td>
+</tr>
     <tr class="dark">
-        <td class="time">12:05</td>
-        <td><b>Working Lunch with Industry Speaker Balázs Nagy, NewPush<br>From Classroom to Cyber Front Lines: How Universities Became AI Security Labs</b></td>
+        <td class="time">12:00</td>
+        <td><b>Lunch (60 min)</b></td>
         <td></td>
         <th columnspan=2></th>
     </tr>
-    <tr class="section" id="session5">
-        <td class="time" style="vertical-align: middle">13:30</td>
-        <td class="section-head"><b>Session 5:</b> Cellular 2</td>
-        <td class="time">Syed Rafiul Hussain</td>
+    <tr class="section" id="session4">
+        <td class="time" style="vertical-align: middle">13:00</td>
+        <td class="section-head"><b>Session 4:</b> Mobile App Privacy & Security</td>
+        <td class="time">TBD</td>
         <td></td>
     </tr>
-    <tr class="section-row">
-        <td colspan="3" class="section-content">
-        <ul>
-            <li><b>FirmState: Bringing Cellular Protocol States to Shannon Baseband Emulation</b> (Short)</li>
-            <li><b>Standing Firm in 5G: A Single-Round, Dropout-Resilient Secure Aggregation for Federated Learning</b> (Short)</li>
-            <li><b>FlashCatch: Minimizing Disruption in IMSI Catcher Operations</b> (Full)</li>
-            <li><b>On the Performance and Consistency Trade-off of the eSIM M2M Remote Provisioning Protocol</b> (Full)</li>
-        </ul>
-        <th columnspan=2></th>
-        </td>
-    </tr>
+<tr class="section-row">
+    <td colspan="3" class="section-content">
+    <ul>
+        <li><b>Are Android Developers Following Privacy Guidelines? A Study on Logging Practices of Personal Data</b> (Full)</li>
+        <li><b>iOSModZoo: A Large-Scale Study of Third-Party iOS App Markets</b> (Full)</li>
+        <li><b>PrivacyAssist: A User-Centric Agent Framework for Detecting Privacy Inconsistencies in Android Apps</b> (Short)</li>
+        <li><b>AttestLens: A Large-Scale Measurement of Play Integrity Adoption in Android Apps</b> (Full)</li>
+    </ul>
+    <th columnspan=2></th>
+    </td>
+</tr>
     <tr class="dark">
-        <td class="time">14:50</td>
+        <td class="time">14:15</td>
         <td><b>Break (30 min)</b></td>
         <td></td>
         <th columnspan=2></th>
     </tr>
-    <tr class="section" id="panel">
-        <td class="time">15:20</td>
-        <td colspan="2" class="section-head"><b>Vision Talks</b><br>
-        - Panos Papadimitratos, KTH Royal Institute of Technology: "Secure perception for cyber-physical systems"<br>
-        - Yongdae Kim, KAIST: "Cellular Dual-Use Technologies"</td>
-        <th columnspan=2></th>
+    <tr class="section" id="session5">
+        <td class="time" style="vertical-align: middle">14:45</td>
+        <td class="section-head"><b>Session 5:</b> Session 5: 5G & O-RAN Security</td>
+        <td class="time">TBD</td>
+        <td></td>
     </tr>
+<tr class="section-row">
+    <td colspan="3" class="section-content">
+    <ul>
+        <li><b>ORANClaw: Shredding E2 Nodes in O-RAN via Structure-aware MiTM Fuzzing</b> (Full)</li>
+        <li><b>Evaluation of Security-Induced Latency on 5G RAN Interfaces and User Plane Communication</b> (Short)</li>
+        <li><b>RAN-GUARD: A Hybrid Multi-Model Approach for Early Detection of IP-based DDoS Attacks in O-RAN</b> (Full)</li>
+        <li><b>StormShield: Fingerprint-Based Detection and Mitigation of RRC Signaling Storms in O-RAN 5G RANs</b> (Full)</li>
+    </ul>
+    <th columnspan=2></th>
+    </td>
+</tr>
     <tr class="light">
-        <td class="time">16:30</td>
+        <td class="time">16:00</td>
         <td><b>End of Day 2</b></td>
         <td></td>
         <th columnspan=2></th>
     </tr>
     <tr class="dark">
         <td class="time">18:00</td>
-        <td><b>Banquet Dinner</b></td>
+        <td><b>Conference Dinner at Noya</b></td>
         <td></td>
         <th columnspan=2></th>
     </tr>
@@ -215,12 +224,12 @@ The technical sessions of WiSec 2025 will take place over 3 days, from June 3 to
 
 ---
 
-## <a id="day3"></a> Wednesday 2 July
+## <a id="day3"></a> Thursday 2 July
 
 <table class="program">
 <thead>
     <tr>
-        <th class="time">EDT</th>
+        <th class="time">CET</th>
         <th></th>
         <th>Session&nbsp;Chair</th>
     </tr>
@@ -228,307 +237,85 @@ The technical sessions of WiSec 2025 will take place over 3 days, from June 3 to
 <tbody>
     <tr class="section" id="session6">
         <td class="time" style="vertical-align: middle">09:00</td>
-        <td class="section-head"><b>Session 6:</b> Mobile Device and Data Privacy</td>
-        <td class="time">Aanjhan Ranganathan </td>
+        <td class="section-head"><b>Session 6:</b> Security for Constrained and Embedded Systems</td>
+        <td class="time">TBD </td>
         <td></td>
     </tr>
-    <tr class="section-row">
-        <td colspan="3" class="section-content">
-        <ul>
-            <li><b>Wireless-Tap: Automatic Transcription of Phone Calls Using Millimeter-Wave Radar Sensing</b> (Full)</li>
-            <li><b>Improving Wireless Security Research: Cost-Effective Detection of Wireless Charging Vulnerabilities</b> (Short)</li>
-            <li><b>ARMOUR US: Android Runtime Zero-permission Sensor Usage Monitoring from User Space</b> (Full)</li>
-            <li><b>Unveiling Privacy Risks in WebGPU through Hardware-based Device Fingerprinting</b> (Full)</li>
-        </ul>
-        <th columnspan=2></th>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">10:30</td>
-        <td><b>Break (30 min)</b></td>
-        <td></td>
-        <th columnspan=2></th>
-    </tr>
-    <tr class="section" id="session7">
-        <td class="time" style="vertical-align: middle">11:00</td>
-        <td class="section-head"><b>Session 7:</b> RF-based Authentication and Verification</td>
-        <td class="time">Panos Papadimitratos</td>
-        <td></td>
-    </tr>
-    <tr class="section-row">
-        <td colspan="3" class="section-content">
-        <ul>
-            <li><b>Augmenting BLE Fingerprinting Using Instantaneous Frequency</b> (Short)</li>
-            <li><b>Anti-Tamper Radio meets Reconfigurable Intelligent Surface for System-Level Tamper Detection</b> (Full)</li>
-            <li><b>RFinger: Environmental Fingerprint Embedding for Harmless mmWave Dataset Ownership Verification</b> (Full)</li>
-        </ul>
-        <th columnspan=2></th>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">12:05</td>
-        <td><b>Lunch (85 min)</b></td>
-        <td></td>
-        <th columnspan=2></th>
-    </tr>
-    <tr class="section" id="session8">
-        <td class="time" style="vertical-align: middle">13:30</td>
-        <td class="section-head"><b>Session 8:</b> IoT</td>
-        <td class="time">Dave Singelee</td>
-        <td></td>
-    </tr>
-    <tr class="section-row">
-        <td colspan="3" class="section-content">
-        <ul>
-            <li><b>"Alexa, Is Dynamic Content Safe?"</b> (Full)</li>
-            <li><b>Practical Inner Product Encryption for Privacy-Preserved Internet-of-Things Applications</b> (Full)</li>
-            <li><b>Run-time Attestation and Auditing: the Verifier’s Perspective</b> (Full)</li>
-        </ul>
-        <th columnspan=2></th>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">14:45</td>
-        <td><b>Concluding Remarks (End of Main Conference)</b></td>
-        <td></td>
-        <th columnspan=2></th>
-    </tr>
-    <tr class="light">
-        <td class="time">15:00</td>
-        <td><b>George Mason University Tour of Facilities</b></td>
-        <td></td>
-        <th columnspan=2></th>
-    </tr>
-</tbody>
-</table>
-
-
-<!--
-## <a id="day1"></a> Monday 30 June
-
-<table class="program">
-<thead>
-    <tr>
-        <th class="time">EDT</th>
-        <th></th>
-    </tr>
-</thead>
-<tbody>
-    <tr class="light">
-        <td class="time">09:00</td>
-        <td><b>Welcome (General Chairs and TPC Chairs)</b></td>
-    </tr>
-    <tr class="keynote">
-        <td class="time">09:30</td>
-        <td>
-            <b>Keynote: Exploring Unanticipated Functionality in Cellular Devices and Networks</b><br>
-            <b>Dr. Kevin Butler</b>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">10:30</td>
-        <td><b>Break (30 min)</b></td>
-    </tr>
-    <tr class="section" id="session1">
-        <td class="time">11:00</td>
-        <td class="section-head"><b>Session 1:</b> Location, Location, Location</td>
-    </tr>
-    <tr class="section-row">
-        <td colspan="2" class="section-content">
-        <ul>
-            <li><b>Distributed Multi-Antenna GPS Spoofing Attack using Off-the-shelf Devices</b> (Full)</li>
-            <li><b>Universal Spoofing of Real-World Aircraft Multilateration</b> (Short)</li>
-            <li><b>Guardian Positioning System (GPS) for Location Based Services</b> (Full)</li>
-        </ul>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">12:05</td>
-        <td><b>Lunch Break (85 min)</b></td>
-    </tr>
-    <tr class="section" id="session2">
-        <td class="time">13:30</td>
-        <td class="section-head"><b>Session 2:</b> Jamming and Interference</td>
-    </tr>
-    <tr class="section-row">
-        <td colspan="2" class="section-content">
-        <ul>
-            <li><b>SpaceJam: Protocol-aware Jamming Attacks against Space Communications</b> (Full)</li>
-            <li><b>BlindSpot: Efficient Single-Node Selective Jamming for LoRaWAN</b> (Short)</li>
-            <li><b>RIPPLE: Software-Only Detection of Signal Injection Attacks in Drone Temperature Sensors</b> (Full)</li>
-        </ul>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">14:35</td>
-        <td><b>Break (25 min)</b></td>
-    </tr>
-    <tr class="section" id="session3">
-        <td class="time">15:00</td>
-        <td class="section-head"><b>Session 3:</b> Wi-Fi and Ultrasound</td>
-    </tr>
-    <tr class="section-row">
-        <td colspan="2" class="section-content">
-        <ul>
-            <li><b>SoK: Security in the Inaudible World</b> (Full)</li>
-            <li><b>Cloud Nine Connectivity: Security Analysis of In-Flight Wi-Fi Paywall Systems</b> (Full)</li>
-            <li><b>Fragile Frames: Wi-Fi's Fraught Fight Against FragAttacks</b> (Short)</li>
-        </ul>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">16:30</td>
-        <td><b>Posters and Demo</b></td>
-    </tr>
-    <tr class="light">
-        <td class="time">17:30</td>
-        <td><b>End of Day 1</b></td>
-    </tr>
-</tbody>
-</table>
-
----
-
-## <a id="day2"></a> Tuesday 1 July
-
-<table class="program">
-<thead>
-    <tr>
-        <th class="time">EDT</th>
-        <th></th>
-    </tr>
-</thead>
-<tbody>
-    <tr class="light">
-        <td class="time">09:00</td>
-        <td><b>Keynote 2: Dr. Venki Ramaswamy</b></td>
-    </tr>
+<tr class="section-row">
+    <td colspan="3" class="section-content">
+    <ul>
+        <li><b>MUTUALISM: Low-Footprint and High-Throughput Software Implementation of HQC for Resource-Constrained Devices</b> (Full)</li>
+        <li><b>TinyContainer: Container Runtime Middleware Enabling Multi-tenant Microcontrollers with Built-in Security</b> (Full)</li>
+        <li><b>V-PASS: Sybil-Resistant Pseudonym Self-Provisioning for V2X</b> (Full)</li>
+    </ul>
+    <th columnspan=2></th>
+    </td>
+</tr>
     <tr class="dark">
         <td class="time">10:00</td>
         <td><b>Break (30 min)</b></td>
-    </tr>
-    <tr class="section" id="session4">
-        <td class="time">10:30</td>
-        <td class="section-head"><b>Session 4:</b> Cellular 1</td>
-    </tr>
-    <tr class="section-row">
-        <td colspan="2" class="section-content">
-        <ul>
-            <li><b>Low-Layer Attacks Against 4G/5G Networks</b> (Short)</li>
-            <li><b>Evaluating Time-Bounded Defense Against RRC Relay in 5G Broadcast Messages</b> (Short)</li>
-            <li><b>Assessing the Latency of Network Layer Security in 5G Networks</b> (Short)</li>
-            <li><b>AI5GTest: AI-Driven Specification-Aware Automated Testing and Validation of 5G O-RAN Components</b> (Full)</li>
-            <li><b>SoK: Evaluating 5G-Advanced Protocols Against Legacy and Emerging Privacy and Security Attacks</b> (Full)</li>
-        </ul>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">12:05</td>
-        <td><b>Working Lunch with Industry Speaker Balázs Nagy, NewPush<br>From Classroom to Cyber Front Lines: How Universities Became AI Security Labs</b></td>
-    </tr>
-    <tr class="section" id="session5">
-        <td class="time">13:30</td>
-        <td class="section-head"><b>Session 5:</b> Cellular 2</td>
-    </tr>
-    <tr class="section-row">
-        <td colspan="2" class="section-content">
-        <ul>
-            <li><b>FirmState: Bringing Cellular Protocol States to Shannon Baseband Emulation</b> (Short)</li>
-            <li><b>Standing Firm in 5G: A Single-Round, Dropout-Resilient Secure Aggregation for Federated Learning</b> (Short)</li>
-            <li><b>FlashCatch: Minimizing Disruption in IMSI Catcher Operations</b> (Full)</li>
-            <li><b>On the Performance and Consistency Trade-off of the eSIM M2M Remote Provisioning Protocol</b> (Full)</li>
-        </ul>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">14:50</td>
-        <td><b>Break (30 min)</b></td>
-    </tr>
-    <tr class="section" id="panel">
-        <td class="time">15:20</td>
-        <td class="section-head"><b>Vision Talks</b><br>
-        - Panos Papadimitratos, KTH Royal Institute of Technology: "Secure perception for cyber-physical systems"<br>
-        - Yongdae Kim, KAIST: "Cellular Dual-Use Technologies"</td>
-    </tr>
-    <tr class="light">
-        <td class="time">16:30</td>
-        <td><b>End of Day 2</b></td>
-    </tr>
-    <tr class="dark">
-        <td class="time">18:00</td>
-        <td><b>Banquet Dinner</b></td>
-    </tr>
-</tbody>
-</table>
-
----
-
-## <a id="day3"></a> Wednesday 2 July
-
-<table class="program">
-<thead>
-    <tr>
-        <th class="time">EDT</th>
-        <th></th>
-    </tr>
-</thead>
-<tbody>
-    <tr class="section" id="session6">
-        <td class="time">09:00</td>
-        <td class="section-head"><b>Session 6:</b> Mobile Device and Data Privacy</td>
-    </tr>
-    <tr class="section-row">
-        <td colspan="2" class="section-content">
-        <ul>
-            <li><b>Wireless-Tap: Automatic Transcription of Phone Calls Using Millimeter-Wave Radar Sensing</b> (Full)</li>
-            <li><b>Improving Wireless Security Research: Cost-Effective Detection of Wireless Charging Vulnerabilities</b> (Short)</li>
-            <li><b>ARMOUR US: Android Runtime Zero-permission Sensor Usage Monitoring from User Space</b> (Full)</li>
-            <li><b>Unveiling Privacy Risks in WebGPU through Hardware-based Device Fingerprinting</b> (Full)</li>
-        </ul>
-        </td>
-    </tr>
-    <tr class="dark">
-        <td class="time">10:30</td>
-        <td><b>Break (30 min)</b></td>
+        <td></td>
+        <th columnspan=2></th>
     </tr>
     <tr class="section" id="session7">
-        <td class="time">11:00</td>
-        <td class="section-head"><b>Session 7:</b> RF-based Authentication and Verification</td>
+        <td class="time" style="vertical-align: middle">10:30</td>
+        <td class="section-head"><b>Session 7:</b> RF Fingerprinting & Physical Layer Security</td>
+        <td class="time">TBD</td>
+        <td></td>
     </tr>
-    <tr class="section-row">
-        <td colspan="2" class="section-content">
-        <ul>
-            <li><b>Augmenting BLE Fingerprinting Using Instantaneous Frequency</b> (Short)</li>
-            <li><b>Anti-Tamper Radio meets Reconfigurable Intelligent Surface for System-Level Tamper Detection</b> (Full)</li>
-            <li><b>RFinger: Environmental Fingerprint Embedding for Harmless mmWave Dataset Ownership Verification</b> (Full)</li>
-        </ul>
-        </td>
+<tr class="section-row">
+    <td colspan="3" class="section-content">
+    <ul>
+        <li><b>Beyond Static Signatures: Statistical Analysis of Radio Fingerprint Mutations</b> (Full)</li>
+        <li><b>Black-Box RF Fingerprint Spoofing via Surrogate-Guided Generative Perturbations</b> (Short)</li>
+        <li><b>A Deep Dive into Wormhole Attacks in Underwater Acoustic Communication: From Theory to Practice</b> (Full)</li>
+        <li><b>Security Analysis of Time-of-Arrival Estimation via Cross-Correlation under Narrow-Band Conditions</b> (Full)</li>
+        <li><b>Timestamps Unchained: Toward Secure Distance-Bounding on Commodity Wi-Fi Hardware</b> (Full)</li>
+    </ul>
+    <th columnspan=2></th>
+    </td>
+</tr>
+    <tr class="dark">
+        <td class="time">12:00</td>
+        <td><b>Lunch (60 min)</b></td>
+        <td></td>
+        <th columnspan=2></th>
+    </tr>
+    <tr class="section" id="Panel">
+        <td class="time" style="vertical-align: middle">13:00</td>
+        <td class="section-head"><b>Panel</b> </td>
+        <td class="time">Martin Strohmeier </td>
+        <td></td>
     </tr>
     <tr class="dark">
-        <td class="time">12:05</td>
-        <td><b>Lunch (85 min)</b></td>
+        <td class="time">14:30</td>
+        <td><b>Break (30 min)</b></td>
+        <td></td>
+        <th columnspan=2></th>
     </tr>
     <tr class="section" id="session8">
-        <td class="time">13:30</td>
-        <td class="section-head"><b>Session 8:</b> IoT</td>
+        <td class="time" style="vertical-align: middle">15:00</td>
+        <td class="section-head"><b>Session 8:</b> Device Fingerprinting, Tracking & Pairing</td>
+        <td class="time">TBD</td>
+        <td></td>
     </tr>
-    <tr class="section-row">
-        <td colspan="2" class="section-content">
-        <ul>
-            <li><b>"Alexa, Is Dynamic Content Safe?"</b> (Full)</li>
-            <li><b>Practical Inner Product Encryption for Privacy-Preserved Internet-of-Things Applications</b> (Full)</li>
-            <li><b>Run-time Attestation and Auditing: the Verifier’s Perspective</b> (Full)</li>
-        </ul>
-        </td>
-    </tr>
+<tr class="section-row">
+    <td colspan="3" class="section-content">
+    <ul>
+        <li><b>TrackAR: AR/VR Device Fingerprinting and User-Device Pairing Detection via Shared Motion Sensor Data</b> (Full)</li>
+        <li><b>Finding Phones Fast: Low-Latency and Scalable Monitoring of Cellular Communications in Sensitive Areas</b> (Full)</li>
+        <li><b>StateFi: Effectively Identifying Wi-Fi Devices through State Transitions</b> (Short)</li>
+    </ul>
+    <th columnspan=2></th>
+    </td>
+</tr>
     <tr class="dark">
-        <td class="time">14:45</td>
+        <td class="time">16:00</td>
         <td><b>Concluding Remarks (End of Main Conference)</b></td>
-    </tr>
-    <tr class="light">
-        <td class="time">15:00</td>
-        <td><b>George Mason University Tour of Facilities</b></td>
+        <td></td>
+        <th columnspan=2></th>
     </tr>
 </tbody>
 </table>
--->
+
+
