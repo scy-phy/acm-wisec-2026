@@ -77,7 +77,7 @@ WiseML 2026 will take place on July 3. All times are shown in Central European T
 <tr class="section-row">
     <td colspan="2" class="section-content">
     <ul>
-        <li><b>WIP: False-Data Injection Against Physics-Constrained Neural Networks for Trajectory Planning in Autonomous Racing</b><br>ChunTao Yang, Ryan Gerdes</li>
+        <li><b>WIP: False-Data Injection Against Physics-Constrained Neural Networks for Trajectory Planning in Autonomous Racing</b><br>Chun Tao Yang, Ryan Gerdes</li>
         <li><b>Adapter-Based Parameter-Efficient Adversarial Training for Enhanced Clean Accuracy</b><br>Xiaowen Li, Wenwei Zhao, Zhuo Lu, Yao Liu</li>
         <li><b>PAMPOS: Causal Transformer-based Trajectory Prediction for Attack-Agnostic Misbehavior Detection in V2X Networks</b><br>Konstantinos Kalogiannis, Ahmed Hussain, Panos Papadimitratos</li>
         <li><b>Consistency-Preserving Logit Shaping for Robust Model Stealing Defense with Applications in Wireless Spectrum Security</b><br>Xiaowen Li, Wenwei Zhao, Jie Xu, Yao Liu, Zhuo Lu</li>
