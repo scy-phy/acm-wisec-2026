@@ -237,24 +237,24 @@ The overall conference schedule is available below. For further details, refer t
 </tr>
 <tr class="row_12">
 	<td class="tt_hours_column">14:30</td>
-	<td rowspan="5" class="session">
+	<td rowspan="4" class="session">
 		<span title="Posters and Demos"><br>
 		Posters and Demos</span>
 	</td>
 		<td class="break" rowspan=2>
 		<span title="Coffee">Break</span>
 	</td>
-	<td class="session" rowspan=5>
+	<td class="session" rowspan=4>
 	  <span title="session-2">Session 2: ML Security, Adversarial Learning, and V2X Systems
 	  </span></td>
 	</tr>
 <tr class="row_125">
 	<td class="tt_hours_column">14:45</td>
-	<td rowspan="4" class="session"><span title="session-5">Session 5: 5G & O-RAN Security</span></td>
+	<td rowspan="3" class="session"><span title="session-5">Session 5: 5G & O-RAN Security</span></td>
 </tr>
 <tr class="row_13">
 	<td class="tt_hours_column">15:00</td>
-	<td class="session" rowspan=3>
+	<td class="session" rowspan=2>
 	  <span title="session-8">Session 8: Device Fingerprinting, Tracking & Pairing
 	  </span></td>
 </tr>
@@ -263,28 +263,30 @@ The overall conference schedule is available below. For further details, refer t
 	</tr>
 <tr class="row_15">
 	<td class="tt_hours_column">16:00</td>
+	<td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
 </tr>
 <tr class="row_16">
 	<td class="tt_hours_column">16:30</td>
-	<td>
-		<span title=""></span>
-	</td>
-	<td></td>
-	<td></td>
+	<td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
   <td></td>
 </tr>
 <tr class="row_17">
 	<td class="tt_hours_column">17:00</td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
   <td></td>
 </tr>
 <tr class="row_18">
 	<td class="tt_hours_column">17:30</td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
   <td></td>
 </tr>
 <tr class="row_19">
@@ -292,34 +294,34 @@ The overall conference schedule is available below. For further details, refer t
 	<td class="banquet" rowspan="5">
 		<span title="banquet">Conference Dinner at Noya</span>
 	</td>
-	<td></td>
-	<td></td>
-  <td></td>
+	<td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
 </tr>
 <tr class="row_20">
 	<td class="tt_hours_column">18:30</td>
-	<td></td>
-	<td></td>
-	<td></td>
+	<td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
 </tr>
 <tr class="row_20">
   <td class="tt_hours_column">19:00</td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
 </tr>
 <tr class="row_20">
   <td class="tt_hours_column">19:30</td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
   
 </tr>
 <tr class="row_20">
   <td class="tt_hours_column">20:00</td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td class="break"></td>
+	<td class="break"></td>
+	<td class="break"></td>
 </tr>
 </tbody>
 </table>
