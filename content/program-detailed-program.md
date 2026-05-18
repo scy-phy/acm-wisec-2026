@@ -45,7 +45,7 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
     </tr>
     <tr class="section" id="session1">
         <td class="time" style="vertical-align: middle">11:00</td>
-        <td class="section-head"><b>Session 1:</b>Securing Wireless Infrastructure: From Satellite to Ground Segment</td>
+        <td class="section-head"><b>Session 1:</b> Securing Wireless Infrastructure: From Satellite to Ground Segment</td>
         <td class="time">TBD</td>
         <td></td>
     </tr>
@@ -109,6 +109,12 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
     <tr class="light">
         <td class="time">16:00</td>
         <td><b>End of Day 1</b></td>
+        <td></td>
+        <th columnspan=2></th>
+    </tr>
+    <tr class="dark">
+        <td class="time">18:00</td>
+        <td><b>Conference Dinner at Noya</b></td>
         <td></td>
         <th columnspan=2></th>
     </tr>
@@ -213,12 +219,6 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
         <td></td>
         <th columnspan=2></th>
     </tr>
-    <tr class="dark">
-        <td class="time">18:00</td>
-        <td><b>Conference Dinner at Noya</b></td>
-        <td></td>
-        <th columnspan=2></th>
-    </tr>
 </tbody>
 </table>
 
@@ -257,12 +257,13 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
         <td></td>
         <th columnspan=2></th>
     </tr>
-    <tr class="section" id="session7">
-        <td class="time" style="vertical-align: middle">10:30</td>
-        <td class="section-head"><b>Session 7:</b> RF Fingerprinting & Physical Layer Security</td>
-        <td class="time">TBD</td>
+    <tr class="section" id="Panel">
+        <td class="time" style="vertical-align: middle">13:00</td>
+        <td class="section-head"><b>Panel</b> </td>
+        <td class="time">Martin Strohmeier </td>
         <td></td>
     </tr>
+    
 <tr class="section-row">
     <td colspan="3" class="section-content">
     <ul>
@@ -281,10 +282,10 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
         <td></td>
         <th columnspan=2></th>
     </tr>
-    <tr class="section" id="Panel">
-        <td class="time" style="vertical-align: middle">13:00</td>
-        <td class="section-head"><b>Panel</b> </td>
-        <td class="time">Martin Strohmeier </td>
+    <tr class="section" id="session7">
+        <td class="time" style="vertical-align: middle">10:30</td>
+        <td class="section-head"><b>Session 7:</b> RF Fingerprinting & Physical Layer Security</td>
+        <td class="time">TBD</td>
         <td></td>
     </tr>
     <tr class="dark">
