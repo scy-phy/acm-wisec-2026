@@ -51,7 +51,7 @@ Luisa Lux, Fraunhofer FKIE & RWTH Aachen University, Jan Bauer, Fraunhofer FKIE,
 ##### - "V-PASS: Sybil-Resistant Pseudonym Self-Provisioning for V2X"
 Hexuan Yu, Virginia Tech, US, Md Mohaimin Barat, Virginia Tech, US, Shaoyu Li, Virginia Tech, Md Hasan Shahriar, Virginia Tech, US, Yang Xiao, University of Kentucky, US, Panos Papadimitratos, KTH Royal Institute of Technology, SE, Y. Thomas Hou, Virginia Tech, Wenjing Lou, Virginia Tech, US
 
-##### - "HardBLE: Hardening BLE Against Software Compromise"
+##### - "HardaBLE: Hardening BLE Against Software Compromise"
 Tommaso Sacchetti, EURECOM, FR, Daniele Antonioli, EURECOM, FR, Norrathep Rattanavipanon, Prince of Songkla University, Phuket Campus Thailand, TH
 
 ##### - "TinyContainer: Container runtime middleware enabling multi-tenant microcontrollers with built-in security"
