@@ -263,19 +263,6 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
         <td class="time">Martin Strohmeier </td>
         <td></td>
     </tr>
-    
-<tr class="section-row">
-    <td colspan="3" class="section-content">
-    <ul>
-        <li><b>Beyond Static Signatures: Statistical Analysis of Radio Fingerprint Mutations</b> (Full)</li>
-        <li><b>Black-Box RF Fingerprint Spoofing via Surrogate-Guided Generative Perturbations</b> (Short)</li>
-        <li><b>A Deep Dive into Wormhole Attacks in Underwater Acoustic Communication: From Theory to Practice</b> (Full)</li>
-        <li><b>Security Analysis of Time-of-Arrival Estimation via Cross-Correlation under Narrow-Band Conditions</b> (Full)</li>
-        <li><b>Timestamps Unchained: Toward Secure Distance-Bounding on Commodity Wi-Fi Hardware</b> (Full)</li>
-    </ul>
-    <th columnspan=2></th>
-    </td>
-</tr>
     <tr class="dark">
         <td class="time">12:00</td>
         <td><b>Lunch (60 min)</b></td>
@@ -287,6 +274,18 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
         <td class="section-head"><b>Session 7:</b> RF Fingerprinting & Physical Layer Security</td>
         <td class="time">TBD</td>
         <td></td>
+        <tr class="section-row">
+        <td colspan="3" class="section-content">
+        <ul>
+            <li><b>Beyond Static Signatures: Statistical Analysis of Radio Fingerprint Mutations</b> (Full)</li>
+            <li><b>Black-Box RF Fingerprint Spoofing via Surrogate-Guided Generative Perturbations</b> (Short)</li>
+            <li><b>A Deep Dive into Wormhole Attacks in Underwater Acoustic Communication: From Theory to Practice</b> (Full)</li>
+            <li><b>Security Analysis of Time-of-Arrival Estimation via Cross-Correlation under Narrow-Band Conditions</b> (Full)</li>
+            <li><b>Timestamps Unchained: Toward Secure Distance-Bounding on Commodity Wi-Fi Hardware</b> (Full)</li>
+        </ul>
+        <th columnspan=2></th>
+        </td>
+</tr>
     </tr>
     <tr class="dark">
         <td class="time">14:30</td>
