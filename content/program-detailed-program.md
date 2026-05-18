@@ -9,7 +9,7 @@ draft = false
 
 # Conference Program
 
-The technical sessions of WiSec 2026 will take place over 3 days, from June 30 to July 2. All times are shown in Central European Time (CET). The conference is single-track, and all conference sessions will be held in the main conference space (Saal Ost) of the {{< link title="Congres Center" target="_blank" href="https://www.ccsaar.de/en/" />}}. Presentation slots are 20 minutes for full papers, including Q&A, and 10 minutes for short papers, including Q&A.
+The technical sessions of WiSec 2026 will take place over 3 days, from June 30 to July 2. All times are shown in Central European Time (CET). The conference is single-track, and all conference sessions will be held in the main conference space (Saal Ost) of the {{< link title="Congress Center" target="_blank" href="https://www.ccsaar.de/en/" />}}. Presentation slots are 20 minutes for full papers, including Q&A, and 10 minutes for short papers, including Q&A.
 
 ## <a id="day1"></a> Tuesday 30 June
 
