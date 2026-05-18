@@ -52,10 +52,31 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
 <tr class="section-row">
     <td colspan="3" class="section-content">
     <ul>
-        <li><b>The Final Security Frontier: Using Privacy-Preserving Computation to Secure Satellite Rendezvous and Proximity Operations</b> (Full)</li>
-        <li><b>Denied by Border: Denial-of-Service Attack Exploiting Location Restrictions in Non-Terrestrial Networks</b> (Short)</li>
-        <li><b>SideDish: Low-Cost Anti-Spoofing Countermeasure for Satellite Data Communications</b> (Full)</li>
-        <li><b>The Worm is in the Root: On the Security of IoT Provisioning Protocols and PMF in Wi-Fi Devices</b> (Short)</li>
+        <li>
+            <span class="title">The Final Security Frontier: Using Privacy-Preserving Computation to Secure Satellite Rendezvous and Proximity Operations</span>
+            <div class="publication-links-authors">
+                (Caroline Fedele, Carson Stillman, Joel Hirschmann, Marina Blanton, Christopher Petersen, Kevin Butler, and Sara Rampazzi)
+            </div>
+        </li>
+        <li>
+            [Short Paper]
+            <span class="title">Denied by Border: Denial-of-Service Attack Exploiting Location Restrictions in Non-Terrestrial Networks</span>
+            <div class="publication-links-authors">
+                (Kwangmin Kim, Taekkyung Oh, and Yongdae Kim)
+            </div>
+        </li>
+        <li>
+            <span class="title">SideDish: Low-Cost Anti-Spoofing Countermeasure for Satellite Data Communications</span>
+            <div class="publication-links-authors">
+                (Edd Salkield, Louis-Emile Ploix, Martin Strohmeier, Sebastian Kohler, Simon Birnbach, and Ivan Martinovic)
+            </div>
+        </li>
+        <li>
+            <span class="title">The Worm is in the Root: On the Security of IoT Provisioning Protocols and PMF in Wi-Fi Devices</span>
+            <div class="publication-links-authors">
+                (Lucien Dikla Ngueleo, Kevin Jiokeng, and Valeria Loscri)
+            </div>
+        </li>
     </ul>
     <th columnspan=2></th>
     </td>
@@ -75,9 +96,24 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
 <tr class="section-row">
     <td colspan="3" class="section-content">
     <ul>
-        <li><b>The Cost of Zero Trust: A Comparative Analysis of MACsec and IPsec Architectures for Secure Open Fronthaul</b> (Full)</li>
-        <li><b>ArchSnoop: LLM Architecture Snooping via Electromagnetic Side-Channel on Edge Devices</b> (Full)</li>
-        <li><b>Unlocking Apple's Private Cloud Compute: An Analysis of Privacy-Preserving Artificial Intelligence</b> (Full)</li>
+        <li>
+            <span class="title">The Cost of Zero Trust: A Comparative Analysis of MACsec and IPsec Architectures for Secure Open Fronthaul</span>
+            <div class="publication-links-authors">
+                (M. Mahesha Viduranga, Atif Ahmed, Madhura Adeppady, and Aloizio Da Silva)
+            </div>
+        </li>
+        <li>
+            <span class="title">ArchSnoop: LLM Architecture Snooping via Electromagnetic Side-Channel on Edge Devices</span>
+            <div class="publication-links-authors">
+                (Haozhe Weng, Ruochen Zhou, Yubo Qu, Xiaoyu Ji, and Wenyuan Xu)
+            </div>
+        </li>
+        <li>
+            <span class="title">Unlocking Apple's Private Cloud Compute: An Analysis of Privacy-Preserving Artificial Intelligence</span>
+            <div class="publication-links-authors">
+                (Yannik Dittmar, Marvin Jerome Stephan, Thomas Völkl, Matthias Hollick, and Jiska Classen)
+            </div>
+        </li>
     </ul>
     <th columnspan=2></th>
     </td>
@@ -97,11 +133,41 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
 <tr class="section-row">
     <td colspan="3" class="section-content">
     <ul>
-        <li><b>Improving WLAN Firmware Fuzzing for Advanced Analyses of Qualcomm Hexagon WLAN Chips</b> (Poster)</li>
-        <li><b>Link Secrecy in the Near-Field With Antenna Subset Modulation</b> (Poster)</li>
-        <li><b>Accountable Cross-Operator 5G Charging via TEEs</b> (Poster)</li>
-        <li><b>Recent Advancements in Detecting Cellular Attacks with CellGuard</b> (Demo)</li>
-        <li><b>5G SA Roaming Testbed for Post Quantum IPsec Security Evaluations</b> (Demo)</li>
+        <li>
+            [Poster]
+            <span class="title">Improving WLAN Firmware Fuzzing for Advanced Analyses of Qualcomm Hexagon WLAN Chips</span>
+            <div class="publication-links-authors">
+                (Daniel Bücheler, Daniel Fraunholz, and Hartmut Koenig)
+            </div>
+        </li>
+        <li>
+            [Poster]
+            <span class="title">Link Secrecy in the Near-Field With Antenna Subset Modulation</span>
+            <div class="publication-links-authors">
+                (HSIANG-YAO KUO, Chia-Yi Yeh, and Chung-Tse Michael Wu)
+            </div>
+        </li>
+        <li>
+            [Poster]
+            <span class="title">Accountable Cross-Operator 5G Charging via TEEs</span>
+            <div class="publication-links-authors">
+                (Mijin Shin, Wooram Park, Sangwook Bae, CheolJun Park, and Seongmin Kim)
+            </div>
+        </li>
+        <li>
+            [Demo]
+            <span class="title">Recent Advancements in Detecting Cellular Attacks with CellGuard</span>
+            <div class="publication-links-authors">
+                (Swantje Lange, Lukas Arnold, Maximilian Paß, Matthias Hollick, and Jiska Classen)
+            </div>
+        </li>
+        <li>
+            [Demo]
+            <span class="title">5G SA Roaming Testbed for Post Quantum IPsec Security Evaluations</span>
+            <div class="publication-links-authors">
+                (Oliver Zeidler, Mert Günes, Sai Anirudh Madhavapeddi, and Wolfgang Kellerer)
+            </div>
+        </li>
     </ul>
     <th columnspan=2></th>
     </td>
@@ -158,11 +224,38 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
 <tr class="section-row">
     <td colspan="3" class="section-content">
     <ul>
-        <li><b>Pair-Fi: Integrity Code Protected Secure Device Pairing via SDR-Enabled Wi-Fi Chips on Smartphones</b> (Full)</li>
-        <li><b>HardaBLE: Hardening BLE Against Software Compromise</b> (Full)</li>
-        <li><b>Secure Trust On First Use for Enterprise Wi-Fi: Design Guidelines and Linux Implementation</b> (Short)</li>
-        <li><b>BlueBrothers: Three New Protocols to Secure Bluetooth</b> (Full)</li>
-        <li><b>Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection</b> (Short)</li>
+        <li>
+            <span class="title">Pair-Fi: Integrity Code Protected Secure Device Pairing via SDR-Enabled Wi-Fi Chips on Smartphones</span>
+            <div class="publication-links-authors">
+                (Jakob Link, Florentin Putz, and Matthias Hollick)
+            </div>
+        </li>
+        <li>
+            <span class="title">HardaBLE: Hardening BLE Against Software Compromise</span>
+            <div class="publication-links-authors">
+                (Tommaso Sacchetti, Daniele Antonioli, and Norrathep Rattanavipanon)
+            </div>
+        </li>
+        <li>
+            [Short Paper]
+            <span class="title">Secure Trust On First Use for Enterprise Wi-Fi: Design Guidelines and Linux Implementation</span>
+            <div class="publication-links-authors">
+                (Rathan Appana and Mathy Vanhoef)
+            </div>
+        </li>
+        <li>
+            <span class="title">BlueBrothers: Three New Protocols to Secure Bluetooth</span>
+            <div class="publication-links-authors">
+                (Tommaso Sacchetti, Kasper Rasmussen, and Daniele Antonioli)
+            </div>
+        </li>
+        <li>
+            [Short Paper]
+            <span class="title">Towards Fast Detection of Suspicious Bluetooth Trackers using Anomaly Detection</span>
+            <div class="publication-links-authors">
+                (Orobosa Ekhator, Dylan Conklin, Primal Pappachan, and Roberto Yus)
+            </div>
+        </li>
     </ul>
     <th columnspan=2></th>
     </td>
@@ -182,10 +275,31 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
 <tr class="section-row">
     <td colspan="3" class="section-content">
     <ul>
-        <li><b>Are Android Developers Following Privacy Guidelines? A Study on Logging Practices of Personal Data</b> (Full)</li>
-        <li><b>iOSModZoo: A Large-Scale Study of Third-Party iOS App Markets</b> (Full)</li>
-        <li><b>PrivacyAssist: A User-Centric Agent Framework for Detecting Privacy Inconsistencies in Android Apps</b> (Short)</li>
-        <li><b>AttestLens: A Large-Scale Measurement of Play Integrity Adoption in Android Apps</b> (Full)</li>
+        <li>
+            <span class="title">Are Android Developers Following Privacy Guidelines? A Study on Logging Practices of Personal Data</span>
+            <div class="publication-links-authors">
+                (Jin Ouyang, Tiash Roy, Daqing Hou, Yuzhe Tang, and Xueling Zhang)
+            </div>
+        </li>
+        <li>
+            <span class="title">iOSModZoo: A Large-Scale Study of Third-Party iOS App Markets</span>
+            <div class="publication-links-authors">
+                (Luis A. Saavedra, Hridoy S. Dutta, Alastair Beresford, and Alice Hutchings)
+            </div>
+        </li>
+        <li>
+            [Short Paper]
+            <span class="title">PrivacyAssist: A User-Centric Agent Framework for Detecting Privacy Inconsistencies in Android Apps</span>
+            <div class="publication-links-authors">
+                (Tran Thanh Lam Nguyen, Edoardo Di Tullio, Barbara Carminati, and Elena Ferrari)
+            </div>
+        </li>
+        <li>
+            <span class="title">AttestLens: A Large-Scale Measurement of Play Integrity Adoption in Android Apps</span>
+            <div class="publication-links-authors">
+                (Collin MacDonald and Stephen Herwig)
+            </div>
+        </li>
     </ul>
     <th columnspan=2></th>
     </td>
@@ -205,10 +319,31 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
 <tr class="section-row">
     <td colspan="3" class="section-content">
     <ul>
-        <li><b>ORANClaw: Shredding E2 Nodes in O-RAN via Structure-aware MiTM Fuzzing</b> (Full)</li>
-        <li><b>Evaluation of Security-Induced Latency on 5G RAN Interfaces and User Plane Communication</b> (Short)</li>
-        <li><b>RAN-GUARD: A Hybrid Multi-Model Approach for Early Detection of IP-based DDoS Attacks in O-RAN</b> (Full)</li>
-        <li><b>StormShield: Fingerprint-Based Detection and Mitigation of RRC Signaling Storms in O-RAN 5G RANs</b> (Full)</li>
+        <li>
+            <span class="title">ORANClaw: Shredding E2 Nodes in O-RAN via Structure-aware MiTM Fuzzing</span>
+            <div class="publication-links-authors">
+                (Geovani Benita, Matheus E. Garbelini, Sudipta Chattopadhyay, and Jianying Zhou)
+            </div>
+        </li>
+        <li>
+            [Short Paper]
+            <span class="title">Evaluation of Security-Induced Latency on 5G RAN Interfaces and User Plane Communication</span>
+            <div class="publication-links-authors">
+                (Sotiris Michaelides, Jakub Lapawa, Daniel Eguiguren Chavez, and Martin Henze)
+            </div>
+        </li>
+        <li>
+            <span class="title">RAN-GUARD: A Hybrid Multi-Model Approach for Early Detection of IP-based DDoS Attacks in O-RAN</span>
+            <div class="publication-links-authors">
+                (Yousef Khalil, Hyame Assem Alameddine, and Chadi Assi)
+            </div>
+        </li>
+        <li>
+            <span class="title">StormShield: Fingerprint-Based Detection and Mitigation of RRC Signaling Storms in O-RAN 5G RANs</span>
+            <div class="publication-links-authors">
+                (Noemi Giustini, Andrea Lacava, Leonardo Bonati, Stefano Maxenti, Michele Polese, Tommaso Melodia, and Francesca Cuomo)
+            </div>
+        </li>
     </ul>
     <th columnspan=2></th>
     </td>
@@ -244,9 +379,24 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
 <tr class="section-row">
     <td colspan="3" class="section-content">
     <ul>
-        <li><b>MUTUALISM: Low-Footprint and High-Throughput Software Implementation of HQC for Resource-Constrained Devices</b> (Full)</li>
-        <li><b>TinyContainer: Container Runtime Middleware Enabling Multi-tenant Microcontrollers with Built-in Security</b> (Full)</li>
-        <li><b>V-PASS: Sybil-Resistant Pseudonym Self-Provisioning for V2X</b> (Full)</li>
+        <li>
+            <span class="title">MUTUALISM: Low-Footprint and High-Throughput Software Implementation of HQC for Resource-Constrained Devices</span>
+            <div class="publication-links-authors">
+                (Cong Liu, Akira Maruko, Yasushi Takahashi, and Naoto Yanai)
+            </div>
+        </li>
+        <li>
+            <span class="title">TinyContainer: Container Runtime Middleware Enabling Multi-tenant Microcontrollers with Built-in Security</span>
+            <div class="publication-links-authors">
+                (Bastien Buil, Chrystel Gaber, Samuel Legouix, Emmanuel Baccelli, and Samia Bouzefrane)
+            </div>
+        </li>
+        <li>
+            <span class="title">V-PASS: Sybil-Resistant Pseudonym Self-Provisioning for V2X</span>
+            <div class="publication-links-authors">
+                (Hexuan Yu, Md Mohaimin Barat, Shaoyu Li, Md Hasan Shahriar, Yang Xiao, Panos Papadimitratos, Y. Thomas Hou, and Wenjing Lou)
+            </div>
+        </li>
     </ul>
     <th columnspan=2></th>
     </td>
@@ -277,11 +427,37 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
         <tr class="section-row">
         <td colspan="3" class="section-content">
         <ul>
-            <li><b>Beyond Static Signatures: Statistical Analysis of Radio Fingerprint Mutations</b> (Full)</li>
-            <li><b>Black-Box RF Fingerprint Spoofing via Surrogate-Guided Generative Perturbations</b> (Short)</li>
-            <li><b>A Deep Dive into Wormhole Attacks in Underwater Acoustic Communication: From Theory to Practice</b> (Full)</li>
-            <li><b>Security Analysis of Time-of-Arrival Estimation via Cross-Correlation under Narrow-Band Conditions</b> (Full)</li>
-            <li><b>Timestamps Unchained: Toward Secure Distance-Bounding on Commodity Wi-Fi Hardware</b> (Full)</li>
+            <li>
+                <span class="title">Beyond Static Signatures: Statistical Analysis of Radio Fingerprint Mutations</span>
+                <div class="publication-links-authors">
+                    (Gabriele Oligeri and Savio Sciancalepore)
+                </div>
+            </li>
+            <li>
+                [Short Paper]
+                <span class="title">Black-Box RF Fingerprint Spoofing via Surrogate-Guided Generative Perturbations</span>
+                <div class="publication-links-authors">
+                    (Zhaoyi Lu, Wenchao Xu, Yuhan Zhang, and Cunqing Hua)
+                </div>
+            </li>
+            <li>
+                <span class="title">A Deep Dive into Wormhole Attacks in Underwater Acoustic Communication: From Theory to Practice</span>
+                <div class="publication-links-authors">
+                    (Luisa Lux, Jan Bauer, Eric Wagner, Konrad Wolsing, and Ulrike Meyer)
+                </div>
+            </li>
+            <li>
+                <span class="title">Security Analysis of Time-of-Arrival Estimation via Cross-Correlation under Narrow-Band Conditions</span>
+                <div class="publication-links-authors">
+                    (Claudio Anliker, Daniele Coppola, Giovanni Camurati, and Srdjan Čapkun)
+                </div>
+            </li>
+            <li>
+                <span class="title">Timestamps Unchained: Toward Secure Distance-Bounding on Commodity Wi-Fi Hardware</span>
+                <div class="publication-links-authors">
+                    (Maximilian von Tschirschnitz, Daniel von Kirschten, Viktor Boskovski, Simon Neuenhausen, and Jens Großklags)
+                </div>
+            </li>
         </ul>
         <th columnspan=2></th>
         </td>
@@ -302,9 +478,25 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
 <tr class="section-row">
     <td colspan="3" class="section-content">
     <ul>
-        <li><b>TrackAR: AR/VR Device Fingerprinting and User-Device Pairing Detection via Shared Motion Sensor Data</b> (Full)</li>
-        <li><b>Finding Phones Fast: Low-Latency and Scalable Monitoring of Cellular Communications in Sensitive Areas</b> (Full)</li>
-        <li><b>StateFi: Effectively Identifying Wi-Fi Devices through State Transitions</b> (Short)</li>
+        <li>
+            <span class="title">TrackAR: AR/VR Device Fingerprinting and User-Device Pairing Detection via Shared Motion Sensor Data</span>
+            <div class="publication-links-authors">
+                (Ahmed Tanvir Mahdad, Md Shahidur Rahaman, and Nitesh Saxena)
+            </div>
+        </li>
+        <li>
+            <span class="title">Finding Phones Fast: Low-Latency and Scalable Monitoring of Cellular Communications in Sensitive Areas</span>
+            <div class="publication-links-authors">
+                (Martin Kotuliak, Simon Erni, Jakub Polak, Marc Roeschlin, Richard Baker, Ivan Martinovic, and Srdjan Čapkun)
+            </div>
+        </li>
+        <li>
+            [Short Paper]
+            <span class="title">StateFi: Effectively Identifying Wi-Fi Devices through State Transitions</span>
+            <div class="publication-links-authors">
+                (Abhishek kumar Mishra and Mathieu Cunche)
+            </div>
+        </li>
     </ul>
     <th columnspan=2></th>
     </td>
