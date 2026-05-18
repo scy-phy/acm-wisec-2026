@@ -102,17 +102,11 @@ The overall conference schedule is available below. For further details, refer t
 <tr class="row_0">
 	<td class="tt_hours_column">08:30</td>
 	<td class="event tt_single_event">
-		<div>
-			<span title="Registration">Registration</span>
-		</div>
+		<div><span title="Registration">Registration</span></div>
 	</td>
-	<td class="">
-		<a href="">
-			<b title="" style="color:black;font-weight:400;"></b>
-		</a>
-	</td>
-	<td class="">
-		<span title=""></span>
+	<td class="break"></td>
+	<td class="break">
+	<td class="break">
 	</td>
 </tr>
 <tr class="row_1">
@@ -273,21 +267,21 @@ The overall conference schedule is available below. For further details, refer t
 	<td class="break"></td>
 	<td class="break"></td>
 	<td class="break"></td>
-  <td></td>
+	<td class="break"></td>
 </tr>
 <tr class="row_17">
 	<td class="tt_hours_column">17:00</td>
 	<td class="break"></td>
 	<td class="break"></td>
 	<td class="break"></td>
-  <td></td>
+	<td class="break"></td>
 </tr>
 <tr class="row_18">
 	<td class="tt_hours_column">17:30</td>
 	<td class="break"></td>
 	<td class="break"></td>
 	<td class="break"></td>
-  <td></td>
+	<td class="break"></td>
 </tr>
 <tr class="row_19">
 	<td class="tt_hours_column">18:00</td>
@@ -299,29 +293,28 @@ The overall conference schedule is available below. For further details, refer t
 	<td class="break"></td>
 </tr>
 <tr class="row_20">
-	<td class="tt_hours_column">18:30</td>
-	<td class="break"></td>
-	<td class="break"></td>
-	<td class="break"></td>
+  <td class="tt_hours_column">18:30</td>
+  <td class="break"></td>
+  <td class="break"></td>
+  <td class="break"></td>
 </tr>
 <tr class="row_20">
   <td class="tt_hours_column">19:00</td>
   <td class="break"></td>
-	<td class="break"></td>
-	<td class="break"></td>
+  <td class="break"></td>
+  <td class="break"></td>
 </tr>
 <tr class="row_20">
   <td class="tt_hours_column">19:30</td>
   <td class="break"></td>
-	<td class="break"></td>
-	<td class="break"></td>
-  
+  <td class="break"></td>
+  <td class="break"></td>
 </tr>
 <tr class="row_20">
   <td class="tt_hours_column">20:00</td>
   <td class="break"></td>
-	<td class="break"></td>
-	<td class="break"></td>
+  <td class="break"></td>
+  <td class="break"></td>
 </tr>
 </tbody>
 </table>
