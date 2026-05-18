@@ -124,7 +124,7 @@ The overall conference schedule is available below. For further details, refer t
 	</td>
 	<td class="keynote" rowspan="2">
 		<a href="/program-keynote-speakers/">
-			<b title="keynote-2" style="color:black;font-weight:400;">Keynote 2: Daniele Antonioli</b>
+			<b title="keynote-2" style="color:black;font-weight:400;">Keynote 2: Ivan Martinovic and Martin Strohmeier</b>
 		</a>
 	</td>
 	<td rowspan="3" class="session">
@@ -145,7 +145,7 @@ The overall conference schedule is available below. For further details, refer t
 	<td class="tt_hours_column">09:30</td>
 	<td class="keynote" rowspan="2">
 	  <a href="/program-keynote-speakers/">
-	    <span title="keynote-1" style="color:black;font-weight:400;">Keynote 1: Ivan Martinovic and Martin Strohmeier</span>
+	    <span title="keynote-1" style="color:black;font-weight:400;">Keynote 1: Daniele Antonioli</span>
 	    </a>
 	  </td>
 	</tr>
