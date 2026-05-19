@@ -420,7 +420,7 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
         <th columnspan=2></th>
     </tr>
     <tr class="section" id="session7">
-        <td class="time" style="vertical-align: middle">10:30</td>
+        <td class="time" style="vertical-align: middle">13:00</td>
         <td class="section-head"><b>Session 7:</b> RF Fingerprinting & Physical Layer Security</td>
         <td class="time">TBD</td>
         <td></td>
