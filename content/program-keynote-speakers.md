@@ -1,6 +1,6 @@
 +++
 title = "Keynote Speakers"
-hidden = true
+hidden = false
 draft = false
 [menu.main]
     parent = "menu_program"
@@ -41,8 +41,21 @@ Abstract TBA{{< /spoiler >}}
 
 <br/>
 
+
+
 {{% speaker
-name="Ivan Martinovic and Martin Strohmeier"
+name="Ivan Martinovic"
+img="images/persons/martinovic-ivan.png"
+affiliation="University of Oxford"
+location="UK"
+%}}
+
+Ivan is a Professor at the Department of Computer Science, University of Oxford. Before coming to Oxford he was a postdoctoral researcher at the Security Research Lab, UC Berkeley and at the Secure Computing and Networking Centre, UC Irvine. From 2009 until 2011 he enjoyed a Carl-Zeiss Foundation Fellowship and he was an associate lecturer at TU Kaiserslautern, Germany.  He obtained his PhD (2008) from TU Kaiserslautern under supervision of Prof. Jens B. Schmitt and MSc (2004) from TU Darmstadt, Germany.
+
+{{% /speaker %}}
+
+{{% speaker
+name="Martin Strohmeier"
 img="images/persons/martin-strohmeier.jpg"
 affiliation="Armasuisse"
 location="Switzerland"
