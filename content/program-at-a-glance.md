@@ -1,6 +1,6 @@
 +++
 title = "Program at a Glance"
-hidden = true
+hidden = false
 draft = false
 [menu.main]
     parent = "menu_program"
@@ -104,9 +104,14 @@ The overall conference schedule is available below. For further details, refer t
 	<td class="event tt_single_event">
 		<div><span title="Registration">Registration</span></div>
 	</td>
-	<td class="break"></td>
-	<td class="break">
-	<td class="break">
+	<td class="event tt_single_event">
+		<div><span title="Registration">Registration</span></div>
+	</td>
+	<td class="event tt_single_event">
+		<div><span title="Registration">Registration</span></div>
+	</td>
+	<td class="event tt_single_event">
+		<div><span title="Registration">Registration</span></div>
 	</td>
 </tr>
 <tr class="row_1">
