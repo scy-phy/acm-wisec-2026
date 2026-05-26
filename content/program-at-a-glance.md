@@ -126,7 +126,7 @@ The overall conference schedule is available below. For further details, refer t
 			<b title="keynote-2" style="color:black;font-weight:400;">Keynote 2: Ivan Martinovic and Martin Strohmeier</b>
 		</a>
 	</td>
-	<td rowspan="3" class="session">
+	<td rowspan="2" class="session">
 		<span title="session-6">Session 6: Security for Constrained and Embedded Systems</span>
 	</td>
 	<!-- <td class="event tt_single_event">
@@ -151,21 +151,18 @@ The overall conference schedule is available below. For further details, refer t
 <tr class="row_3">
 	<td class="tt_hours_column">10:00</td>
 	<td class="break"><span title="Coffee">Break</span></td>
-	<td class="break">
-	  <span title="Coffee">Break</span>
-	  </td>
+	<td class="break"><span title="Coffee">Break</span></td>
+	<td class="break"><span title="Coffee">Break</span></td>
 </tr>
 <tr class="row_4">
 	<td class="tt_hours_column">10:30</td>
-	<td class="break">
-		<span title="Coffee">Break</span>
-	</td>
+	<td class="break"><span title="Coffee">Break</span></td>
 	<td rowspan="3" class="session">
 		<span title="session-3">Session 3: Bluetooth & Wi-Fi Security</span>
 	</td>
-	<td class="break">
-		<span title="Coffee">Break</span>
-	</td>	
+	<td rowspan="3" class="session">
+			<span title="session-8">Panel: "Wireless Security in the Dual-Use Age: Open Science, Defence, and Responsible Collaboration"</span>
+	</td>
 	<td class="session" rowspan="3">
 		<span title="session-W1">Session 1: Systems, Networking, and Applications
 		</span></td>
@@ -176,9 +173,7 @@ The overall conference schedule is available below. For further details, refer t
 	  <span title="session-1">Session 1:
 		    Securing Wireless Infrastructure: From Satellite to Ground Segment</span>
 	  </td>
-	<td rowspan="2" class="session">
-			<span title="session-8">Panel: "Wireless Security in the Dual-Use Age: Open Science, Defence, and Responsible Collaboration"</span>
-	</td>
+	
 </tr>
 <tr class="row_6">
 	<td class="tt_hours_column">11:30</td>
