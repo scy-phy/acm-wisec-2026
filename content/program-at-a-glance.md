@@ -213,6 +213,7 @@ The overall conference schedule is available below. For further details, refer t
 	</td>
 </tr>
 <tr class="row_10">
+<td class="tt_hours_column">13:30</td>
 </tr>
 <tr class="row_11">
 	<td class="tt_hours_column">14:00</td>
