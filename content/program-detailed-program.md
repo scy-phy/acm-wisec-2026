@@ -408,8 +408,8 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
         <th columnspan=2></th>
     </tr>
     <tr class="section" id="Panel">
-        <td class="time" style="vertical-align: middle">13:00</td>
-        <td class="section-head"><b>Panel</b> </td>
+        <td class="time" style="vertical-align: middle">10:30</td>
+        <td class="section-head"><b>Panel: "Wireless Security in the Dual-Use Age: Open Science, Defence, and Responsible Collaboration"</b> </td>
         <td class="time">Martin Strohmeier </td>
         <td></td>
     </tr>

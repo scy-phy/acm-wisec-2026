@@ -176,8 +176,9 @@ The overall conference schedule is available below. For further details, refer t
 	  <span title="session-1">Session 1:
 		    Securing Wireless Infrastructure: From Satellite to Ground Segment</span>
 	  </td>
-	<td rowspan="2" class="session"><span title="session-7">Session 7: RF Fingerprinting & Physical Layer Security</span>
-	  </td>
+	<td rowspan="2" class="session">
+			<span title="session-8">Panel: "Wireless Security in the Dual-Use Age: Open Science, Defence, and Responsible Collaboration"</span>
+	</td>
 </tr>
 <tr class="row_6">
 	<td class="tt_hours_column">11:30</td>
@@ -209,8 +210,7 @@ The overall conference schedule is available below. For further details, refer t
 		<span title="session-4">Session 4:</span>
 	  Mobile App Privacy & Security</span>
 	  </td>
-	<td rowspan="4" class="session">
-	<span title="session-8">Panel</span>
+	<td rowspan="4" class="session"><span title="session-7">Session 7: RF Fingerprinting & Physical Layer Security</span>
 	  </td>
 	<td class="keynote" rowspan="2">
 		<a href="/workshop-wiseml-2026-keynote-speaker/">
