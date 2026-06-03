@@ -14,7 +14,7 @@ draft = false
 <br/>
 
 {{< spoiler text="Show abstract">}}
-Abstract TBD
+The Zen of Bluetooth Security (ZOBS) is a collection of Bluetooth security principles developed by the speaker to systematize seven years of research on Bluetooth security protocols. The talk explores Bluetooth security research through the lens of these principles, distills key lessons learned, and shares them with the broader wireless-security research community. The talk also pinpoints open research challenges in Bluetooth security and opens the floor for discussion of future research directions. The audience will learn about the state of the art in Bluetooth security and how to apply the ZOBS principles to offensive and defensive wireless-security research. The keynote covers eight Bluetooth BR/EDR, commonly called Bluetooth Classic (BC), and Bluetooth Low Energy (BLE) security papers co-authored by the speaker: BlueBrothers [8], HardaBLE [7], BLERP [6], BLUFFS [1], BLUR [5], BIAS [3], KNOB on BLE [4] and KNOB on BC [2].
 {{< /spoiler >}}
 
 <br/>
@@ -37,7 +37,8 @@ Daniele is an Assistant Professor (Class 1) at EURECOM with the software and sys
 <br/>
 
 {{< spoiler text="Show abstract">}}
-Abstract TBA{{< /spoiler >}}
+In 2012, the OpenSky Network (https://opensky-network.org) began as an academic experiment: a crowdsourced sensor network for studying the security of wireless aviation communication. At the time, ADS-B and related surveillance technologies were becoming central to modern aviation, yet their openness, lack of authentication, and real-world deployment at scale raised fundamental security questions.The questions that were posed by several collaborating academic security groups were: What would it take to observe, measure, and understand these systems not in a laboratory, but in the wild? What is required to scale a large distributed sensor network?More than a decade later, OpenSky has become something much larger than its founders originally imagined. Built by researchers, aviation enthusiasts, and citizen scientists, it has grown into a global non-profit infrastructure for collecting, archiving, and sharing open aviation data. Its database now contains tens of trillions of records across petabytes of data, and has supported more than 900 scientific publications in many diverse fields including aviation security, air traffic management, climate science, pandemic modelling, machine learning, economics, journalism, and public accountability. Beyond academia, it has been used by many diverse partners from EUROCONTROL to the Bank of England.This keynote tells the story of how a security research project became global infrastructure. We reflect on the technical, scientific, organizational, and ethical lessons learned while operating a long-running, crowdsourced, non-profit data collection system. We will revisit OpenSky's original motivation in aviation security, including insecure aircraft communications and later work on GNSS interference and spoofing, but also show how the same infrastructure enabled discoveries far beyond wireless security.The talk discusses the power and fragility of crowdsourced measurement: how to build trust in noisy global data, how to sustain a volunteer-based network over many years, how to balance openness with privacy and safety, and how to keep a public-good infrastructure alive in a world increasingly dominated by proprietary data platforms. The broader message is that security research infrastructure can have second lives: when built openly, carefully, and sustainably, it can become a foundation for science, society, and unexpected forms of public value.
+{{< /spoiler >}}
 
 <br/>
 
