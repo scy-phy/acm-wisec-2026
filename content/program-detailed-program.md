@@ -72,6 +72,7 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
             </div>
         </li>
         <li>
+            [Short Paper]	
             <span class="title">The Worm is in the Root: On the Security of IoT Provisioning Protocols and PMF in Wi-Fi Devices</span>
             <div class="publication-links-authors">
                 (Lucien Dikla Ngueleo, Kevin Jiokeng, and Valeria Loscri)
