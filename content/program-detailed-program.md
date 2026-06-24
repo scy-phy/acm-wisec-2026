@@ -334,15 +334,15 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
             </div>
         </li>
         <li>
-            <span class="title">RAN-GUARD: A Hybrid Multi-Model Approach for Early Detection of IP-based DDoS Attacks in O-RAN</span>
-            <div class="publication-links-authors">
-                (Yousef Khalil, Hyame Assem Alameddine, and Chadi Assi)
-            </div>
-        </li>
-        <li>
             <span class="title">StormShield: Fingerprint-Based Detection and Mitigation of RRC Signaling Storms in O-RAN 5G RANs</span>
             <div class="publication-links-authors">
                 (Noemi Giustini, Andrea Lacava, Leonardo Bonati, Stefano Maxenti, Michele Polese, Tommaso Melodia, and Francesca Cuomo)
+            </div>
+        </li>
+        <li>
+            <span class="title">RAN-GUARD: A Hybrid Multi-Model Approach for Early Detection of IP-based DDoS Attacks in O-RAN</span>
+            <div class="publication-links-authors">
+                (Yousef Khalil, Hyame Assem Alameddine, and Chadi Assi)
             </div>
         </li>
     </ul>
@@ -480,12 +480,6 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
     <td colspan="3" class="section-content">
     <ul>
         <li>
-            <span class="title">TrackAR: AR/VR Device Fingerprinting and User-Device Pairing Detection via Shared Motion Sensor Data</span>
-            <div class="publication-links-authors">
-                (Ahmed Tanvir Mahdad, Md Shahidur Rahaman, and Nitesh Saxena)
-            </div>
-        </li>
-        <li>
             <span class="title">Finding Phones Fast: Low-Latency and Scalable Monitoring of Cellular Communications in Sensitive Areas</span>
             <div class="publication-links-authors">
                 (Martin Kotuliak, Simon Erni, Jakub Polak, Marc Roeschlin, Richard Baker, Ivan Martinovic, and Srdjan Čapkun)
@@ -496,6 +490,12 @@ The technical sessions of WiSec 2026 will take place over 3 days, from June 30 t
             <span class="title">StateFi: Effectively Identifying Wi-Fi Devices through State Transitions</span>
             <div class="publication-links-authors">
                 (Abhishek kumar Mishra and Mathieu Cunche)
+            </div>
+        </li>
+        <li>
+            <span class="title">TrackAR: AR/VR Device Fingerprinting and User-Device Pairing Detection via Shared Motion Sensor Data</span>
+            <div class="publication-links-authors">
+                (Ahmed Tanvir Mahdad, Md Shahidur Rahaman, and Nitesh Saxena)
             </div>
         </li>
     </ul>
