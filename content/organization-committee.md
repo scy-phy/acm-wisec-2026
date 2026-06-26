@@ -153,13 +153,13 @@ CISPA, Germany<br>
 {{< /person >}}
 
 
-### Sponsorship Chair
+<!--### Sponsorship Chair
 
 {{< person name="TBD" img="images/persons/tbd.jpg" >}}
 TBD<br>
 {{< /person >}}
 
-<!-- ### Student Travel Grant Chairs
+ ### Student Travel Grant Chairs
 
 {{< person-list >}}
 
