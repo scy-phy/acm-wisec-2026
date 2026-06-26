@@ -136,7 +136,7 @@ The overall conference schedule is available below. For further details, refer t
 	</td> -->
 	<td class="keynote" rowspan="2">
 		<a href="/workshop-wiseml-2026-keynote-speaker/">
-			<b title="keynote" style="color:black;font-weight:400;">Keynote 1</br></a>
+			<b title="keynote" style="color:black;font-weight:400;">Keynote 1: Michele Polese</br></a>
 	</td>
 
 </tr>
@@ -209,7 +209,7 @@ The overall conference schedule is available below. For further details, refer t
 	  </td>
 	<td class="keynote" rowspan="2">
 		<a href="/workshop-wiseml-2026-keynote-speaker/">
-			<b title="keynote-2" style="color:black;font-weight:400;">Keynote 2</b></a>
+			<b title="keynote-2" style="color:black;font-weight:400;">Keynote 2: Nils Ole Tippenhauer</b></a>
 	</td>
 </tr>
 <tr class="row_10">
