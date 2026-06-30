@@ -11,7 +11,7 @@ hidden = false
 
 ACM WiSec 2026 will be held at the Congresshalle of the [Saarbrücken Congress Center](https://www.ccsaar.de/en/). The conference is single-track and all sessions will be held in the main conference space (Saal Ost). WiseML will use the Conference Room III. The street address is [Hafenstraße 12, 66111 Saarbrücken](https://maps.app.goo.gl/mrmxaYKAtnGvSzrg8).
 
-        <img src="/images/ccs.jpg">
+        <img style="margin-bottom: 4px;" width=100% src="/images/ccs.jpg">
 
 
 ## How to get to the conference venue in Saarbrücken
